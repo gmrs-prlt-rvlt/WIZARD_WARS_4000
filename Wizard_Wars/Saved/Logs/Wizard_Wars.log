@@ -1,4 +1,4 @@
-﻿Log file open, 04/18/19 17:26:35
+﻿Log file open, 04/18/19 18:34:40
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -10,7 +10,7 @@ LogInit: Display: Running engine for game: Wizard_Wars
 LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.349745
+LogStats: Stats thread started at 0.345446
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -94,7 +94,7 @@ LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WebMMoviePlayer
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.266s to configure plugins.
+LogStreaming: Display: Took  0.202s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -149,538 +149,660 @@ LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
 LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 17
 LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 4
 LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
-LogStreaming: Display: Took  0.031s to delete old logs.
+LogStreaming: Display: Took  0.011s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2019.04.18-21.26.36:888][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2019.04.18-21.26.36:888][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2019.04.18-21.26.36:888][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/GitHub/WIZARD_WARS_4000/Wizard_Wars/Saved/Config/Windows/Engine.ini]
-[2019.04.18-21.26.36:888][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2019.04.18-21.26.36:888][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/GitHub/WIZARD_WARS_4000/Wizard_Wars/Saved/Config/Windows/Engine.ini]
-[2019.04.18-21.26.36:888][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/GitHub/WIZARD_WARS_4000/Wizard_Wars/Saved/Config/Windows/Engine.ini]
-[2019.04.18-21.26.36:888][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2019.04.18-21.26.36:888][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2019.04.18-21.26.36:888][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2019.04.18-21.26.36:888][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2019.04.18-21.26.36:888][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2019.04.18-21.26.36:888][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2019.04.18-21.26.36:888][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2019.04.18-21.26.36:888][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2019.04.18-21.26.36:888][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2019.04.18-21.26.36:888][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2019.04.18-21.26.36:888][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2019.04.18-21.26.36:888][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2019.04.18-21.26.36:888][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2019.04.18-21.26.36:888][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/GitHub/WIZARD_WARS_4000/Wizard_Wars/Saved/Config/Windows/Engine.ini]
-[2019.04.18-21.26.36:888][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2019.04.18-21.26.36:888][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2019.04.18-21.26.36:888][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2019.04.18-21.26.36:888][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2019.04.18-21.26.36:888][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2019.04.18-21.26.36:888][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2019.04.18-21.26.36:888][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:8388607]]
-[2019.04.18-21.26.36:888][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2019.04.18-21.26.36:888][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2019.04.18-21.26.36:888][  0]LogConfig: Setting CVar [[gc.MergeGCClusters:0]]
-[2019.04.18-21.26.36:888][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2019.04.18-21.26.36:888][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2019.04.18-21.26.36:888][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2019.04.18-21.26.36:888][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2019.04.18-21.26.36:888][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/GitHub/WIZARD_WARS_4000/Wizard_Wars/Saved/Config/Windows/Engine.ini]
-[2019.04.18-21.26.36:888][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/GitHub/WIZARD_WARS_4000/Wizard_Wars/Saved/Config/Windows/Engine.ini]
-[2019.04.18-21.26.36:894][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/GitHub/WIZARD_WARS_4000/Wizard_Wars/Saved/Config/Windows/Scalability.ini]
-[2019.04.18-21.26.36:894][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2019.04.18-21.26.36:894][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2019.04.18-21.26.36:894][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/GitHub/WIZARD_WARS_4000/Wizard_Wars/Saved/Config/Windows/Scalability.ini]
-[2019.04.18-21.26.36:894][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2019.04.18-21.26.36:894][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/GitHub/WIZARD_WARS_4000/Wizard_Wars/Saved/Config/Windows/Scalability.ini]
-[2019.04.18-21.26.36:894][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.04.18-21.26.36:894][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2019.04.18-21.26.36:894][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2019.04.18-21.26.36:894][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2019.04.18-21.26.36:894][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2019.04.18-21.26.36:894][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2019.04.18-21.26.36:894][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2019.04.18-21.26.36:894][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2019.04.18-21.26.36:894][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2019.04.18-21.26.36:894][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2019.04.18-21.26.36:894][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2019.04.18-21.26.36:894][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2019.04.18-21.26.36:894][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2019.04.18-21.26.36:894][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2019.04.18-21.26.36:894][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2019.04.18-21.26.36:894][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2019.04.18-21.26.36:894][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2019.04.18-21.26.36:894][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.04.18-21.26.36:894][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/GitHub/WIZARD_WARS_4000/Wizard_Wars/Saved/Config/Windows/Scalability.ini]
-[2019.04.18-21.26.36:894][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2019.04.18-21.26.36:894][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2019.04.18-21.26.36:894][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.04.18-21.26.36:894][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2019.04.18-21.26.36:894][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2019.04.18-21.26.36:894][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2019.04.18-21.26.36:894][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2019.04.18-21.26.36:894][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2019.04.18-21.26.36:894][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2019.04.18-21.26.36:894][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.04.18-21.26.36:894][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2019.04.18-21.26.36:895][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2019.04.18-21.26.36:895][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2019.04.18-21.26.36:895][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.04.18-21.26.36:895][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.04.18-21.26.36:895][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2019.04.18-21.26.36:895][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.04.18-21.26.36:895][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2019.04.18-21.26.36:895][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2019.04.18-21.26.36:895][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.04.18-21.26.36:895][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2019.04.18-21.26.36:895][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.04.18-21.26.36:895][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2019.04.18-21.26.36:895][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2019.04.18-21.26.36:895][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2019.04.18-21.26.36:895][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2019.04.18-21.26.36:895][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2019.04.18-21.26.36:895][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2019.04.18-21.26.36:895][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2019.04.18-21.26.36:895][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2019.04.18-21.26.36:895][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/GitHub/WIZARD_WARS_4000/Wizard_Wars/Saved/Config/Windows/Scalability.ini]
-[2019.04.18-21.26.36:895][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.04.18-21.26.36:895][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.04.18-21.26.36:895][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.04.18-21.26.36:895][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.04.18-21.26.36:895][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2019.04.18-21.26.36:895][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2019.04.18-21.26.36:895][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2019.04.18-21.26.36:895][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.04.18-21.26.36:895][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/GitHub/WIZARD_WARS_4000/Wizard_Wars/Saved/Config/Windows/Scalability.ini]
-[2019.04.18-21.26.36:895][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2019.04.18-21.26.36:895][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2019.04.18-21.26.36:895][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2019.04.18-21.26.36:895][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2019.04.18-21.26.36:895][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2019.04.18-21.26.36:895][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2019.04.18-21.26.36:895][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2019.04.18-21.26.36:895][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2019.04.18-21.26.36:895][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2019.04.18-21.26.36:895][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2019.04.18-21.26.36:895][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.04.18-21.26.36:895][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2019.04.18-21.26.36:895][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2019.04.18-21.26.36:895][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/GitHub/WIZARD_WARS_4000/Wizard_Wars/Saved/Config/Windows/Scalability.ini]
-[2019.04.18-21.26.36:895][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2019.04.18-21.26.36:895][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2019.04.18-21.26.36:895][  0]LogInit: Selected Device Profile: [Windows]
-[2019.04.18-21.26.36:896][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2019.04.18-21.26.36:920][  0]LogHAL: Display: Platform has ~ 8 GB [8459788288 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2019.04.18-21.26.36:920][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:1]]
-[2019.04.18-21.26.36:920][  0]LogInit: Going up to parent DeviceProfile []
-[2019.04.18-21.26.36:920][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/GitHub/WIZARD_WARS_4000/Wizard_Wars/Saved/Config/Windows/Scalability.ini]
-[2019.04.18-21.26.36:920][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2019.04.18-21.26.36:920][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2019.04.18-21.26.36:920][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/GitHub/WIZARD_WARS_4000/Wizard_Wars/Saved/Config/Windows/Scalability.ini]
-[2019.04.18-21.26.36:921][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2019.04.18-21.26.36:921][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/GitHub/WIZARD_WARS_4000/Wizard_Wars/Saved/Config/Windows/Scalability.ini]
-[2019.04.18-21.26.36:921][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.04.18-21.26.36:921][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2019.04.18-21.26.36:921][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2019.04.18-21.26.36:921][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2019.04.18-21.26.36:921][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2019.04.18-21.26.36:921][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2019.04.18-21.26.36:921][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2019.04.18-21.26.36:921][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2019.04.18-21.26.36:921][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2019.04.18-21.26.36:921][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2019.04.18-21.26.36:921][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2019.04.18-21.26.36:921][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2019.04.18-21.26.36:921][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2019.04.18-21.26.36:921][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2019.04.18-21.26.36:921][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2019.04.18-21.26.36:921][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2019.04.18-21.26.36:921][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2019.04.18-21.26.36:921][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.04.18-21.26.36:921][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/GitHub/WIZARD_WARS_4000/Wizard_Wars/Saved/Config/Windows/Scalability.ini]
-[2019.04.18-21.26.36:921][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2019.04.18-21.26.36:921][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2019.04.18-21.26.36:921][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.04.18-21.26.36:921][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2019.04.18-21.26.36:921][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2019.04.18-21.26.36:921][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2019.04.18-21.26.36:921][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2019.04.18-21.26.36:921][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2019.04.18-21.26.36:921][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2019.04.18-21.26.36:921][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.04.18-21.26.36:921][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2019.04.18-21.26.36:921][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2019.04.18-21.26.36:921][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2019.04.18-21.26.36:921][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.04.18-21.26.36:921][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.04.18-21.26.36:921][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2019.04.18-21.26.36:921][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.04.18-21.26.36:921][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2019.04.18-21.26.36:921][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2019.04.18-21.26.36:921][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.04.18-21.26.36:921][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2019.04.18-21.26.36:921][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.04.18-21.26.36:921][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2019.04.18-21.26.36:921][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2019.04.18-21.26.36:921][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2019.04.18-21.26.36:921][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2019.04.18-21.26.36:921][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2019.04.18-21.26.36:921][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2019.04.18-21.26.36:921][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2019.04.18-21.26.36:921][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2019.04.18-21.26.36:921][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/GitHub/WIZARD_WARS_4000/Wizard_Wars/Saved/Config/Windows/Scalability.ini]
-[2019.04.18-21.26.36:922][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.04.18-21.26.36:922][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.04.18-21.26.36:922][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.04.18-21.26.36:922][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.04.18-21.26.36:922][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2019.04.18-21.26.36:922][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2019.04.18-21.26.36:922][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2019.04.18-21.26.36:922][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.04.18-21.26.36:922][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/GitHub/WIZARD_WARS_4000/Wizard_Wars/Saved/Config/Windows/Scalability.ini]
-[2019.04.18-21.26.36:922][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2019.04.18-21.26.36:922][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2019.04.18-21.26.36:922][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2019.04.18-21.26.36:922][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2019.04.18-21.26.36:922][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2019.04.18-21.26.36:922][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2019.04.18-21.26.36:922][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2019.04.18-21.26.36:922][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2019.04.18-21.26.36:922][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2019.04.18-21.26.36:922][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2019.04.18-21.26.36:922][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.04.18-21.26.36:922][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2019.04.18-21.26.36:922][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2019.04.18-21.26.36:922][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/GitHub/WIZARD_WARS_4000/Wizard_Wars/Saved/Config/Windows/Scalability.ini]
-[2019.04.18-21.26.36:922][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2019.04.18-21.26.36:922][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2019.04.18-21.26.36:922][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2019.04.18-21.26.36:928][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2019.04.18-21.26.36:928][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/GitHub/WIZARD_WARS_4000/Wizard_Wars/Saved/Config/Windows/Engine.ini]
-[2019.04.18-21.26.36:928][  0]LogInit: Computer: DESKTOP-226LAUO
-[2019.04.18-21.26.36:928][  0]LogInit: User: ShuxingLi
-[2019.04.18-21.26.36:928][  0]LogInit: CPU Page size=4096, Cores=4
-[2019.04.18-21.26.36:928][  0]LogInit: High frequency timer resolution =2.531250 MHz
-[2019.04.18-21.26.36:929][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2019.04.18-21.26.36:929][  0]LogMemory: Platform Memory Stats for Windows
-[2019.04.18-21.26.36:929][  0]LogMemory: Process Physical Memory: 103.59 MB used, 103.59 MB peak
-[2019.04.18-21.26.36:929][  0]LogMemory: Process Virtual Memory: 90.20 MB used, 90.20 MB peak
-[2019.04.18-21.26.36:929][  0]LogMemory: Physical Memory: 5449.85 MB used,  2618.03 MB free, 8067.88 MB total
-[2019.04.18-21.26.36:929][  0]LogMemory: Virtual Memory: 4651.67 MB used,  134213080.00 MB free, 134217728.00 MB total
-[2019.04.18-21.26.37:191][  0]LogInit: Using OS detected language (zh-CN).
-[2019.04.18-21.26.37:191][  0]LogInit: Using OS detected locale (zh-CN).
-[2019.04.18-21.26.37:946][  0]LogStreaming: Display: Took  0.755s to InitEngineTextLocalization.
-[2019.04.18-21.26.38:185][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2019.04.18-21.26.38:185][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2019.04.18-21.26.39:183][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.04.18-21.26.39:183][  0]LogD3D11RHI: D3D11 adapters:
-[2019.04.18-21.26.39:503][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970M' (Feature Level 11_0)
-[2019.04.18-21.26.39:503][  0]LogD3D11RHI:       3032/0/4033 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2019.04.18-21.26.39:542][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
-[2019.04.18-21.26.39:542][  0]LogD3D11RHI:       128/0/4033 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2019.04.18-21.26.39:600][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.04.18-21.26.39:600][  0]LogD3D11RHI:       0/0/4033 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.04.18-21.26.39:600][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2019.04.18-21.26.39:660][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2019.04.18-21.26.39:660][  0]LogD3D11RHI:     GPU DeviceId: 0x13d8 (for the marketing name, search the web for "GPU Device Id")
-[2019.04.18-21.26.39:660][  0]LogWindows: EnumDisplayDevices:
-[2019.04.18-21.26.39:660][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
-[2019.04.18-21.26.39:661][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
-[2019.04.18-21.26.39:662][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
-[2019.04.18-21.26.39:663][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2019.04.18-21.26.39:663][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970M
-[2019.04.18-21.26.39:663][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2019.04.18-21.26.39:663][  0]LogD3D11RHI:      Driver Date: Unknown
-[2019.04.18-21.26.39:663][  0]LogRHI: Texture pool is 2122 MB (70% of 3032 MB)
-[2019.04.18-21.26.39:733][  0]LogD3D11RHI: Async texture creation enabled
-[2019.04.18-21.26.39:777][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2019.04.18-21.26.41:403][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2019.04.18-21.26.41:436][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2019.04.18-21.26.41:472][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2019.04.18-21.26.41:512][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2019.04.18-21.26.41:576][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2019.04.18-21.26.41:610][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2019.04.18-21.26.41:645][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2019.04.18-21.26.41:679][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2019.04.18-21.26.41:707][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2019.04.18-21.26.41:835][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.18-21.26.41:835][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.18-21.26.41:835][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.18-21.26.41:835][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.18-21.26.41:835][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.18-21.26.41:835][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.18-21.26.41:835][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.18-21.26.41:835][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.18-21.26.41:835][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.18-21.26.41:835][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.18-21.26.41:835][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.18-21.26.41:835][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.18-21.26.41:835][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.18-21.26.41:835][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.18-21.26.41:835][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.18-21.26.41:835][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.18-21.26.41:836][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.18-21.26.41:836][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.18-21.26.41:925][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2019.04.18-21.26.42:362][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.04.18-21.26.42:362][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.04.18-21.26.42:413][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.04.18-21.26.42:413][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.04.18-21.26.42:449][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2019.04.18-21.26.42:485][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2019.04.18-21.26.42:524][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2019.04.18-21.26.42:602][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2019.04.18-21.26.42:686][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2019.04.18-21.26.42:686][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2019.04.18-21.26.42:686][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2019.04.18-21.26.43:268][  0]LogShaderCompilers: Guid format shader working directory is -34 characters bigger than the processId version (../../../../../../GitHub/WIZARD_WARS_4000/Wizard_Wars/Intermediate/Shaders/WorkingDirectory/15636/).
-[2019.04.18-21.26.43:268][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'E:/Temp/UnrealShaderWorkingDir/4E9FAB9E42CBD517DDB57FA452EC71F5/'.
-[2019.04.18-21.26.43:305][  0]LogXGEController: Cleaning working directory: E:/Temp/UnrealXGEWorkingDir/
-[2019.04.18-21.26.43:306][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2019.04.18-21.26.43:306][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2019.04.18-21.26.43:306][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2019.04.18-21.26.44:787][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2019.04.18-21.26.44:863][  0]LogDerivedDataCache: Loaded boot cache 0.08s 71MB C:/Users/Shuxing Li/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
-[2019.04.18-21.26.44:863][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Shuxing Li/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc
-[2019.04.18-21.26.44:863][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../GitHub/WIZARD_WARS_4000/Wizard_Wars/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2019.04.18-21.26.44:863][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2019.04.18-21.26.44:863][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../GitHub/WIZARD_WARS_4000/Wizard_Wars/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.04.18-21.26.44:863][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2019.04.18-21.26.44:959][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2019.04.18-21.26.44:959][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.04.18-21.26.44:959][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2019.04.18-21.26.44:972][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Shuxing Li/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2019.04.18-21.26.44:972][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2019.04.18-21.26.44:972][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2019.04.18-21.26.45:002][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2019.04.18-21.26.45:004][  0]LogSlate: Using FreeType 2.6.0
-[2019.04.18-21.26.45:036][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.04.18-21.26.45:325][  0]LogAssetRegistry: FAssetRegistry took 0.0388 seconds to start up
-[2019.04.18-21.26.45:960][  0]LogInit: Selected Device Profile: [Windows]
-[2019.04.18-21.26.46:817][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2019.04.18-21.26.46:939][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2019.04.18-21.26.46:939][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2019.04.18-21.26.46:940][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2019.04.18-21.26.46:940][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2019.04.18-21.26.46:990][  0]LogNetVersion: Wizard_Wars 1.0.0, NetCL: 4541578, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1501833635)
-[2019.04.18-21.26.48:081][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 4 prioritized culture(s) in 0.260409 seconds
-[2019.04.18-21.26.48:089][  0]LogUObjectArray: 39775 objects as part of root set at end of initial load.
-[2019.04.18-21.26.48:089][  0]LogUObjectAllocator: 6914656 out of 0 bytes used by permanent object pool.
-[2019.04.18-21.26.48:089][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2019.04.18-21.26.50:446][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2019.04.18-21.26.50:461][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2019.04.18-21.26.51:624][  0]SourceControl: 源码管理已禁用
-[2019.04.18-21.26.52:917][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2019.04.18-21.26.53:059][  0]LogOcInput: OculusInput pre-init called
-[2019.04.18-21.26.53:223][  0]LogEngine: Initializing Engine...
-[2019.04.18-21.26.53:226][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.04.18-21.26.53:227][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2019.04.18-21.26.53:227][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.04.18-21.26.53:228][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.04.18-21.26.53:228][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.04.18-21.26.53:540][  0]LogInit: Initializing FReadOnlyCVARCache
-[2019.04.18-21.26.53:565][  0]LogAIModule: Creating AISystem for world Untitled
-[2019.04.18-21.26.53:591][  0]LogInit: XAudio2 using '扬声器 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.04.18-21.26.53:750][  0]LogInit: FAudioDevice initialized.
-[2019.04.18-21.26.53:750][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2019.04.18-21.26.53:874][  0]LogDerivedDataCache: Saved boot cache 0.12s 71MB C:/Users/Shuxing Li/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
-[2019.04.18-21.26.53:878][  0]LogInit: Texture streaming: Enabled
-[2019.04.18-21.26.53:959][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2019.04.18-21.26.53:978][  0]LogInit: Transaction tracking system initialized
-[2019.04.18-21.26.54:011][  0]BlueprintLog: New page: 编辑器加载
-[2019.04.18-21.26.54:129][  0]LocalizationService: 本地化服务已禁用
-[2019.04.18-21.26.54:767][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/WIZARD_WARS_4000/Wizard_Wars/Content/' took 0.04s
-[2019.04.18-21.26.54:767][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2019.04.18-21.26.54:767][  0]LogCook: Display: Mobile HDR setting 1
-[2019.04.18-21.26.54:767][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2019.04.18-21.26.54:767][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2019.04.18-21.26.54:767][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.04.18-21.26.54:768][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.04.18-21.26.54:768][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.04.18-21.26.55:231][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2019.04.18-21.26.55:240][  0]LogSlate: Took 0.000934 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2019.04.18-21.26.55:246][  0]LogSlate: Took 0.005546 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
-[2019.04.18-21.27.23:933][  0]LogSlate: Window '恢复包' being destroyed
-[2019.04.18-21.27.23:933][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2019.04.18-21.27.23:937][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2019.04.18-21.27.23:948][  0]Cmd: MAP LOAD FILE="../../../../../../GitHub/WIZARD_WARS_4000/Wizard_Wars/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.04.18-21.27.23:949][  0]LightingResults: New page: 光照构建
-[2019.04.18-21.27.23:953][  0]MapCheck: New page: 地图检测
-[2019.04.18-21.27.23:953][  0]LightingResults: New page: 光照构建
-[2019.04.18-21.27.27:604][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2019.04.18-21.27.27:626][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.04.18-21.27.27:667][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.04.18-21.27.27:667][  0]MapCheck: 地图检测完成：0个错误，0 个警告，用时0.362毫秒完成。
-[2019.04.18-21.27.27:667][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 3.719
-[2019.04.18-21.27.27:793][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.18-21.27.27:806][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.18-21.27.27:818][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.18-21.27.27:836][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.18-21.27.27:850][  0]LogCollectionManager: Loaded 0 collections in 0.001712 seconds
-[2019.04.18-21.27.27:903][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/WIZARD_WARS_4000/Wizard_Wars/Saved/Collections/' took 0.01s
-[2019.04.18-21.27.27:903][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/WIZARD_WARS_4000/Wizard_Wars/Content/Developers/ShuxingLi/Collections/' took 0.01s
-[2019.04.18-21.27.27:903][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/WIZARD_WARS_4000/Wizard_Wars/Content/Collections/' took 0.01s
-[2019.04.18-21.27.27:903][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2019.04.18-21.27.27:919][  0]LogContentBrowser: Native class hierarchy populated in 0.0152 seconds. Added 2651 classes and 620 folders.
-[2019.04.18-21.27.27:930][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2019.04.18-21.27.27:936][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.18-21.27.27:938][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.18-21.27.27:939][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.18-21.27.27:940][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.18-21.27.27:941][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.18-21.27.27:942][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.18-21.27.27:943][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.18-21.27.27:944][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.18-21.27.27:945][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.18-21.27.27:946][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.18-21.27.27:947][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.18-21.27.27:948][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.18-21.27.27:949][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.18-21.27.27:950][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.18-21.27.27:952][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.18-21.27.27:953][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.18-21.27.27:954][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.18-21.27.27:956][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.18-21.27.27:957][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.18-21.27.27:958][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.18-21.27.27:960][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.18-21.27.27:961][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.18-21.27.27:962][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.18-21.27.27:964][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.18-21.27.27:965][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.18-21.27.27:966][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.18-21.27.28:048][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2019.04.18-21.27.28:058][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
-[2019.04.18-21.27.28:093][  0]LogSlate: Took 0.000384 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2019.04.18-21.27.28:100][  0]LogSlate: Took 0.000350 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2019.04.18-21.27.28:236][  0]LogRenderer: Reallocating scene render targets to support 1192x668 Format 10 NumSamples 1 (Frame:1).
-[2019.04.18-21.27.28:505][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2019.04.18-21.27.28:507][  0]LogLoad: (Engine Initialization) Total time: 62.67 seconds
-[2019.04.18-21.27.28:507][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2019.04.18-21.27.28:599][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2019.04.18-21.27.28:634][  0]LogSlate: Took 0.000265 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.04.18-21.27.28:652][  1]LogFileCache: Retrieving MD5 hashes for directory 'D:/GitHub/WIZARD_WARS_4000/Wizard_Wars/Content/' took 0.12s
-[2019.04.18-21.27.28:983][  5]LogAssetRegistry: Asset discovery search completed in 43.6805 seconds
-[2019.04.18-21.27.28:985][  5]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2019.04.18-21.27.28:985][  5]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000079 seconds (updated 0 objects)
-[2019.04.18-21.27.29:572][ 46]LogSlate: Took 0.000303 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.04.18-21.27.30:845][148]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.04.18-21.27.38:853][844]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
-[2019.04.18-21.27.39:565][844]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 117 classes and 0 folders.
-[2019.04.18-21.27.40:682][844]LogSlate: Took 0.000305 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2019.04.18-21.27.40:877][845]LogSlate: Took 0.000339 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2019.04.18-21.28.03:279][992]LogSavePackage: Moving '../../../../../../GitHub/WIZARD_WARS_4000/Wizard_Wars/Saved/ThirdPersonCharacter446721714A7F815E3A774EB438C35869.tmp' to '../../../../../../GitHub/WIZARD_WARS_4000/Wizard_Wars/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
-[2019.04.18-21.28.04:664][ 89]LogTemp: Repeating last play command: 选中的视口
-[2019.04.18-21.28.04:684][ 89]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2019.04.18-21.28.04:685][ 89]BlueprintLog: New page: 运行前自动重新编译
-[2019.04.18-21.28.04:784][ 89]LogPlayLevel: [PlayLevel] Compiling ThirdPersonCharacter before play...
-[2019.04.18-21.28.04:832][ 89]LogPlayLevel: [PlayLevel]   Compiling Cowboy as a dependent...
-[2019.04.18-21.28.04:832][ 89]LogPlayLevel: [PlayLevel]   Compiling Pirate as a dependent...
-[2019.04.18-21.28.05:170][ 89]LogPlayLevel: PlayLevel: Blueprint regeneration took 486 ms (3 blueprints)
-[2019.04.18-21.28.05:200][ 89]PIE: New page: PIE会话: ThirdPersonExampleMap (2019年4月18日 下午1:28:05)
-[2019.04.18-21.28.05:213][ 89]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
-[2019.04.18-21.28.05:252][ 89]LogPlayLevel: PIE: StaticDuplicateObject took: (0.038312s)
-[2019.04.18-21.28.05:253][ 89]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2019.04.18-21.28.05:253][ 89]LogPlayLevel: PIE: World Init took: (0.000931s)
-[2019.04.18-21.28.05:253][ 89]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.040179s)
-[2019.04.18-21.28.05:309][ 89]LogInit: XAudio2 using '扬声器 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.04.18-21.28.05:457][ 89]LogInit: FAudioDevice initialized.
-[2019.04.18-21.28.05:508][ 89]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2019.04.18-21.28.05:526][ 89]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2019.04.18-17.28.05
-[2019.04.18-21.28.05:526][ 89]LogWorld: Bringing up level for play took: 0.004089
-[2019.04.18-21.28.05:561][ 89]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 20 classes and 0 folders.
-[2019.04.18-21.28.05:563][ 89]LogScript: Warning: Script Msg: Attempted to access index 2 from array 'ItemsToSpawn' of length 2 in '/Game/Interactables/Spawner/BP_Spawner.BP_Spawner_C'!
-[2019.04.18-21.28.05:563][ 89]LogScript: Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
-[2019.04.18-21.28.05:565][ 89]LogScript: Warning: Script Msg: Attempted to access index 2 from array 'ItemsToSpawn' of length 2 in '/Game/Interactables/Spawner/BP_Spawner.BP_Spawner_C'!
-[2019.04.18-21.28.05:565][ 89]LogScript: Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
-[2019.04.18-21.28.05:578][ 89]LogScript: Warning: Script Msg: Attempted to access index 2 from array 'ItemsToSpawn' of length 2 in '/Game/Interactables/Spawner/BP_Spawner.BP_Spawner_C'!
-[2019.04.18-21.28.05:578][ 89]LogScript: Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
-[2019.04.18-21.28.05:587][ 89]LogBlueprintUserMessages: [ThirdPersonGameMode_C_0] Begin Player Spawn
-[2019.04.18-21.28.05:587][ 89]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for controller ID 0,
-[2019.04.18-21.28.05:612][ 89]LogSlate: New Slate User Created.  User Index 1, Is Virtual User: 0
-[2019.04.18-21.28.05:612][ 89]LogSlate: Slate User Registered.  User Index 1, Is Virtual User: 0
-[2019.04.18-21.28.05:617][ 89]PIE: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap的‘在编辑器中播放’的起始时间0.666
-[2019.04.18-21.28.05:617][ 89]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2019.04.18-21.28.05:685][ 90]LogRenderer: Reallocating scene render targets to support 1192x672 Format 10 NumSamples 1 (Frame:1).
-[2019.04.18-21.28.12:316][633]LogBlueprintUserMessages: [BP_Spawner4] Item already spawned
-[2019.04.18-21.28.12:316][633]LogBlueprintUserMessages: [BP_Spawner3] Item already spawned
-[2019.04.18-21.28.12:316][633]LogScript: Warning: Script Msg: Attempted to access index 2 from array 'ItemsToSpawn' of length 2 in '/Game/Interactables/Spawner/BP_Spawner.BP_Spawner_C'!
-[2019.04.18-21.28.12:316][633]LogScript: Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
-[2019.04.18-21.28.17:317][ 86]LogBlueprintUserMessages: [BP_Spawner3] Item already spawned
-[2019.04.18-21.28.17:318][ 86]LogBlueprintUserMessages: [BP_Spawner4] Item already spawned
-[2019.04.18-21.28.18:298][176]LogBlueprintUserMessages: [BP_Spawner5] Item already spawned
-[2019.04.18-21.28.18:298][176]LogBlueprintUserMessages: [BP_Spawner4] Item already spawned
-[2019.04.18-21.28.18:300][176]LogBlueprintUserMessages: [BP_Spawner3] Item already spawned
-[2019.04.18-21.28.18:300][176]LogBlueprintUserMessages: [BP_Spawner_2] Item already spawned
-[2019.04.18-21.28.23:302][620]LogBlueprintUserMessages: [BP_Spawner3] Item already spawned
-[2019.04.18-21.28.23:302][620]LogBlueprintUserMessages: [BP_Spawner4] Item already spawned
-[2019.04.18-21.28.23:302][620]LogBlueprintUserMessages: [BP_Spawner5] Item already spawned
-[2019.04.18-21.28.23:302][620]LogBlueprintUserMessages: [BP_Spawner_2] Item already spawned
-[2019.04.18-21.28.24:300][709]LogBlueprintUserMessages: [BP_Spawner3] Item already spawned
-[2019.04.18-21.28.24:300][709]LogBlueprintUserMessages: [BP_Spawner_2] Item already spawned
-[2019.04.18-21.28.24:300][709]LogBlueprintUserMessages: [BP_Spawner5] Item already spawned
-[2019.04.18-21.28.24:300][709]LogBlueprintUserMessages: [BP_Spawner4] Item already spawned
-[2019.04.18-21.28.24:300][709]LogBlueprintUserMessages: [BP_Spawner2] Item already spawned
-[2019.04.18-21.28.27:989][ 32]LogBlueprintUserMessages: [Pirate_C_0] You Died! (Or You Shoud Have Died)
-[2019.04.18-21.28.27:990][ 32]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for controller ID 1,
-[2019.04.18-21.28.29:307][134]LogBlueprintUserMessages: [BP_Spawner2] Item already spawned
-[2019.04.18-21.28.29:307][134]LogBlueprintUserMessages: [BP_Spawner3] Item already spawned
-[2019.04.18-21.28.29:307][134]LogBlueprintUserMessages: [BP_Spawner_2] Item already spawned
-[2019.04.18-21.28.29:307][134]LogBlueprintUserMessages: [BP_Spawner5] Item already spawned
-[2019.04.18-21.28.29:307][134]LogBlueprintUserMessages: [BP_Spawner4] Item already spawned
-[2019.04.18-21.28.30:288][214]LogBlueprintUserMessages: [BP_Spawner2] Item already spawned
-[2019.04.18-21.28.30:288][214]LogBlueprintUserMessages: [BP_Spawner3] Item already spawned
-[2019.04.18-21.28.30:288][214]LogBlueprintUserMessages: [BP_Spawner4] Item already spawned
-[2019.04.18-21.28.30:288][214]LogBlueprintUserMessages: [BP_Spawner_2] Item already spawned
-[2019.04.18-21.28.30:288][214]LogBlueprintUserMessages: [BP_Spawner5] Item already spawned
-[2019.04.18-21.28.35:290][654]LogBlueprintUserMessages: [BP_Spawner5] Item already spawned
-[2019.04.18-21.28.35:290][654]LogBlueprintUserMessages: [BP_Spawner3] Item already spawned
-[2019.04.18-21.28.35:290][654]LogBlueprintUserMessages: [BP_Spawner2] Item already spawned
-[2019.04.18-21.28.35:290][654]LogBlueprintUserMessages: [BP_Spawner4] Item already spawned
-[2019.04.18-21.28.35:290][654]LogBlueprintUserMessages: [BP_Spawner_2] Item already spawned
-[2019.04.18-21.28.36:303][743]LogBlueprintUserMessages: [BP_Spawner3] Item already spawned
-[2019.04.18-21.28.36:303][743]LogBlueprintUserMessages: [BP_Spawner_2] Item already spawned
-[2019.04.18-21.28.36:304][743]LogBlueprintUserMessages: [BP_Spawner5] Item already spawned
-[2019.04.18-21.28.36:304][743]LogBlueprintUserMessages: [BP_Spawner2] Item already spawned
-[2019.04.18-21.28.36:304][743]LogBlueprintUserMessages: [BP_Spawner4] Item already spawned
-[2019.04.18-21.28.39:096][987]LogBlueprintUserMessages: [Pirate_C_1] You Died! (Or You Shoud Have Died)
-[2019.04.18-21.28.39:096][987]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for controller ID 1,
-[2019.04.18-21.28.41:310][192]LogBlueprintUserMessages: [BP_Spawner2] Item already spawned
-[2019.04.18-21.28.41:310][192]LogBlueprintUserMessages: [BP_Spawner4] Item already spawned
-[2019.04.18-21.28.41:310][192]LogBlueprintUserMessages: [BP_Spawner3] Item already spawned
-[2019.04.18-21.28.41:310][192]LogBlueprintUserMessages: [BP_Spawner5] Item already spawned
-[2019.04.18-21.28.41:310][192]LogBlueprintUserMessages: [BP_Spawner_2] Item already spawned
-[2019.04.18-21.28.42:290][285]LogBlueprintUserMessages: [BP_Spawner5] Item already spawned
-[2019.04.18-21.28.42:291][285]LogBlueprintUserMessages: [BP_Spawner2] Item already spawned
-[2019.04.18-21.28.42:291][285]LogBlueprintUserMessages: [BP_Spawner_2] Item already spawned
-[2019.04.18-21.28.42:291][285]LogBlueprintUserMessages: [BP_Spawner3] Item already spawned
-[2019.04.18-21.28.42:291][285]LogBlueprintUserMessages: [BP_Spawner4] Item already spawned
-[2019.04.18-21.28.47:296][744]LogBlueprintUserMessages: [BP_Spawner4] Item already spawned
-[2019.04.18-21.28.47:296][744]LogBlueprintUserMessages: [BP_Spawner5] Item already spawned
-[2019.04.18-21.28.47:296][744]LogBlueprintUserMessages: [BP_Spawner2] Item already spawned
-[2019.04.18-21.28.47:296][744]LogBlueprintUserMessages: [BP_Spawner_2] Item already spawned
-[2019.04.18-21.28.47:296][744]LogBlueprintUserMessages: [BP_Spawner3] Item already spawned
-[2019.04.18-21.28.48:299][832]LogBlueprintUserMessages: [BP_Spawner4] Item already spawned
-[2019.04.18-21.28.48:299][832]LogBlueprintUserMessages: [BP_Spawner_2] Item already spawned
-[2019.04.18-21.28.48:299][832]LogBlueprintUserMessages: [BP_Spawner5] Item already spawned
-[2019.04.18-21.28.48:299][832]LogBlueprintUserMessages: [BP_Spawner2] Item already spawned
-[2019.04.18-21.28.48:299][832]LogBlueprintUserMessages: [BP_Spawner3] Item already spawned
-[2019.04.18-21.28.53:304][247]LogBlueprintUserMessages: [BP_Spawner5] Item already spawned
-[2019.04.18-21.28.53:305][247]LogBlueprintUserMessages: [BP_Spawner3] Item already spawned
-[2019.04.18-21.28.53:305][247]LogBlueprintUserMessages: [BP_Spawner_2] Item already spawned
-[2019.04.18-21.28.53:305][247]LogBlueprintUserMessages: [BP_Spawner4] Item already spawned
-[2019.04.18-21.28.53:305][247]LogBlueprintUserMessages: [BP_Spawner2] Item already spawned
-[2019.04.18-21.28.54:291][329]LogBlueprintUserMessages: [BP_Spawner4] Item already spawned
-[2019.04.18-21.28.54:291][329]LogBlueprintUserMessages: [BP_Spawner2] Item already spawned
-[2019.04.18-21.28.54:291][329]LogBlueprintUserMessages: [BP_Spawner3] Item already spawned
-[2019.04.18-21.28.54:291][329]LogBlueprintUserMessages: [BP_Spawner_2] Item already spawned
-[2019.04.18-21.28.54:291][329]LogBlueprintUserMessages: [BP_Spawner5] Item already spawned
-[2019.04.18-21.28.59:136][734]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2019.04.18-21.28.59:137][734]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.18-21.28.59:194][734]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.04.18-21.28.59:195][734]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2019.04.18-21.28.59:243][734]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.18-21.28.59:295][735]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2019.04.18-22.34.41:075][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.04.18-22.34.41:075][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.04.18-22.34.41:075][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/GitHub/WIZARD_WARS_4000/Wizard_Wars/Saved/Config/Windows/Engine.ini]
+[2019.04.18-22.34.41:075][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.04.18-22.34.41:075][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/GitHub/WIZARD_WARS_4000/Wizard_Wars/Saved/Config/Windows/Engine.ini]
+[2019.04.18-22.34.41:075][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/GitHub/WIZARD_WARS_4000/Wizard_Wars/Saved/Config/Windows/Engine.ini]
+[2019.04.18-22.34.41:075][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.04.18-22.34.41:075][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.04.18-22.34.41:075][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.04.18-22.34.41:075][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.04.18-22.34.41:075][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.04.18-22.34.41:075][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.04.18-22.34.41:075][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.04.18-22.34.41:075][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.04.18-22.34.41:075][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.04.18-22.34.41:075][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.04.18-22.34.41:075][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.04.18-22.34.41:075][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.04.18-22.34.41:075][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.04.18-22.34.41:075][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/GitHub/WIZARD_WARS_4000/Wizard_Wars/Saved/Config/Windows/Engine.ini]
+[2019.04.18-22.34.41:075][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.04.18-22.34.41:075][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.04.18-22.34.41:075][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.04.18-22.34.41:075][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.04.18-22.34.41:075][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.04.18-22.34.41:075][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.04.18-22.34.41:075][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:8388607]]
+[2019.04.18-22.34.41:075][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.04.18-22.34.41:075][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.04.18-22.34.41:075][  0]LogConfig: Setting CVar [[gc.MergeGCClusters:0]]
+[2019.04.18-22.34.41:075][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.04.18-22.34.41:075][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.04.18-22.34.41:075][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.04.18-22.34.41:075][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.04.18-22.34.41:075][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/GitHub/WIZARD_WARS_4000/Wizard_Wars/Saved/Config/Windows/Engine.ini]
+[2019.04.18-22.34.41:075][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/GitHub/WIZARD_WARS_4000/Wizard_Wars/Saved/Config/Windows/Engine.ini]
+[2019.04.18-22.34.41:080][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/GitHub/WIZARD_WARS_4000/Wizard_Wars/Saved/Config/Windows/Scalability.ini]
+[2019.04.18-22.34.41:080][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.04.18-22.34.41:080][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.04.18-22.34.41:081][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/GitHub/WIZARD_WARS_4000/Wizard_Wars/Saved/Config/Windows/Scalability.ini]
+[2019.04.18-22.34.41:081][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.04.18-22.34.41:081][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/GitHub/WIZARD_WARS_4000/Wizard_Wars/Saved/Config/Windows/Scalability.ini]
+[2019.04.18-22.34.41:081][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.04.18-22.34.41:081][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.04.18-22.34.41:081][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.04.18-22.34.41:081][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.04.18-22.34.41:081][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.04.18-22.34.41:081][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.04.18-22.34.41:081][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.04.18-22.34.41:081][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.04.18-22.34.41:081][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.04.18-22.34.41:081][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.04.18-22.34.41:081][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.04.18-22.34.41:081][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.04.18-22.34.41:081][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.04.18-22.34.41:081][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.04.18-22.34.41:081][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.04.18-22.34.41:081][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.04.18-22.34.41:081][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.04.18-22.34.41:081][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.04.18-22.34.41:081][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/GitHub/WIZARD_WARS_4000/Wizard_Wars/Saved/Config/Windows/Scalability.ini]
+[2019.04.18-22.34.41:081][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.04.18-22.34.41:081][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.04.18-22.34.41:081][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.04.18-22.34.41:081][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.04.18-22.34.41:081][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.04.18-22.34.41:081][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.04.18-22.34.41:081][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.04.18-22.34.41:081][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.04.18-22.34.41:081][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.04.18-22.34.41:081][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.04.18-22.34.41:081][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.04.18-22.34.41:081][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.04.18-22.34.41:081][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.04.18-22.34.41:081][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.04.18-22.34.41:081][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.04.18-22.34.41:081][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.04.18-22.34.41:081][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.04.18-22.34.41:081][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.04.18-22.34.41:081][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.04.18-22.34.41:081][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.04.18-22.34.41:081][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.04.18-22.34.41:081][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.04.18-22.34.41:081][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.04.18-22.34.41:081][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.04.18-22.34.41:081][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.04.18-22.34.41:081][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.04.18-22.34.41:081][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.04.18-22.34.41:082][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.04.18-22.34.41:082][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.04.18-22.34.41:082][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.04.18-22.34.41:082][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/GitHub/WIZARD_WARS_4000/Wizard_Wars/Saved/Config/Windows/Scalability.ini]
+[2019.04.18-22.34.41:082][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.04.18-22.34.41:082][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.04.18-22.34.41:082][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.04.18-22.34.41:082][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.04.18-22.34.41:082][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.04.18-22.34.41:082][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.04.18-22.34.41:082][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.04.18-22.34.41:082][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.04.18-22.34.41:082][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/GitHub/WIZARD_WARS_4000/Wizard_Wars/Saved/Config/Windows/Scalability.ini]
+[2019.04.18-22.34.41:082][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.04.18-22.34.41:082][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.04.18-22.34.41:082][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.04.18-22.34.41:082][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.04.18-22.34.41:082][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.04.18-22.34.41:082][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.04.18-22.34.41:082][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.04.18-22.34.41:082][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.04.18-22.34.41:082][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.04.18-22.34.41:082][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.04.18-22.34.41:082][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.04.18-22.34.41:082][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.04.18-22.34.41:082][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.04.18-22.34.41:082][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/GitHub/WIZARD_WARS_4000/Wizard_Wars/Saved/Config/Windows/Scalability.ini]
+[2019.04.18-22.34.41:082][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.04.18-22.34.41:082][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.04.18-22.34.41:082][  0]LogInit: Selected Device Profile: [Windows]
+[2019.04.18-22.34.41:082][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.04.18-22.34.41:097][  0]LogHAL: Display: Platform has ~ 8 GB [8459788288 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.04.18-22.34.41:097][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:1]]
+[2019.04.18-22.34.41:097][  0]LogInit: Going up to parent DeviceProfile []
+[2019.04.18-22.34.41:097][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/GitHub/WIZARD_WARS_4000/Wizard_Wars/Saved/Config/Windows/Scalability.ini]
+[2019.04.18-22.34.41:097][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.04.18-22.34.41:097][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.04.18-22.34.41:097][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/GitHub/WIZARD_WARS_4000/Wizard_Wars/Saved/Config/Windows/Scalability.ini]
+[2019.04.18-22.34.41:097][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.04.18-22.34.41:097][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/GitHub/WIZARD_WARS_4000/Wizard_Wars/Saved/Config/Windows/Scalability.ini]
+[2019.04.18-22.34.41:097][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.04.18-22.34.41:097][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.04.18-22.34.41:097][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.04.18-22.34.41:097][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.04.18-22.34.41:097][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.04.18-22.34.41:097][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.04.18-22.34.41:097][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.04.18-22.34.41:097][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.04.18-22.34.41:097][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.04.18-22.34.41:097][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.04.18-22.34.41:097][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.04.18-22.34.41:097][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.04.18-22.34.41:097][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.04.18-22.34.41:097][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.04.18-22.34.41:097][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.04.18-22.34.41:097][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.04.18-22.34.41:097][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.04.18-22.34.41:097][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.04.18-22.34.41:097][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/GitHub/WIZARD_WARS_4000/Wizard_Wars/Saved/Config/Windows/Scalability.ini]
+[2019.04.18-22.34.41:097][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.04.18-22.34.41:098][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.04.18-22.34.41:098][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.04.18-22.34.41:098][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.04.18-22.34.41:098][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.04.18-22.34.41:098][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.04.18-22.34.41:098][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.04.18-22.34.41:098][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.04.18-22.34.41:098][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.04.18-22.34.41:098][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.04.18-22.34.41:098][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.04.18-22.34.41:098][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.04.18-22.34.41:098][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.04.18-22.34.41:098][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.04.18-22.34.41:098][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.04.18-22.34.41:098][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.04.18-22.34.41:098][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.04.18-22.34.41:098][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.04.18-22.34.41:098][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.04.18-22.34.41:098][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.04.18-22.34.41:098][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.04.18-22.34.41:098][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.04.18-22.34.41:098][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.04.18-22.34.41:098][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.04.18-22.34.41:098][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.04.18-22.34.41:098][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.04.18-22.34.41:098][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.04.18-22.34.41:098][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.04.18-22.34.41:098][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.04.18-22.34.41:098][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.04.18-22.34.41:098][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/GitHub/WIZARD_WARS_4000/Wizard_Wars/Saved/Config/Windows/Scalability.ini]
+[2019.04.18-22.34.41:098][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.04.18-22.34.41:098][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.04.18-22.34.41:098][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.04.18-22.34.41:098][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.04.18-22.34.41:098][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.04.18-22.34.41:099][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.04.18-22.34.41:099][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.04.18-22.34.41:099][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.04.18-22.34.41:099][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/GitHub/WIZARD_WARS_4000/Wizard_Wars/Saved/Config/Windows/Scalability.ini]
+[2019.04.18-22.34.41:099][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.04.18-22.34.41:099][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.04.18-22.34.41:099][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.04.18-22.34.41:099][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.04.18-22.34.41:099][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.04.18-22.34.41:099][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.04.18-22.34.41:099][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.04.18-22.34.41:099][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.04.18-22.34.41:099][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.04.18-22.34.41:099][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.04.18-22.34.41:099][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.04.18-22.34.41:099][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.04.18-22.34.41:099][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.04.18-22.34.41:099][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/GitHub/WIZARD_WARS_4000/Wizard_Wars/Saved/Config/Windows/Scalability.ini]
+[2019.04.18-22.34.41:099][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.04.18-22.34.41:099][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.04.18-22.34.41:099][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.04.18-22.34.41:100][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.04.18-22.34.41:100][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/GitHub/WIZARD_WARS_4000/Wizard_Wars/Saved/Config/Windows/Engine.ini]
+[2019.04.18-22.34.41:100][  0]LogInit: Computer: DESKTOP-226LAUO
+[2019.04.18-22.34.41:100][  0]LogInit: User: ShuxingLi
+[2019.04.18-22.34.41:100][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.04.18-22.34.41:100][  0]LogInit: High frequency timer resolution =2.531250 MHz
+[2019.04.18-22.34.41:101][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2019.04.18-22.34.41:101][  0]LogMemory: Platform Memory Stats for Windows
+[2019.04.18-22.34.41:101][  0]LogMemory: Process Physical Memory: 103.34 MB used, 103.34 MB peak
+[2019.04.18-22.34.41:101][  0]LogMemory: Process Virtual Memory: 89.86 MB used, 89.86 MB peak
+[2019.04.18-22.34.41:101][  0]LogMemory: Physical Memory: 5856.06 MB used,  2211.82 MB free, 8067.88 MB total
+[2019.04.18-22.34.41:101][  0]LogMemory: Virtual Memory: 4651.67 MB used,  134213080.00 MB free, 134217728.00 MB total
+[2019.04.18-22.34.41:173][  0]LogInit: Using OS detected language (zh-CN).
+[2019.04.18-22.34.41:173][  0]LogInit: Using OS detected locale (zh-CN).
+[2019.04.18-22.34.41:701][  0]LogStreaming: Display: Took  0.529s to InitEngineTextLocalization.
+[2019.04.18-22.34.41:805][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.04.18-22.34.41:805][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.04.18-22.34.43:061][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.04.18-22.34.43:061][  0]LogD3D11RHI: D3D11 adapters:
+[2019.04.18-22.34.43:200][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970M' (Feature Level 11_0)
+[2019.04.18-22.34.43:200][  0]LogD3D11RHI:       3032/0/4033 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.04.18-22.34.44:041][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2019.04.18-22.34.44:041][  0]LogD3D11RHI:       128/0/4033 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.04.18-22.34.44:046][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.04.18-22.34.44:046][  0]LogD3D11RHI:       0/0/4033 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.04.18-22.34.44:046][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.04.18-22.34.44:114][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.04.18-22.34.44:115][  0]LogD3D11RHI:     GPU DeviceId: 0x13d8 (for the marketing name, search the web for "GPU Device Id")
+[2019.04.18-22.34.44:115][  0]LogWindows: EnumDisplayDevices:
+[2019.04.18-22.34.44:115][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2019.04.18-22.34.44:116][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2019.04.18-22.34.44:117][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2019.04.18-22.34.44:118][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2019.04.18-22.34.44:118][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970M
+[2019.04.18-22.34.44:118][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2019.04.18-22.34.44:118][  0]LogD3D11RHI:      Driver Date: Unknown
+[2019.04.18-22.34.44:118][  0]LogRHI: Texture pool is 2122 MB (70% of 3032 MB)
+[2019.04.18-22.34.44:190][  0]LogD3D11RHI: Async texture creation enabled
+[2019.04.18-22.34.44:215][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.04.18-22.34.45:559][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.04.18-22.34.45:578][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.04.18-22.34.45:597][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.04.18-22.34.45:616][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.04.18-22.34.45:635][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.04.18-22.34.45:655][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.04.18-22.34.45:674][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.04.18-22.34.45:693][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.04.18-22.34.45:710][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.04.18-22.34.45:827][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.18-22.34.45:827][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.18-22.34.45:827][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.18-22.34.45:827][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.18-22.34.45:827][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.18-22.34.45:827][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.18-22.34.45:827][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.18-22.34.45:827][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.18-22.34.45:827][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.18-22.34.45:827][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.18-22.34.45:827][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.18-22.34.45:827][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.18-22.34.45:827][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.18-22.34.45:827][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.18-22.34.45:827][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.18-22.34.45:827][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.18-22.34.45:827][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.18-22.34.45:827][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.18-22.34.45:831][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.04.18-22.34.45:907][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.04.18-22.34.45:907][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.04.18-22.34.45:946][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.04.18-22.34.45:946][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.04.18-22.34.45:968][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.04.18-22.34.45:988][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.04.18-22.34.46:009][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.04.18-22.34.46:060][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.04.18-22.34.46:140][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.04.18-22.34.46:140][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.04.18-22.34.46:140][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.04.18-22.34.46:346][  0]LogShaderCompilers: Guid format shader working directory is -34 characters bigger than the processId version (../../../../../../GitHub/WIZARD_WARS_4000/Wizard_Wars/Intermediate/Shaders/WorkingDirectory/22024/).
+[2019.04.18-22.34.46:346][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'E:/Temp/UnrealShaderWorkingDir/4DAA292A48C7D63BB3602D98A92D3F9F/'.
+[2019.04.18-22.34.46:349][  0]LogXGEController: Cleaning working directory: E:/Temp/UnrealXGEWorkingDir/
+[2019.04.18-22.34.46:351][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.04.18-22.34.46:351][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.04.18-22.34.46:351][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.04.18-22.34.47:177][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.04.18-22.34.47:278][  0]LogDerivedDataCache: Loaded boot cache 0.10s 71MB C:/Users/Shuxing Li/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.04.18-22.34.47:278][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Shuxing Li/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc
+[2019.04.18-22.34.47:278][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../GitHub/WIZARD_WARS_4000/Wizard_Wars/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.04.18-22.34.47:278][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.04.18-22.34.47:278][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../GitHub/WIZARD_WARS_4000/Wizard_Wars/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.04.18-22.34.47:278][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.04.18-22.34.47:299][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.04.18-22.34.47:299][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.04.18-22.34.47:299][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.04.18-22.34.47:476][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Shuxing Li/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.04.18-22.34.47:476][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.04.18-22.34.47:476][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.04.18-22.34.47:508][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.04.18-22.34.47:510][  0]LogSlate: Using FreeType 2.6.0
+[2019.04.18-22.34.47:511][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.04.18-22.34.47:853][  0]LogAssetRegistry: FAssetRegistry took 0.0389 seconds to start up
+[2019.04.18-22.34.48:386][  0]LogInit: Selected Device Profile: [Windows]
+[2019.04.18-22.34.48:619][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.04.18-22.34.48:629][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.04.18-22.34.48:629][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.04.18-22.34.48:629][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.04.18-22.34.48:629][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.04.18-22.34.48:652][  0]LogNetVersion: Wizard_Wars 1.0.0, NetCL: 4541578, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1501833635)
+[2019.04.18-22.34.49:591][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 4 prioritized culture(s) in 0.262993 seconds
+[2019.04.18-22.34.49:598][  0]LogUObjectArray: 39775 objects as part of root set at end of initial load.
+[2019.04.18-22.34.49:598][  0]LogUObjectAllocator: 6914656 out of 0 bytes used by permanent object pool.
+[2019.04.18-22.34.49:598][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.04.18-22.34.52:557][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.04.18-22.34.52:572][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.04.18-22.34.53:852][  0]SourceControl: 源码管理已禁用
+[2019.04.18-22.34.56:122][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.04.18-22.34.56:244][  0]LogOcInput: OculusInput pre-init called
+[2019.04.18-22.34.56:417][  0]LogEngine: Initializing Engine...
+[2019.04.18-22.34.56:419][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.04.18-22.34.56:421][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.04.18-22.34.56:421][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.04.18-22.34.56:421][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.04.18-22.34.56:421][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.04.18-22.34.56:763][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.04.18-22.34.56:783][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.04.18-22.34.56:815][  0]LogInit: XAudio2 using '扬声器 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.18-22.34.56:977][  0]LogInit: FAudioDevice initialized.
+[2019.04.18-22.34.56:977][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.04.18-22.34.57:502][  0]LogDerivedDataCache: Saved boot cache 0.52s 71MB C:/Users/Shuxing Li/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.04.18-22.34.57:510][  0]LogInit: Texture streaming: Enabled
+[2019.04.18-22.34.57:569][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.04.18-22.34.57:590][  0]LogInit: Transaction tracking system initialized
+[2019.04.18-22.34.57:625][  0]BlueprintLog: New page: 编辑器加载
+[2019.04.18-22.34.57:795][  0]LocalizationService: 本地化服务已禁用
+[2019.04.18-22.34.58:501][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/WIZARD_WARS_4000/Wizard_Wars/Content/' took 0.04s
+[2019.04.18-22.34.58:501][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.04.18-22.34.58:502][  0]LogCook: Display: Mobile HDR setting 1
+[2019.04.18-22.34.58:502][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.04.18-22.34.58:502][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.04.18-22.34.58:502][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.04.18-22.34.58:502][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.04.18-22.34.58:502][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.04.18-22.34.58:736][  0]Cmd: MAP LOAD FILE="../../../../../../GitHub/WIZARD_WARS_4000/Wizard_Wars/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.04.18-22.34.58:737][  0]LightingResults: New page: 光照构建
+[2019.04.18-22.34.58:741][  0]MapCheck: New page: 地图检测
+[2019.04.18-22.34.58:741][  0]LightingResults: New page: 光照构建
+[2019.04.18-22.35.02:507][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.04.18-22.35.02:529][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.04.18-22.35.02:570][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.04.18-22.35.02:570][  0]MapCheck: 地图检测完成：0个错误，0 个警告，用时0.341毫秒完成。
+[2019.04.18-22.35.02:570][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 3.833
+[2019.04.18-22.35.02:880][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.18-22.35.02:896][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.18-22.35.02:909][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.18-22.35.02:922][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.18-22.35.02:933][  0]LogCollectionManager: Loaded 0 collections in 0.001537 seconds
+[2019.04.18-22.35.02:984][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/WIZARD_WARS_4000/Wizard_Wars/Saved/Collections/' took 0.01s
+[2019.04.18-22.35.02:984][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/WIZARD_WARS_4000/Wizard_Wars/Content/Developers/ShuxingLi/Collections/' took 0.01s
+[2019.04.18-22.35.02:984][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/WIZARD_WARS_4000/Wizard_Wars/Content/Collections/' took 0.01s
+[2019.04.18-22.35.02:984][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.04.18-22.35.02:998][  0]LogContentBrowser: Native class hierarchy populated in 0.0128 seconds. Added 2651 classes and 620 folders.
+[2019.04.18-22.35.03:010][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.04.18-22.35.03:015][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.18-22.35.03:017][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.18-22.35.03:018][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.18-22.35.03:019][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.18-22.35.03:020][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.18-22.35.03:022][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.18-22.35.03:023][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.18-22.35.03:025][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.18-22.35.03:026][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.18-22.35.03:027][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.18-22.35.03:028][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.18-22.35.03:029][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.18-22.35.03:031][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.18-22.35.03:033][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.18-22.35.03:034][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.18-22.35.03:035][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.18-22.35.03:037][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.18-22.35.03:038][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.18-22.35.03:039][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.18-22.35.03:040][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.18-22.35.03:042][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.18-22.35.03:044][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.18-22.35.03:045][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.18-22.35.03:046][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.18-22.35.03:047][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.18-22.35.03:049][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.18-22.35.03:165][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.04.18-22.35.03:174][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2019.04.18-22.35.03:204][  0]LogSlate: Took 0.000407 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.04.18-22.35.03:210][  0]LogSlate: Took 0.003018 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2019.04.18-22.35.03:211][  0]LogSlate: Took 0.000461 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.04.18-22.35.03:220][  0]LogSlate: Took 0.000411 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.04.18-22.35.03:405][  0]LogRenderer: Reallocating scene render targets to support 1192x668 Format 10 NumSamples 1 (Frame:1).
+[2019.04.18-22.35.03:681][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.04.18-22.35.03:682][  0]LogLoad: (Engine Initialization) Total time: 25.80 seconds
+[2019.04.18-22.35.03:682][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.04.18-22.35.03:792][  0]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (搜狗拼音输入法).
+[2019.04.18-22.35.03:931][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.04.18-22.35.03:966][  0]LogSlate: Took 0.000299 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.04.18-22.35.03:987][  1]LogFileCache: Retrieving MD5 hashes for directory 'D:/GitHub/WIZARD_WARS_4000/Wizard_Wars/Content/' took 0.12s
+[2019.04.18-22.35.04:443][  6]LogAssetRegistry: Asset discovery search completed in 16.6133 seconds
+[2019.04.18-22.35.04:446][  6]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.04.18-22.35.04:446][  6]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000088 seconds (updated 0 objects)
+[2019.04.18-22.35.04:756][ 20]LogSlate: Took 0.000267 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.04.18-22.35.37:252][899]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.18-22.35.40:473][ 70]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2019.04.18-22.35.41:287][ 70]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 117 classes and 0 folders.
+[2019.04.18-22.35.42:652][ 70]LogSlate: Took 0.026409 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.04.18-22.35.43:099][ 71]LogSlate: Took 0.111445 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.04.18-22.36.26:744][ 53]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.04.18-22.36.26:744][ 53]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.04.18-22.36.57:012][487]LogSavePackage: Moving '../../../../../../GitHub/WIZARD_WARS_4000/Wizard_Wars/Saved/ThirdPersonCharacter204357C14C5AAEB7245B11A3F559DF82.tmp' to '../../../../../../GitHub/WIZARD_WARS_4000/Wizard_Wars/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2019.04.18-22.36.58:331][556]LogTemp: Repeating last play command: 选中的视口
+[2019.04.18-22.36.58:352][556]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.04.18-22.36.58:352][556]BlueprintLog: New page: 运行前自动重新编译
+[2019.04.18-22.36.58:455][556]LogPlayLevel: [PlayLevel] Compiling ThirdPersonCharacter before play...
+[2019.04.18-22.36.58:504][556]LogPlayLevel: [PlayLevel]   Compiling Cowboy as a dependent...
+[2019.04.18-22.36.58:504][556]LogPlayLevel: [PlayLevel]   Compiling Pirate as a dependent...
+[2019.04.18-22.36.58:850][556]LogPlayLevel: PlayLevel: Blueprint regeneration took 497 ms (3 blueprints)
+[2019.04.18-22.36.58:850][556]PIE: New page: PIE会话: ThirdPersonExampleMap (2019年4月18日 下午2:36:58)
+[2019.04.18-22.36.58:864][556]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.04.18-22.36.59:052][556]LogPlayLevel: PIE: StaticDuplicateObject took: (0.187776s)
+[2019.04.18-22.36.59:053][556]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.04.18-22.36.59:054][556]LogPlayLevel: PIE: World Init took: (0.001174s)
+[2019.04.18-22.36.59:054][556]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.189849s)
+[2019.04.18-22.36.59:110][556]LogInit: XAudio2 using '扬声器 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.18-22.36.59:274][556]LogInit: FAudioDevice initialized.
+[2019.04.18-22.36.59:326][556]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.04.18-22.36.59:332][556]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2019.04.18-18.36.59
+[2019.04.18-22.36.59:333][556]LogWorld: Bringing up level for play took: 0.004534
+[2019.04.18-22.36.59:377][556]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 20 classes and 0 folders.
+[2019.04.18-22.36.59:383][556]LogScript: Warning: Script Msg: Attempted to access index 2 from array 'ItemsToSpawn' of length 2 in '/Game/Interactables/Spawner/BP_Spawner.BP_Spawner_C'!
+[2019.04.18-22.36.59:383][556]LogScript: Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2019.04.18-22.36.59:383][556]LogScript: Warning: Script Msg: Attempted to access index 2 from array 'ItemsToSpawn' of length 2 in '/Game/Interactables/Spawner/BP_Spawner.BP_Spawner_C'!
+[2019.04.18-22.36.59:383][556]LogScript: Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2019.04.18-22.36.59:385][556]LogBlueprintUserMessages: [ThirdPersonGameMode_C_0] Begin Player Spawn
+[2019.04.18-22.36.59:385][556]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2019.04.18-22.36.59:388][556]LogSlate: New Slate User Created.  User Index 1, Is Virtual User: 0
+[2019.04.18-22.36.59:388][556]LogSlate: Slate User Registered.  User Index 1, Is Virtual User: 0
+[2019.04.18-22.36.59:395][556]PIE: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap的‘在编辑器中播放’的起始时间0.454
+[2019.04.18-22.36.59:395][556]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.04.18-22.36.59:420][557]LogRenderer: Reallocating scene render targets to support 1192x672 Format 10 NumSamples 1 (Frame:1).
+[2019.04.18-22.37.01:633][684]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.04.18-22.37.01:633][684]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.18-22.37.01:675][684]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.18-22.37.01:675][684]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.04.18-22.37.01:718][684]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.18-22.37.01:755][685]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2019.04.18-22.37.03:843][804]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.18-22.37.13:028][255]LogTemp: Repeating last play command: 选中的视口
+[2019.04.18-22.37.13:049][255]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.04.18-22.37.13:049][255]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.18-22.37.13:049][255]PIE: New page: PIE会话: ThirdPersonExampleMap (2019年4月18日 下午2:37:13)
+[2019.04.18-22.37.13:049][255]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.04.18-22.37.13:087][255]LogPlayLevel: PIE: StaticDuplicateObject took: (0.037471s)
+[2019.04.18-22.37.13:088][255]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.04.18-22.37.13:088][255]LogPlayLevel: PIE: World Init took: (0.001225s)
+[2019.04.18-22.37.13:088][255]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.039035s)
+[2019.04.18-22.37.13:151][255]LogInit: XAudio2 using '扬声器 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.18-22.37.13:300][255]LogInit: FAudioDevice initialized.
+[2019.04.18-22.37.13:337][255]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.04.18-22.37.13:343][255]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2019.04.18-18.37.13
+[2019.04.18-22.37.13:343][255]LogWorld: Bringing up level for play took: 0.004214
+[2019.04.18-22.37.13:363][255]LogScript: Warning: Script Msg: Attempted to access index 2 from array 'ItemsToSpawn' of length 2 in '/Game/Interactables/Spawner/BP_Spawner.BP_Spawner_C'!
+[2019.04.18-22.37.13:364][255]LogScript: Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2019.04.18-22.37.13:367][255]LogScript: Warning: Script Msg: Attempted to access index 2 from array 'ItemsToSpawn' of length 2 in '/Game/Interactables/Spawner/BP_Spawner.BP_Spawner_C'!
+[2019.04.18-22.37.13:367][255]LogScript: Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2019.04.18-22.37.13:368][255]LogBlueprintUserMessages: [ThirdPersonGameMode_C_0] Begin Player Spawn
+[2019.04.18-22.37.13:368][255]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2019.04.18-22.37.13:374][255]PIE: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap的‘在编辑器中播放’的起始时间0.433
+[2019.04.18-22.37.13:375][255]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.04.18-22.37.20:053][649]LogScript: Warning: Script Msg: Attempted to access index 2 from array 'ItemsToSpawn' of length 2 in '/Game/Interactables/Spawner/BP_Spawner.BP_Spawner_C'!
+[2019.04.18-22.37.20:053][649]LogScript: Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2019.04.18-22.37.20:054][649]LogBlueprintUserMessages: [BP_Spawner_2] Item already spawned
+[2019.04.18-22.37.20:054][649]LogBlueprintUserMessages: [BP_Spawner4] Item already spawned
+[2019.04.18-22.37.20:055][649]LogBlueprintUserMessages: [BP_Spawner2] Item already spawned
+[2019.04.18-22.37.21:883][757]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.18-22.37.25:059][945]LogBlueprintUserMessages: [BP_Spawner2] Item already spawned
+[2019.04.18-22.37.25:059][945]LogBlueprintUserMessages: [BP_Spawner4] Item already spawned
+[2019.04.18-22.37.25:059][945]LogBlueprintUserMessages: [BP_Spawner_2] Item already spawned
+[2019.04.18-22.37.26:033][  3]LogBlueprintUserMessages: [BP_Spawner2] Item already spawned
+[2019.04.18-22.37.26:033][  3]LogScript: Warning: Script Msg: Attempted to access index 2 from array 'ItemsToSpawn' of length 2 in '/Game/Interactables/Spawner/BP_Spawner.BP_Spawner_C'!
+[2019.04.18-22.37.26:033][  3]LogScript: Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2019.04.18-22.37.26:033][  3]LogBlueprintUserMessages: [BP_Spawner4] Item already spawned
+[2019.04.18-22.37.26:033][  3]LogBlueprintUserMessages: [BP_Spawner3] Item already spawned
+[2019.04.18-22.37.26:033][  3]LogBlueprintUserMessages: [BP_Spawner_2] Item already spawned
+[2019.04.18-22.37.27:003][ 61]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.04.18-22.37.27:004][ 61]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.18-22.37.27:048][ 61]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.18-22.37.27:048][ 61]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.04.18-22.37.27:098][ 61]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.18-22.37.27:136][ 62]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2019.04.18-22.37.27:958][108]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.18-22.37.41:562][731]LogSavePackage: Moving '../../../../../../GitHub/WIZARD_WARS_4000/Wizard_Wars/Saved/ThirdPersonCharacterC190595F415A2C112A6E868F6A2278E1.tmp' to '../../../../../../GitHub/WIZARD_WARS_4000/Wizard_Wars/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2019.04.18-22.37.42:784][795]LogTemp: Repeating last play command: 选中的视口
+[2019.04.18-22.37.42:808][795]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.04.18-22.37.42:808][795]BlueprintLog: New page: 运行前自动重新编译
+[2019.04.18-22.37.42:903][795]LogPlayLevel: [PlayLevel] Compiling ThirdPersonCharacter before play...
+[2019.04.18-22.37.42:956][795]LogPlayLevel: [PlayLevel]   Compiling Cowboy as a dependent...
+[2019.04.18-22.37.42:957][795]LogPlayLevel: [PlayLevel]   Compiling Pirate as a dependent...
+[2019.04.18-22.37.43:285][795]LogPlayLevel: PlayLevel: Blueprint regeneration took 477 ms (3 blueprints)
+[2019.04.18-22.37.43:285][795]PIE: New page: PIE会话: ThirdPersonExampleMap (2019年4月18日 下午2:37:43)
+[2019.04.18-22.37.43:285][795]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.04.18-22.37.43:318][795]LogPlayLevel: PIE: StaticDuplicateObject took: (0.032358s)
+[2019.04.18-22.37.43:318][795]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.04.18-22.37.43:319][795]LogPlayLevel: PIE: World Init took: (0.001075s)
+[2019.04.18-22.37.43:319][795]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.033805s)
+[2019.04.18-22.37.43:378][795]LogInit: XAudio2 using '扬声器 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.18-22.37.43:531][795]LogInit: FAudioDevice initialized.
+[2019.04.18-22.37.43:571][795]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.04.18-22.37.43:577][795]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2019.04.18-18.37.43
+[2019.04.18-22.37.43:577][795]LogWorld: Bringing up level for play took: 0.005294
+[2019.04.18-22.37.43:596][795]LogScript: Warning: Script Msg: Attempted to access index 2 from array 'ItemsToSpawn' of length 2 in '/Game/Interactables/Spawner/BP_Spawner.BP_Spawner_C'!
+[2019.04.18-22.37.43:597][795]LogScript: Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2019.04.18-22.37.43:600][795]LogBlueprintUserMessages: [ThirdPersonGameMode_C_0] Begin Player Spawn
+[2019.04.18-22.37.43:600][795]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2019.04.18-22.37.43:608][795]PIE: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap的‘在编辑器中播放’的起始时间0.667
+[2019.04.18-22.37.43:608][795]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.04.18-22.37.50:244][189]LogBlueprintUserMessages: [BP_Spawner5] Item already spawned
+[2019.04.18-22.37.50:244][189]LogBlueprintUserMessages: [BP_Spawner_2] Item already spawned
+[2019.04.18-22.37.50:245][189]LogBlueprintUserMessages: [BP_Spawner3] Item already spawned
+[2019.04.18-22.37.50:245][189]LogBlueprintUserMessages: [BP_Spawner2] Item already spawned
+[2019.04.18-22.37.55:244][487]LogBlueprintUserMessages: [BP_Spawner2] Item already spawned
+[2019.04.18-22.37.55:244][487]LogBlueprintUserMessages: [BP_Spawner3] Item already spawned
+[2019.04.18-22.37.55:244][487]LogBlueprintUserMessages: [BP_Spawner_2] Item already spawned
+[2019.04.18-22.37.55:244][487]LogBlueprintUserMessages: [BP_Spawner5] Item already spawned
+[2019.04.18-22.37.55:917][527]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.04.18-22.37.55:919][527]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.18-22.37.55:961][527]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.18-22.37.55:962][527]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.04.18-22.37.56:007][527]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.18-22.37.56:047][528]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2019.04.18-22.37.57:247][589]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.18-22.38.26:620][997]LogSavePackage: Moving '../../../../../../GitHub/WIZARD_WARS_4000/Wizard_Wars/Saved/ThirdPersonCharacter65FBEF1C40699DEDE05D6094F999E246.tmp' to '../../../../../../GitHub/WIZARD_WARS_4000/Wizard_Wars/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2019.04.18-22.38.27:775][ 56]LogTemp: Repeating last play command: 选中的视口
+[2019.04.18-22.38.27:794][ 56]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.04.18-22.38.27:794][ 56]BlueprintLog: New page: 运行前自动重新编译
+[2019.04.18-22.38.27:873][ 56]LogPlayLevel: [PlayLevel] Compiling ThirdPersonCharacter before play...
+[2019.04.18-22.38.27:922][ 56]LogPlayLevel: [PlayLevel]   Compiling Cowboy as a dependent...
+[2019.04.18-22.38.27:922][ 56]LogPlayLevel: [PlayLevel]   Compiling Pirate as a dependent...
+[2019.04.18-22.38.28:239][ 56]LogPlayLevel: PlayLevel: Blueprint regeneration took 445 ms (3 blueprints)
+[2019.04.18-22.38.28:239][ 56]PIE: New page: PIE会话: ThirdPersonExampleMap (2019年4月18日 下午2:38:28)
+[2019.04.18-22.38.28:239][ 56]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.04.18-22.38.28:276][ 56]LogPlayLevel: PIE: StaticDuplicateObject took: (0.035612s)
+[2019.04.18-22.38.28:277][ 56]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.04.18-22.38.28:277][ 56]LogPlayLevel: PIE: World Init took: (0.000982s)
+[2019.04.18-22.38.28:277][ 56]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.036986s)
+[2019.04.18-22.38.28:332][ 56]LogInit: XAudio2 using '扬声器 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.18-22.38.28:486][ 56]LogInit: FAudioDevice initialized.
+[2019.04.18-22.38.28:529][ 56]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.04.18-22.38.28:533][ 56]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2019.04.18-18.38.28
+[2019.04.18-22.38.28:534][ 56]LogWorld: Bringing up level for play took: 0.003967
+[2019.04.18-22.38.28:547][ 56]LogScript: Warning: Script Msg: Attempted to access index 2 from array 'ItemsToSpawn' of length 2 in '/Game/Interactables/Spawner/BP_Spawner.BP_Spawner_C'!
+[2019.04.18-22.38.28:547][ 56]LogScript: Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2019.04.18-22.38.28:553][ 56]LogScript: Warning: Script Msg: Attempted to access index 2 from array 'ItemsToSpawn' of length 2 in '/Game/Interactables/Spawner/BP_Spawner.BP_Spawner_C'!
+[2019.04.18-22.38.28:553][ 56]LogScript: Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2019.04.18-22.38.28:556][ 56]LogBlueprintUserMessages: [ThirdPersonGameMode_C_0] Begin Player Spawn
+[2019.04.18-22.38.28:556][ 56]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2019.04.18-22.38.28:564][ 56]PIE: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap的‘在编辑器中播放’的起始时间1.623
+[2019.04.18-22.38.28:564][ 56]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.04.18-22.38.35:206][450]LogBlueprintUserMessages: [BP_Spawner5] Item already spawned
+[2019.04.18-22.38.35:207][450]LogScript: Warning: Script Msg: Attempted to access index 2 from array 'ItemsToSpawn' of length 2 in '/Game/Interactables/Spawner/BP_Spawner.BP_Spawner_C'!
+[2019.04.18-22.38.35:208][450]LogScript: Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2019.04.18-22.38.35:208][450]LogBlueprintUserMessages: [BP_Spawner3] Item already spawned
+[2019.04.18-22.38.35:208][450]LogBlueprintUserMessages: [BP_Spawner2] Item already spawned
+[2019.04.18-22.38.37:974][615]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.04.18-22.38.37:975][615]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.18-22.38.38:018][615]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.18-22.38.38:018][615]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.04.18-22.38.38:061][615]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.18-22.38.38:095][616]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2019.04.18-22.38.39:150][673]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.18-22.38.43:852][868]LogSavePackage: Moving '../../../../../../GitHub/WIZARD_WARS_4000/Wizard_Wars/Saved/ThirdPersonCharacter7587ECDF495A0FE20EAD1698F86835B1.tmp' to '../../../../../../GitHub/WIZARD_WARS_4000/Wizard_Wars/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2019.04.18-22.38.45:197][940]LogTemp: Repeating last play command: 选中的视口
+[2019.04.18-22.38.45:217][940]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.04.18-22.38.45:217][940]BlueprintLog: New page: 运行前自动重新编译
+[2019.04.18-22.38.45:296][940]LogPlayLevel: [PlayLevel] Compiling ThirdPersonCharacter before play...
+[2019.04.18-22.38.45:345][940]LogPlayLevel: [PlayLevel]   Compiling Cowboy as a dependent...
+[2019.04.18-22.38.45:345][940]LogPlayLevel: [PlayLevel]   Compiling Pirate as a dependent...
+[2019.04.18-22.38.45:655][940]LogPlayLevel: PlayLevel: Blueprint regeneration took 437 ms (3 blueprints)
+[2019.04.18-22.38.45:656][940]PIE: New page: PIE会话: ThirdPersonExampleMap (2019年4月18日 下午2:38:45)
+[2019.04.18-22.38.45:656][940]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.04.18-22.38.45:684][940]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028156s)
+[2019.04.18-22.38.45:685][940]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.04.18-22.38.45:685][940]LogPlayLevel: PIE: World Init took: (0.001259s)
+[2019.04.18-22.38.45:685][940]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.029815s)
+[2019.04.18-22.38.45:746][940]LogInit: XAudio2 using '扬声器 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.18-22.38.45:903][940]LogInit: FAudioDevice initialized.
+[2019.04.18-22.38.45:936][940]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.04.18-22.38.45:940][940]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2019.04.18-18.38.45
+[2019.04.18-22.38.45:941][940]LogWorld: Bringing up level for play took: 0.004043
+[2019.04.18-22.38.45:963][940]LogScript: Warning: Script Msg: Attempted to access index 2 from array 'ItemsToSpawn' of length 2 in '/Game/Interactables/Spawner/BP_Spawner.BP_Spawner_C'!
+[2019.04.18-22.38.45:963][940]LogScript: Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2019.04.18-22.38.45:965][940]LogBlueprintUserMessages: [ThirdPersonGameMode_C_0] Begin Player Spawn
+[2019.04.18-22.38.45:965][940]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2019.04.18-22.38.45:972][940]PIE: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap的‘在编辑器中播放’的起始时间1.031
+[2019.04.18-22.38.45:973][940]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.04.18-22.38.52:618][334]LogBlueprintUserMessages: [BP_Spawner5] Item already spawned
+[2019.04.18-22.38.52:618][334]LogBlueprintUserMessages: [BP_Spawner_2] Item already spawned
+[2019.04.18-22.38.52:618][334]LogBlueprintUserMessages: [BP_Spawner4] Item already spawned
+[2019.04.18-22.38.52:618][334]LogScript: Warning: Script Msg: Attempted to access index 2 from array 'ItemsToSpawn' of length 2 in '/Game/Interactables/Spawner/BP_Spawner.BP_Spawner_C'!
+[2019.04.18-22.38.52:618][334]LogScript: Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2019.04.18-22.38.52:618][334]LogBlueprintUserMessages: [BP_Spawner2] Item already spawned
+[2019.04.18-22.38.57:618][633]LogBlueprintUserMessages: [BP_Spawner2] Item already spawned
+[2019.04.18-22.38.57:618][633]LogBlueprintUserMessages: [BP_Spawner4] Item already spawned
+[2019.04.18-22.38.57:618][633]LogBlueprintUserMessages: [BP_Spawner_2] Item already spawned
+[2019.04.18-22.38.57:618][633]LogBlueprintUserMessages: [BP_Spawner5] Item already spawned
+[2019.04.18-22.38.58:604][692]LogBlueprintUserMessages: [BP_Spawner2] Item already spawned
+[2019.04.18-22.38.58:604][692]LogBlueprintUserMessages: [BP_Spawner5] Item already spawned
+[2019.04.18-22.38.58:604][692]LogBlueprintUserMessages: [BP_Spawner4] Item already spawned
+[2019.04.18-22.38.58:606][692]LogBlueprintUserMessages: [BP_Spawner_2] Item already spawned
+[2019.04.18-22.39.03:613][992]LogBlueprintUserMessages: [BP_Spawner4] Item already spawned
+[2019.04.18-22.39.03:613][992]LogBlueprintUserMessages: [BP_Spawner2] Item already spawned
+[2019.04.18-22.39.03:613][992]LogBlueprintUserMessages: [BP_Spawner_2] Item already spawned
+[2019.04.18-22.39.03:613][992]LogBlueprintUserMessages: [BP_Spawner5] Item already spawned
+[2019.04.18-22.39.04:607][ 51]LogBlueprintUserMessages: [BP_Spawner_2] Item already spawned
+[2019.04.18-22.39.04:607][ 51]LogBlueprintUserMessages: [BP_Spawner3] Item already spawned
+[2019.04.18-22.39.04:607][ 51]LogBlueprintUserMessages: [BP_Spawner5] Item already spawned
+[2019.04.18-22.39.04:607][ 51]LogBlueprintUserMessages: [BP_Spawner2] Item already spawned
+[2019.04.18-22.39.04:607][ 51]LogBlueprintUserMessages: [BP_Spawner4] Item already spawned
+[2019.04.18-22.39.09:609][348]LogBlueprintUserMessages: [BP_Spawner_2] Item already spawned
+[2019.04.18-22.39.09:609][348]LogBlueprintUserMessages: [BP_Spawner4] Item already spawned
+[2019.04.18-22.39.09:609][348]LogBlueprintUserMessages: [BP_Spawner3] Item already spawned
+[2019.04.18-22.39.09:609][348]LogBlueprintUserMessages: [BP_Spawner5] Item already spawned
+[2019.04.18-22.39.09:609][348]LogBlueprintUserMessages: [BP_Spawner2] Item already spawned
+[2019.04.18-22.39.10:625][408]LogBlueprintUserMessages: [BP_Spawner2] Item already spawned
+[2019.04.18-22.39.10:625][408]LogBlueprintUserMessages: [BP_Spawner3] Item already spawned
+[2019.04.18-22.39.10:625][408]LogBlueprintUserMessages: [BP_Spawner4] Item already spawned
+[2019.04.18-22.39.10:625][408]LogBlueprintUserMessages: [BP_Spawner_2] Item already spawned
+[2019.04.18-22.39.10:625][408]LogBlueprintUserMessages: [BP_Spawner5] Item already spawned
+[2019.04.18-22.39.11:527][461]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.04.18-22.39.11:527][461]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.18-22.39.11:575][461]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.18-22.39.11:575][461]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.04.18-22.39.11:616][461]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.18-22.39.11:654][462]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2019.04.18-22.39.12:517][510]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.18-22.40.13:623][531]LogSavePackage: Moving '../../../../../../GitHub/WIZARD_WARS_4000/Wizard_Wars/Saved/ThirdPersonCharacter654B41194C6998EDEEDF7492B7564A74.tmp' to '../../../../../../GitHub/WIZARD_WARS_4000/Wizard_Wars/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2019.04.18-22.40.22:329][950]LogSavePackage: Moving '../../../../../../GitHub/WIZARD_WARS_4000/Wizard_Wars/Saved/ThirdPersonCharacterCA171E0444A655AD37304488B0FFF528.tmp' to '../../../../../../GitHub/WIZARD_WARS_4000/Wizard_Wars/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2019.04.18-22.41.08:630][228]LogSavePackage: Moving '../../../../../../GitHub/WIZARD_WARS_4000/Wizard_Wars/Saved/ThirdPersonCharacter2980B8554A0A8D293D50E48BFFC31027.tmp' to '../../../../../../GitHub/WIZARD_WARS_4000/Wizard_Wars/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2019.04.18-22.41.24:461][975]LogSlate: Took 0.025471 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2019.04.18-22.41.51:706][219]LogSavePackage: Moving '../../../../../../GitHub/WIZARD_WARS_4000/Wizard_Wars/Saved/ThirdPersonCharacter6A395F974120C4A12CF7958D921DC64C.tmp' to '../../../../../../GitHub/WIZARD_WARS_4000/Wizard_Wars/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2019.04.18-22.42.08:515][ 54]BlueprintLog: New page: 编译ThirdPersonCharacter
+[2019.04.18-22.42.34:138][277]LogSavePackage: Moving '../../../../../../GitHub/WIZARD_WARS_4000/Wizard_Wars/Saved/ThirdPersonCharacter3348ABCD476AAE86D4E0C3B31D358DCA.tmp' to '../../../../../../GitHub/WIZARD_WARS_4000/Wizard_Wars/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2019.04.18-22.42.44:754][766]LogSavePackage: Moving '../../../../../../GitHub/WIZARD_WARS_4000/Wizard_Wars/Saved/ThirdPersonCharacter49669DC74DFDCD2A8487D29CC8234141.tmp' to '../../../../../../GitHub/WIZARD_WARS_4000/Wizard_Wars/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2019.04.18-22.43.07:672][840]LogSavePackage: Moving '../../../../../../GitHub/WIZARD_WARS_4000/Wizard_Wars/Saved/ThirdPersonCharacterB495822E47ACC26B624F55B7B4A3E489.tmp' to '../../../../../../GitHub/WIZARD_WARS_4000/Wizard_Wars/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
