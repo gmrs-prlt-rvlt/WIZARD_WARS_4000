@@ -815,3 +815,1446 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.04.26-14.29.46:882][858]LogSavePackage: Moving '../../../../../../GitHub/WIZARD_WARS_4000/Wizard_Wars/Saved/LightningStrike70FD228B4624CF0C4AB21CAEF7F8B807.tmp' to '../../../../../../GitHub/WIZARD_WARS_4000/Wizard_Wars/Content/ThirdPersonBP/SpellBullets/LightNone/LightningStrike.uasset'
 [2019.04.26-14.29.59:801][227]LogSavePackage: Moving '../../../../../../GitHub/WIZARD_WARS_4000/Wizard_Wars/Saved/LightningStrike0E75B5DD48C6D3DB8A5F2296FAF8FA90.tmp' to '../../../../../../GitHub/WIZARD_WARS_4000/Wizard_Wars/Content/ThirdPersonBP/SpellBullets/LightNone/LightningStrike.uasset'
 [2019.04.26-14.30.03:142][389]LogSavePackage: Moving '../../../../../../GitHub/WIZARD_WARS_4000/Wizard_Wars/Saved/LightningStrike52ED823B44069A0D8ADEAE9D42DB0477.tmp' to '../../../../../../GitHub/WIZARD_WARS_4000/Wizard_Wars/Content/ThirdPersonBP/SpellBullets/LightNone/LightningStrike.uasset'
+[2019.04.26-14.30.15:811][547]LogTemp: Repeating last play command: 选中的视口
+[2019.04.26-14.30.15:882][547]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.04.26-14.30.15:883][547]BlueprintLog: New page: 运行前自动重新编译
+[2019.04.26-14.30.15:903][547]LogPlayLevel: [PlayLevel] Compiling LightningStrike before play...
+[2019.04.26-14.30.16:473][547]LogPlayLevel: PlayLevel: Blueprint regeneration took 590 ms (1 blueprints)
+[2019.04.26-14.30.16:474][547]PIE: New page: PIE会话: ThirdPersonExampleMap (2019年4月26日 上午6:30:16)
+[2019.04.26-14.30.16:474][547]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.04.26-14.30.16:522][547]LogPlayLevel: PIE: StaticDuplicateObject took: (0.047242s)
+[2019.04.26-14.30.16:523][547]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.04.26-14.30.16:523][547]LogPlayLevel: PIE: World Init took: (0.001183s)
+[2019.04.26-14.30.16:523][547]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.048927s)
+[2019.04.26-14.30.16:599][547]LogInit: XAudio2 using '扬声器 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.26-14.30.16:747][547]LogInit: FAudioDevice initialized.
+[2019.04.26-14.30.16:785][547]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.04.26-14.30.16:792][547]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2019.04.26-10.30.16
+[2019.04.26-14.30.16:797][547]LogWorld: Bringing up level for play took: 0.010238
+[2019.04.26-14.30.16:818][547]LogScript: Warning: Script Msg: Attempted to access index 2 from array 'ItemsToSpawn' of length 2 in '/Game/Interactables/Spawner/BP_Spawner.BP_Spawner_C'!
+[2019.04.26-14.30.16:819][547]LogScript: Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2019.04.26-14.30.16:822][547]LogScript: Warning: Script Msg: Attempted to access index 2 from array 'ItemsToSpawn' of length 2 in '/Game/Interactables/Spawner/BP_Spawner.BP_Spawner_C'!
+[2019.04.26-14.30.16:822][547]LogScript: Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2019.04.26-14.30.16:824][547]LogBlueprintUserMessages: [ThirdPersonGameMode_C_0] Begin Player Spawn
+[2019.04.26-14.30.16:824][547]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2019.04.26-14.30.16:836][547]PIE: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap的‘在编辑器中播放’的起始时间1.71
+[2019.04.26-14.30.16:836][547]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.04.26-14.30.16:872][548]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.096284 > MaxSimulationTimeStep (0.050) for 'Pirate_C_0', movement 'Walking'
+[2019.04.26-14.30.17:202][563]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(710)]!
+[2019.04.26-14.30.17:675][587]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.26-14.30.23:482][930]LogBlueprintUserMessages: [BP_Spawner_2] Item already spawned
+[2019.04.26-14.30.23:482][930]LogBlueprintUserMessages: [BP_Spawner5] Item already spawned
+[2019.04.26-14.30.23:482][930]LogBlueprintUserMessages: [BP_Spawner4] Item already spawned
+[2019.04.26-14.30.23:483][930]LogBlueprintUserMessages: [BP_Spawner2] Item already spawned
+[2019.04.26-14.30.23:483][930]LogBlueprintUserMessages: [BP_Spawner7] Item already spawned
+[2019.04.26-14.30.25:531][ 50]LogBlueprintUserMessages: [Pirate_C_0] You Died! (Or You Shoud Have Died)
+[2019.04.26-14.30.25:532][ 50]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for controller ID 1,
+[2019.04.26-14.30.28:481][216]LogBlueprintUserMessages: [BP_Spawner2] Item already spawned
+[2019.04.26-14.30.28:481][216]LogBlueprintUserMessages: [BP_Spawner7] Item already spawned
+[2019.04.26-14.30.28:481][216]LogBlueprintUserMessages: [BP_Spawner4] Item already spawned
+[2019.04.26-14.30.28:481][216]LogBlueprintUserMessages: [BP_Spawner5] Item already spawned
+[2019.04.26-14.30.28:481][216]LogBlueprintUserMessages: [BP_Spawner_2] Item already spawned
+[2019.04.26-14.30.29:482][271]LogBlueprintUserMessages: [BP_Spawner7] Item already spawned
+[2019.04.26-14.30.29:482][271]LogBlueprintUserMessages: [BP_Spawner_2] Item already spawned
+[2019.04.26-14.30.29:482][271]LogBlueprintUserMessages: [BP_Spawner3] Item already spawned
+[2019.04.26-14.30.29:482][271]LogBlueprintUserMessages: [BP_Spawner4] Item already spawned
+[2019.04.26-14.30.29:482][271]LogBlueprintUserMessages: [BP_Spawner5] Item already spawned
+[2019.04.26-14.30.29:482][271]LogBlueprintUserMessages: [BP_Spawner2] Item already spawned
+[2019.04.26-14.30.29:482][271]LogBlueprintUserMessages: [BP_Spawner6] Item already spawned
+[2019.04.26-14.30.34:487][483]LogBlueprintUserMessages: [BP_Spawner2] Item already spawned
+[2019.04.26-14.30.34:488][483]LogBlueprintUserMessages: [BP_Spawner6] Item already spawned
+[2019.04.26-14.30.34:488][483]LogBlueprintUserMessages: [BP_Spawner_2] Item already spawned
+[2019.04.26-14.30.34:488][483]LogBlueprintUserMessages: [BP_Spawner7] Item already spawned
+[2019.04.26-14.30.34:488][483]LogBlueprintUserMessages: [BP_Spawner3] Item already spawned
+[2019.04.26-14.30.34:488][483]LogBlueprintUserMessages: [BP_Spawner4] Item already spawned
+[2019.04.26-14.30.34:488][483]LogBlueprintUserMessages: [BP_Spawner5] Item already spawned
+[2019.04.26-14.30.35:496][542]LogBlueprintUserMessages: [BP_Spawner3] Item already spawned
+[2019.04.26-14.30.35:496][542]LogBlueprintUserMessages: [BP_Spawner7] Item already spawned
+[2019.04.26-14.30.35:496][542]LogBlueprintUserMessages: [BP_Spawner2] Item already spawned
+[2019.04.26-14.30.35:496][542]LogBlueprintUserMessages: [BP_Spawner4] Item already spawned
+[2019.04.26-14.30.35:496][542]LogBlueprintUserMessages: [BP_Spawner5] Item already spawned
+[2019.04.26-14.30.35:496][542]LogBlueprintUserMessages: [BP_Spawner6] Item already spawned
+[2019.04.26-14.30.35:496][542]LogBlueprintUserMessages: [BP_Spawner_2] Item already spawned
+[2019.04.26-14.30.40:500][842]LogBlueprintUserMessages: [BP_Spawner3] Item already spawned
+[2019.04.26-14.30.40:500][842]LogBlueprintUserMessages: [BP_Spawner_2] Item already spawned
+[2019.04.26-14.30.40:500][842]LogBlueprintUserMessages: [BP_Spawner6] Item already spawned
+[2019.04.26-14.30.40:500][842]LogBlueprintUserMessages: [BP_Spawner2] Item already spawned
+[2019.04.26-14.30.40:500][842]LogBlueprintUserMessages: [BP_Spawner5] Item already spawned
+[2019.04.26-14.30.40:500][842]LogBlueprintUserMessages: [BP_Spawner4] Item already spawned
+[2019.04.26-14.30.40:500][842]LogBlueprintUserMessages: [BP_Spawner7] Item already spawned
+[2019.04.26-14.30.41:483][901]LogBlueprintUserMessages: [BP_Spawner6] Item already spawned
+[2019.04.26-14.30.41:484][901]LogBlueprintUserMessages: [BP_Spawner5] Item already spawned
+[2019.04.26-14.30.41:484][901]LogBlueprintUserMessages: [BP_Spawner_2] Item already spawned
+[2019.04.26-14.30.41:484][901]LogBlueprintUserMessages: [BP_Spawner3] Item already spawned
+[2019.04.26-14.30.41:484][901]LogBlueprintUserMessages: [BP_Spawner4] Item already spawned
+[2019.04.26-14.30.41:484][901]LogBlueprintUserMessages: [BP_Spawner2] Item already spawned
+[2019.04.26-14.30.41:484][901]LogBlueprintUserMessages: [BP_Spawner7] Item already spawned
+[2019.04.26-14.30.44:016][ 53]LogBlueprintUserMessages: [Pirate_C_1] You Died! (Or You Shoud Have Died)
+[2019.04.26-14.30.44:016][ 53]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for controller ID 1,
+[2019.04.26-14.30.46:491][199]LogBlueprintUserMessages: [BP_Spawner4] Item already spawned
+[2019.04.26-14.30.46:491][199]LogBlueprintUserMessages: [BP_Spawner7] Item already spawned
+[2019.04.26-14.30.46:492][199]LogBlueprintUserMessages: [BP_Spawner2] Item already spawned
+[2019.04.26-14.30.46:492][199]LogBlueprintUserMessages: [BP_Spawner_2] Item already spawned
+[2019.04.26-14.30.46:492][199]LogBlueprintUserMessages: [BP_Spawner3] Item already spawned
+[2019.04.26-14.30.46:492][199]LogBlueprintUserMessages: [BP_Spawner6] Item already spawned
+[2019.04.26-14.30.46:492][199]LogBlueprintUserMessages: [BP_Spawner5] Item already spawned
+[2019.04.26-14.30.46:526][201]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.04.26-14.30.46:529][201]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.26-14.30.46:575][201]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.26-14.30.46:576][201]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.04.26-14.30.46:623][201]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.26-14.30.46:658][202]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2019.04.26-14.30.47:770][268]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.26-14.31.07:469][332]LogSavePackage: Moving '../../../../../../GitHub/WIZARD_WARS_4000/Wizard_Wars/Saved/LightZapperA482A1724A89E3048E8C86B2DAEAA81E.tmp' to '../../../../../../GitHub/WIZARD_WARS_4000/Wizard_Wars/Content/ThirdPersonBP/SpellBullets/LightNone/LightZapper.uasset'
+[2019.04.26-14.31.09:210][359]LogAssetEditorManager: Opening Asset editor for ParticleSystem /Game/ThirdPersonBP/SpellBullets/LightNone/LightZapper.LightZapper
+[2019.04.26-14.31.09:266][359]LogContentBrowser: Native class hierarchy updated for 'Cascade' in 0.0005 seconds. Added 2 classes and 2 folders.
+[2019.04.26-14.31.14:013][590]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.26-14.31.18:512][790]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.26-14.31.32:452][562]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.26-14.31.33:366][611]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.26-14.31.44:712][221]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.26-14.31.52:068][636]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.26-14.32.10:012][544]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.26-14.32.35:297][943]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.26-14.32.43:536][427]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.26-14.32.45:700][549]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.26-14.32.49:197][742]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.26-14.33.19:170][110]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.080
+[2019.04.26-14.33.19:281][110]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/SpellBullets/LightNone/LightZapper] ([1] browsable assets)...
+[2019.04.26-14.33.19:287][110]OBJ SavePackage:     Rendered thumbnail for [ParticleSystem /Game/ThirdPersonBP/SpellBullets/LightNone/LightZapper.LightZapper]
+[2019.04.26-14.33.19:287][110]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/SpellBullets/LightNone/LightZapper]
+[2019.04.26-14.33.19:474][110]LogSavePackage: Moving '../../../../../../GitHub/WIZARD_WARS_4000/Wizard_Wars/Saved/LightZapper_Auto16AFD1BC641686D88124A88AD17FC4490.tmp' to '../../../../../../GitHub/WIZARD_WARS_4000/Wizard_Wars/Saved/Autosaves/Game/ThirdPersonBP/SpellBullets/LightNone/LightZapper_Auto1.uasset'
+[2019.04.26-14.33.19:535][110]LogFileHelpers: Auto-saving content packages took 0.364
+[2019.04.26-14.33.20:768][136]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.26-14.33.29:820][642]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.26-14.33.57:900][245]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.26-14.33.58:800][295]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.26-14.34.11:211][971]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.26-14.34.24:787][742]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.26-14.34.43:364][800]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.26-14.34.58:760][637]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.26-14.35.03:820][883]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.26-14.35.12:335][367]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.26-14.35.15:713][553]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.26-14.35.25:340][ 79]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.26-14.35.39:372][882]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.26-14.35.47:942][374]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.26-14.36.09:701][605]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.26-14.36.20:378][197]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.26-14.36.21:654][255]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.26-14.36.24:539][413]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.26-14.36.27:586][583]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.26-14.36.31:792][807]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.26-14.36.40:581][290]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.26-14.36.55:506][112]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.26-14.36.59:089][312]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.26-14.36.59:330][312]LogSavePackage: Moving '../../../../../../GitHub/WIZARD_WARS_4000/Wizard_Wars/Saved/LightZapper0A96B29946CB87ED54CF2DB8E18F8CE4.tmp' to '../../../../../../GitHub/WIZARD_WARS_4000/Wizard_Wars/Content/ThirdPersonBP/SpellBullets/LightNone/LightZapper.uasset'
+[2019.04.26-14.37.00:579][381]LogSlate: Window 'LightZapper' being destroyed
+[2019.04.26-14.37.00:593][381]LogSlate: Window 'LightZapper' being destroyed
+[2019.04.26-14.37.00:734][381]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.04.26-14.37.00:832][381]LogCascade: Quitting Cascade. FXSystem=0x000001C238891E40
+[2019.04.26-14.37.02:374][460]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ThirdPersonBP/SpellBullets/LightNone/LightningStrike.LightningStrike
+[2019.04.26-14.37.28:419][623]LogSavePackage: Moving '../../../../../../GitHub/WIZARD_WARS_4000/Wizard_Wars/Saved/LightningStrike6F0AF09E45969E366A7B09B6E93A9EFE.tmp' to '../../../../../../GitHub/WIZARD_WARS_4000/Wizard_Wars/Content/ThirdPersonBP/SpellBullets/LightNone/LightningStrike.uasset'
+[2019.04.26-14.37.30:020][708]LogSlate: Window 'LightningStrike' being destroyed
+[2019.04.26-14.37.30:030][708]LogSlate: Window 'LightningStrike' being destroyed
+[2019.04.26-14.37.30:693][741]LogTemp: Repeating last play command: 选中的视口
+[2019.04.26-14.37.30:726][741]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.04.26-14.37.30:726][741]BlueprintLog: New page: 运行前自动重新编译
+[2019.04.26-14.37.30:739][741]LogPlayLevel: [PlayLevel] Compiling LightningStrike before play...
+[2019.04.26-14.37.30:812][741]LogPlayLevel: PlayLevel: Blueprint regeneration took 86 ms (1 blueprints)
+[2019.04.26-14.37.30:812][741]PIE: New page: PIE会话: ThirdPersonExampleMap (2019年4月26日 上午6:37:30)
+[2019.04.26-14.37.30:812][741]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.04.26-14.37.30:844][741]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031122s)
+[2019.04.26-14.37.30:844][741]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.04.26-14.37.30:845][741]LogPlayLevel: PIE: World Init took: (0.001001s)
+[2019.04.26-14.37.30:845][741]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.032436s)
+[2019.04.26-14.37.30:895][741]LogInit: XAudio2 using '扬声器 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.26-14.37.31:001][741]LogInit: FAudioDevice initialized.
+[2019.04.26-14.37.31:035][741]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.04.26-14.37.31:040][741]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2019.04.26-10.37.31
+[2019.04.26-14.37.31:042][741]LogWorld: Bringing up level for play took: 0.006080
+[2019.04.26-14.37.31:055][741]LogScript: Warning: Script Msg: Attempted to access index 2 from array 'ItemsToSpawn' of length 2 in '/Game/Interactables/Spawner/BP_Spawner.BP_Spawner_C'!
+[2019.04.26-14.37.31:055][741]LogScript: Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2019.04.26-14.37.31:055][741]LogScript: Warning: Script Msg: Attempted to access index 2 from array 'ItemsToSpawn' of length 2 in '/Game/Interactables/Spawner/BP_Spawner.BP_Spawner_C'!
+[2019.04.26-14.37.31:055][741]LogScript: Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2019.04.26-14.37.31:055][741]LogScript: Warning: Script Msg: Attempted to access index 2 from array 'ItemsToSpawn' of length 2 in '/Game/Interactables/Spawner/BP_Spawner.BP_Spawner_C'!
+[2019.04.26-14.37.31:055][741]LogScript: Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2019.04.26-14.37.31:063][741]LogBlueprintUserMessages: [ThirdPersonGameMode_C_0] Begin Player Spawn
+[2019.04.26-14.37.31:063][741]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2019.04.26-14.37.31:068][741]PIE: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap的‘在编辑器中播放’的起始时间-0.057
+[2019.04.26-14.37.31:069][741]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.04.26-14.37.31:089][742]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.083692 > MaxSimulationTimeStep (0.050) for 'Pirate_C_0', movement 'Walking'
+[2019.04.26-14.37.31:472][763]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(710)]!
+[2019.04.26-14.37.32:269][811]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.26-14.37.34:698][954]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ThirdPersonBP/SpellBullets/LightNone/LightningStrike.LightningStrike
+[2019.04.26-14.37.37:010][ 31]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.04.26-14.37.37:012][ 31]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.26-14.37.37:056][ 31]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.26-14.37.37:057][ 31]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.04.26-14.37.37:110][ 31]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.26-14.37.37:142][ 32]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2019.04.26-14.37.48:002][598]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.26-14.37.48:218][598]LogSavePackage: Moving '../../../../../../GitHub/WIZARD_WARS_4000/Wizard_Wars/Saved/LightningStrikeEE1390AA485BC4D96DCB81B9E18BD72A.tmp' to '../../../../../../GitHub/WIZARD_WARS_4000/Wizard_Wars/Content/ThirdPersonBP/SpellBullets/LightNone/LightningStrike.uasset'
+[2019.04.26-14.37.49:572][669]LogSlate: Window 'LightningStrike' being destroyed
+[2019.04.26-14.37.49:582][669]LogSlate: Window 'LightningStrike' being destroyed
+[2019.04.26-14.37.54:918][873]LogSavePackage: Moving '../../../../../../GitHub/WIZARD_WARS_4000/Wizard_Wars/Saved/BeamCaster26C6BC0049C14E385A47D1BECF181B50.tmp' to '../../../../../../GitHub/WIZARD_WARS_4000/Wizard_Wars/Content/ThirdPersonBP/SpellBullets/LightNone/BeamCaster.uasset'
+[2019.04.26-14.37.56:479][873]SourceControl: rm 'Wizard_Wars/Content/ThirdPersonBP/SpellBullets/LightNone/LightZapper.uasset'
+[2019.04.26-14.37.56:704][873]LogSavePackage: Moving '../../../../../../GitHub/WIZARD_WARS_4000/Wizard_Wars/Saved/LightningStrikeD5CF3FAD45C0FE8017BBE090C84C48D4.tmp' to '../../../../../../GitHub/WIZARD_WARS_4000/Wizard_Wars/Content/ThirdPersonBP/SpellBullets/LightNone/LightningStrike.uasset'
+[2019.04.26-14.37.59:203][957]LogSavePackage: Moving '../../../../../../GitHub/WIZARD_WARS_4000/Wizard_Wars/Saved/ThirdPersonExampleMap4D2EEA38495FCFC93903F485FDE4FD8F.tmp' to '../../../../../../GitHub/WIZARD_WARS_4000/Wizard_Wars/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2019.04.26-14.38.00:850][957]LogSavePackage: Moving '../../../../../../GitHub/WIZARD_WARS_4000/Wizard_Wars/Saved/ThirdPersonExampleMap_BuiltData9C7B2CF74631388C651C1C8A787E8BFC.tmp' to '../../../../../../GitHub/WIZARD_WARS_4000/Wizard_Wars/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2019.04.26-14.38.01:316][982]LogTemp: Repeating last play command: 选中的视口
+[2019.04.26-14.38.01:343][982]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.04.26-14.38.01:343][982]BlueprintLog: New page: 运行前自动重新编译
+[2019.04.26-14.38.01:355][982]LogPlayLevel: [PlayLevel] Compiling LightningStrike before play...
+[2019.04.26-14.38.01:418][982]LogPlayLevel: PlayLevel: Blueprint regeneration took 75 ms (1 blueprints)
+[2019.04.26-14.38.01:418][982]PIE: New page: PIE会话: ThirdPersonExampleMap (2019年4月26日 上午6:38:01)
+[2019.04.26-14.38.01:418][982]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.04.26-14.38.01:449][982]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030896s)
+[2019.04.26-14.38.01:451][982]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.04.26-14.38.01:451][982]LogPlayLevel: PIE: World Init took: (0.001413s)
+[2019.04.26-14.38.01:451][982]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.032716s)
+[2019.04.26-14.38.01:506][982]LogInit: XAudio2 using '扬声器 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.26-14.38.01:609][982]LogInit: FAudioDevice initialized.
+[2019.04.26-14.38.01:644][982]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.04.26-14.38.01:665][982]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2019.04.26-10.38.01
+[2019.04.26-14.38.01:668][982]LogWorld: Bringing up level for play took: 0.007602
+[2019.04.26-14.38.01:683][982]LogScript: Warning: Script Msg: Attempted to access index 2 from array 'ItemsToSpawn' of length 2 in '/Game/Interactables/Spawner/BP_Spawner.BP_Spawner_C'!
+[2019.04.26-14.38.01:684][982]LogScript: Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2019.04.26-14.38.01:684][982]LogScript: Warning: Script Msg: Attempted to access index 2 from array 'ItemsToSpawn' of length 2 in '/Game/Interactables/Spawner/BP_Spawner.BP_Spawner_C'!
+[2019.04.26-14.38.01:684][982]LogScript: Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2019.04.26-14.38.01:684][982]LogScript: Warning: Script Msg: Attempted to access index 2 from array 'ItemsToSpawn' of length 2 in '/Game/Interactables/Spawner/BP_Spawner.BP_Spawner_C'!
+[2019.04.26-14.38.01:684][982]LogScript: Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2019.04.26-14.38.01:686][982]LogBlueprintUserMessages: [ThirdPersonGameMode_C_0] Begin Player Spawn
+[2019.04.26-14.38.01:686][982]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2019.04.26-14.38.01:693][982]PIE: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap的‘在编辑器中播放’的起始时间0.567
+[2019.04.26-14.38.01:693][982]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.04.26-14.38.01:714][983]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.085952 > MaxSimulationTimeStep (0.050) for 'Pirate_C_0', movement 'Walking'
+[2019.04.26-14.38.02:134][  7]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(710)]!
+[2019.04.26-14.38.02:614][ 36]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.26-14.38.08:332][379]LogScript: Warning: Script Msg: Attempted to access index 2 from array 'ItemsToSpawn' of length 2 in '/Game/Interactables/Spawner/BP_Spawner.BP_Spawner_C'!
+[2019.04.26-14.38.08:332][379]LogScript: Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2019.04.26-14.38.08:332][379]LogBlueprintUserMessages: [BP_Spawner_2] Item already spawned
+[2019.04.26-14.38.08:332][379]LogBlueprintUserMessages: [BP_Spawner5] Item already spawned
+[2019.04.26-14.38.08:334][379]LogBlueprintUserMessages: [BP_Spawner6] Item already spawned
+[2019.04.26-14.38.08:334][379]LogScript: Warning: Script Msg: Attempted to access index 2 from array 'ItemsToSpawn' of length 2 in '/Game/Interactables/Spawner/BP_Spawner.BP_Spawner_C'!
+[2019.04.26-14.38.08:334][379]LogScript: Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2019.04.26-14.38.08:334][379]LogBlueprintUserMessages: [BP_Spawner7] Item already spawned
+[2019.04.26-14.38.09:414][441]LogBlueprintUserMessages: [Pirate_C_0] You Died! (Or You Shoud Have Died)
+[2019.04.26-14.38.09:414][441]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for controller ID 1,
+[2019.04.26-14.38.13:356][674]LogBlueprintUserMessages: [BP_Spawner6] Item already spawned
+[2019.04.26-14.38.13:356][674]LogBlueprintUserMessages: [BP_Spawner5] Item already spawned
+[2019.04.26-14.38.13:356][674]LogBlueprintUserMessages: [BP_Spawner_2] Item already spawned
+[2019.04.26-14.38.13:356][674]LogBlueprintUserMessages: [BP_Spawner7] Item already spawned
+[2019.04.26-14.38.14:338][728]LogBlueprintUserMessages: [BP_Spawner4] Item already spawned
+[2019.04.26-14.38.14:338][728]LogBlueprintUserMessages: [BP_Spawner7] Item already spawned
+[2019.04.26-14.38.14:338][728]LogBlueprintUserMessages: [BP_Spawner_2] Item already spawned
+[2019.04.26-14.38.14:353][728]LogBlueprintUserMessages: [BP_Spawner5] Item already spawned
+[2019.04.26-14.38.14:353][728]LogScript: Warning: Script Msg: Attempted to access index 2 from array 'ItemsToSpawn' of length 2 in '/Game/Interactables/Spawner/BP_Spawner.BP_Spawner_C'!
+[2019.04.26-14.38.14:353][728]LogScript: Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2019.04.26-14.38.14:353][728]LogBlueprintUserMessages: [BP_Spawner6] Item already spawned
+[2019.04.26-14.38.19:353][ 18]LogBlueprintUserMessages: [BP_Spawner5] Item already spawned
+[2019.04.26-14.38.19:354][ 18]LogBlueprintUserMessages: [BP_Spawner6] Item already spawned
+[2019.04.26-14.38.19:354][ 18]LogBlueprintUserMessages: [BP_Spawner4] Item already spawned
+[2019.04.26-14.38.19:354][ 18]LogBlueprintUserMessages: [BP_Spawner_2] Item already spawned
+[2019.04.26-14.38.19:354][ 18]LogBlueprintUserMessages: [BP_Spawner7] Item already spawned
+[2019.04.26-14.38.20:334][ 74]LogBlueprintUserMessages: [BP_Spawner4] Item already spawned
+[2019.04.26-14.38.20:334][ 74]LogBlueprintUserMessages: [BP_Spawner_2] Item already spawned
+[2019.04.26-14.38.20:334][ 74]LogBlueprintUserMessages: [BP_Spawner5] Item already spawned
+[2019.04.26-14.38.20:334][ 74]LogBlueprintUserMessages: [BP_Spawner7] Item already spawned
+[2019.04.26-14.38.20:351][ 74]LogBlueprintUserMessages: [BP_Spawner6] Item already spawned
+[2019.04.26-14.38.20:351][ 74]LogBlueprintUserMessages: [BP_Spawner2] Item already spawned
+[2019.04.26-14.38.22:430][182]LogBlueprintUserMessages: [Pirate_C_1] You Died! (Or You Shoud Have Died)
+[2019.04.26-14.38.22:430][182]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for controller ID 1,
+[2019.04.26-14.38.25:349][357]LogBlueprintUserMessages: [BP_Spawner6] Item already spawned
+[2019.04.26-14.38.25:349][357]LogBlueprintUserMessages: [BP_Spawner7] Item already spawned
+[2019.04.26-14.38.25:349][357]LogBlueprintUserMessages: [BP_Spawner2] Item already spawned
+[2019.04.26-14.38.25:349][357]LogBlueprintUserMessages: [BP_Spawner4] Item already spawned
+[2019.04.26-14.38.25:349][357]LogBlueprintUserMessages: [BP_Spawner_2] Item already spawned
+[2019.04.26-14.38.25:349][357]LogBlueprintUserMessages: [BP_Spawner5] Item already spawned
+[2019.04.26-14.38.26:332][416]LogBlueprintUserMessages: [BP_Spawner4] Item already spawned
+[2019.04.26-14.38.26:332][416]LogBlueprintUserMessages: [BP_Spawner_2] Item already spawned
+[2019.04.26-14.38.26:332][416]LogBlueprintUserMessages: [BP_Spawner3] Item already spawned
+[2019.04.26-14.38.26:332][416]LogBlueprintUserMessages: [BP_Spawner7] Item already spawned
+[2019.04.26-14.38.26:332][416]LogBlueprintUserMessages: [BP_Spawner2] Item already spawned
+[2019.04.26-14.38.26:332][416]LogBlueprintUserMessages: [BP_Spawner5] Item already spawned
+[2019.04.26-14.38.26:332][416]LogBlueprintUserMessages: [BP_Spawner6] Item already spawned
+[2019.04.26-14.38.31:333][716]LogBlueprintUserMessages: [BP_Spawner7] Item already spawned
+[2019.04.26-14.38.31:333][716]LogBlueprintUserMessages: [BP_Spawner6] Item already spawned
+[2019.04.26-14.38.31:333][716]LogBlueprintUserMessages: [BP_Spawner2] Item already spawned
+[2019.04.26-14.38.31:333][716]LogBlueprintUserMessages: [BP_Spawner_2] Item already spawned
+[2019.04.26-14.38.31:333][716]LogBlueprintUserMessages: [BP_Spawner3] Item already spawned
+[2019.04.26-14.38.31:333][716]LogBlueprintUserMessages: [BP_Spawner5] Item already spawned
+[2019.04.26-14.38.31:333][716]LogBlueprintUserMessages: [BP_Spawner4] Item already spawned
+[2019.04.26-14.38.32:333][776]LogBlueprintUserMessages: [BP_Spawner6] Item already spawned
+[2019.04.26-14.38.32:333][776]LogBlueprintUserMessages: [BP_Spawner3] Item already spawned
+[2019.04.26-14.38.32:333][776]LogBlueprintUserMessages: [BP_Spawner_2] Item already spawned
+[2019.04.26-14.38.32:333][776]LogBlueprintUserMessages: [BP_Spawner5] Item already spawned
+[2019.04.26-14.38.32:333][776]LogBlueprintUserMessages: [BP_Spawner7] Item already spawned
+[2019.04.26-14.38.32:333][776]LogBlueprintUserMessages: [BP_Spawner2] Item already spawned
+[2019.04.26-14.38.32:333][776]LogBlueprintUserMessages: [BP_Spawner4] Item already spawned
+[2019.04.26-14.38.36:646][ 34]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.04.26-14.38.36:648][ 34]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.26-14.38.36:697][ 34]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.26-14.38.36:697][ 34]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.04.26-14.38.36:753][ 34]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.26-14.38.36:798][ 35]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2019.04.26-14.38.53:932][179]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.26-14.38.54:032][185]LogTemp: Repeating last play command: 选中的视口
+[2019.04.26-14.38.54:062][185]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.04.26-14.38.54:062][185]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.26-14.38.54:062][185]PIE: New page: PIE会话: ThirdPersonExampleMap (2019年4月26日 上午6:38:54)
+[2019.04.26-14.38.54:062][185]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.04.26-14.38.54:092][185]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029910s)
+[2019.04.26-14.38.54:093][185]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.04.26-14.38.54:093][185]LogPlayLevel: PIE: World Init took: (0.001071s)
+[2019.04.26-14.38.54:094][185]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.031367s)
+[2019.04.26-14.38.54:149][185]LogInit: XAudio2 using '扬声器 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.26-14.38.54:251][185]LogInit: FAudioDevice initialized.
+[2019.04.26-14.38.54:284][185]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.04.26-14.38.54:290][185]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2019.04.26-10.38.54
+[2019.04.26-14.38.54:292][185]LogWorld: Bringing up level for play took: 0.006637
+[2019.04.26-14.38.54:315][185]LogScript: Warning: Script Msg: Attempted to access index 2 from array 'ItemsToSpawn' of length 2 in '/Game/Interactables/Spawner/BP_Spawner.BP_Spawner_C'!
+[2019.04.26-14.38.54:315][185]LogScript: Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2019.04.26-14.38.54:317][185]LogBlueprintUserMessages: [ThirdPersonGameMode_C_0] Begin Player Spawn
+[2019.04.26-14.38.54:317][185]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2019.04.26-14.38.54:323][185]PIE: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap的‘在编辑器中播放’的起始时间1.197
+[2019.04.26-14.38.54:323][185]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.04.26-14.38.54:703][205]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(710)]!
+[2019.04.26-14.38.55:388][246]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.26-14.39.01:044][546]LogBlueprintUserMessages: [BP_Spawner3] Item already spawned
+[2019.04.26-14.39.01:044][546]LogBlueprintUserMessages: [BP_Spawner_2] Item already spawned
+[2019.04.26-14.39.01:065][546]LogBlueprintUserMessages: [BP_Spawner4] Item already spawned
+[2019.04.26-14.39.01:066][546]LogBlueprintUserMessages: [BP_Spawner6] Item already spawned
+[2019.04.26-14.39.01:066][546]LogBlueprintUserMessages: [BP_Spawner2] Item already spawned
+[2019.04.26-14.39.01:066][546]LogBlueprintUserMessages: [BP_Spawner7] Item already spawned
+[2019.04.26-14.39.06:057][837]LogBlueprintUserMessages: [BP_Spawner2] Item already spawned
+[2019.04.26-14.39.06:058][837]LogBlueprintUserMessages: [BP_Spawner7] Item already spawned
+[2019.04.26-14.39.06:058][837]LogBlueprintUserMessages: [BP_Spawner6] Item already spawned
+[2019.04.26-14.39.06:058][837]LogBlueprintUserMessages: [BP_Spawner4] Item already spawned
+[2019.04.26-14.39.06:058][837]LogBlueprintUserMessages: [BP_Spawner_2] Item already spawned
+[2019.04.26-14.39.06:058][837]LogBlueprintUserMessages: [BP_Spawner3] Item already spawned
+[2019.04.26-14.39.07:033][895]LogBlueprintUserMessages: [BP_Spawner2] Item already spawned
+[2019.04.26-14.39.07:034][895]LogBlueprintUserMessages: [BP_Spawner6] Item already spawned
+[2019.04.26-14.39.07:034][895]LogBlueprintUserMessages: [BP_Spawner4] Item already spawned
+[2019.04.26-14.39.07:034][895]LogBlueprintUserMessages: [BP_Spawner3] Item already spawned
+[2019.04.26-14.39.07:034][895]LogBlueprintUserMessages: [BP_Spawner7] Item already spawned
+[2019.04.26-14.39.07:034][895]LogBlueprintUserMessages: [BP_Spawner_2] Item already spawned
+[2019.04.26-14.39.07:034][895]LogBlueprintUserMessages: [BP_Spawner5] Item already spawned
+[2019.04.26-14.39.11:703][175]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(710)]!
+[2019.04.26-14.39.12:038][195]LogBlueprintUserMessages: [BP_Spawner2] Item already spawned
+[2019.04.26-14.39.12:038][195]LogBlueprintUserMessages: [BP_Spawner5] Item already spawned
+[2019.04.26-14.39.12:038][195]LogBlueprintUserMessages: [BP_Spawner7] Item already spawned
+[2019.04.26-14.39.12:038][195]LogBlueprintUserMessages: [BP_Spawner4] Item already spawned
+[2019.04.26-14.39.12:038][195]LogBlueprintUserMessages: [BP_Spawner3] Item already spawned
+[2019.04.26-14.39.12:038][195]LogBlueprintUserMessages: [BP_Spawner_2] Item already spawned
+[2019.04.26-14.39.12:038][195]LogBlueprintUserMessages: [BP_Spawner6] Item already spawned
+[2019.04.26-14.39.12:505][223]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.26-14.39.13:038][255]LogBlueprintUserMessages: [BP_Spawner_2] Item already spawned
+[2019.04.26-14.39.13:039][255]LogBlueprintUserMessages: [BP_Spawner7] Item already spawned
+[2019.04.26-14.39.13:039][255]LogBlueprintUserMessages: [BP_Spawner6] Item already spawned
+[2019.04.26-14.39.13:039][255]LogBlueprintUserMessages: [BP_Spawner3] Item already spawned
+[2019.04.26-14.39.13:039][255]LogBlueprintUserMessages: [BP_Spawner2] Item already spawned
+[2019.04.26-14.39.13:039][255]LogBlueprintUserMessages: [BP_Spawner5] Item already spawned
+[2019.04.26-14.39.13:039][255]LogBlueprintUserMessages: [BP_Spawner4] Item already spawned
+[2019.04.26-14.39.18:041][555]LogBlueprintUserMessages: [BP_Spawner_2] Item already spawned
+[2019.04.26-14.39.18:042][555]LogBlueprintUserMessages: [BP_Spawner7] Item already spawned
+[2019.04.26-14.39.18:042][555]LogBlueprintUserMessages: [BP_Spawner4] Item already spawned
+[2019.04.26-14.39.18:042][555]LogBlueprintUserMessages: [BP_Spawner6] Item already spawned
+[2019.04.26-14.39.18:042][555]LogBlueprintUserMessages: [BP_Spawner2] Item already spawned
+[2019.04.26-14.39.18:042][555]LogBlueprintUserMessages: [BP_Spawner3] Item already spawned
+[2019.04.26-14.39.18:042][555]LogBlueprintUserMessages: [BP_Spawner5] Item already spawned
+[2019.04.26-14.39.19:042][615]LogBlueprintUserMessages: [BP_Spawner4] Item already spawned
+[2019.04.26-14.39.19:042][615]LogBlueprintUserMessages: [BP_Spawner_2] Item already spawned
+[2019.04.26-14.39.19:042][615]LogBlueprintUserMessages: [BP_Spawner3] Item already spawned
+[2019.04.26-14.39.19:042][615]LogBlueprintUserMessages: [BP_Spawner6] Item already spawned
+[2019.04.26-14.39.19:042][615]LogBlueprintUserMessages: [BP_Spawner5] Item already spawned
+[2019.04.26-14.39.19:042][615]LogBlueprintUserMessages: [BP_Spawner7] Item already spawned
+[2019.04.26-14.39.19:042][615]LogBlueprintUserMessages: [BP_Spawner2] Item already spawned
+[2019.04.26-14.39.24:050][915]LogBlueprintUserMessages: [BP_Spawner4] Item already spawned
+[2019.04.26-14.39.24:050][915]LogBlueprintUserMessages: [BP_Spawner5] Item already spawned
+[2019.04.26-14.39.24:050][915]LogBlueprintUserMessages: [BP_Spawner2] Item already spawned
+[2019.04.26-14.39.24:050][915]LogBlueprintUserMessages: [BP_Spawner7] Item already spawned
+[2019.04.26-14.39.24:050][915]LogBlueprintUserMessages: [BP_Spawner_2] Item already spawned
+[2019.04.26-14.39.24:050][915]LogBlueprintUserMessages: [BP_Spawner6] Item already spawned
+[2019.04.26-14.39.24:050][915]LogBlueprintUserMessages: [BP_Spawner3] Item already spawned
+[2019.04.26-14.39.25:049][975]LogBlueprintUserMessages: [BP_Spawner5] Item already spawned
+[2019.04.26-14.39.25:049][975]LogBlueprintUserMessages: [BP_Spawner6] Item already spawned
+[2019.04.26-14.39.25:049][975]LogBlueprintUserMessages: [BP_Spawner_2] Item already spawned
+[2019.04.26-14.39.25:049][975]LogBlueprintUserMessages: [BP_Spawner4] Item already spawned
+[2019.04.26-14.39.25:049][975]LogBlueprintUserMessages: [BP_Spawner2] Item already spawned
+[2019.04.26-14.39.25:049][975]LogBlueprintUserMessages: [BP_Spawner7] Item already spawned
+[2019.04.26-14.39.25:049][975]LogBlueprintUserMessages: [BP_Spawner3] Item already spawned
+[2019.04.26-14.39.26:282][ 49]LogBlueprintUserMessages: [Pirate_C_0] You Died! (Or You Shoud Have Died)
+[2019.04.26-14.39.26:283][ 49]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for controller ID 1,
+[2019.04.26-14.39.30:050][275]LogBlueprintUserMessages: [BP_Spawner4] Item already spawned
+[2019.04.26-14.39.30:050][275]LogBlueprintUserMessages: [BP_Spawner2] Item already spawned
+[2019.04.26-14.39.30:050][275]LogBlueprintUserMessages: [BP_Spawner3] Item already spawned
+[2019.04.26-14.39.30:050][275]LogBlueprintUserMessages: [BP_Spawner7] Item already spawned
+[2019.04.26-14.39.30:050][275]LogBlueprintUserMessages: [BP_Spawner5] Item already spawned
+[2019.04.26-14.39.30:050][275]LogBlueprintUserMessages: [BP_Spawner_2] Item already spawned
+[2019.04.26-14.39.30:050][275]LogBlueprintUserMessages: [BP_Spawner6] Item already spawned
+[2019.04.26-14.39.31:050][335]LogBlueprintUserMessages: [BP_Spawner_2] Item already spawned
+[2019.04.26-14.39.31:050][335]LogBlueprintUserMessages: [BP_Spawner7] Item already spawned
+[2019.04.26-14.39.31:050][335]LogBlueprintUserMessages: [BP_Spawner2] Item already spawned
+[2019.04.26-14.39.31:050][335]LogBlueprintUserMessages: [BP_Spawner5] Item already spawned
+[2019.04.26-14.39.31:050][335]LogBlueprintUserMessages: [BP_Spawner3] Item already spawned
+[2019.04.26-14.39.31:050][335]LogBlueprintUserMessages: [BP_Spawner6] Item already spawned
+[2019.04.26-14.39.31:050][335]LogBlueprintUserMessages: [BP_Spawner4] Item already spawned
+[2019.04.26-14.39.36:055][635]LogBlueprintUserMessages: [BP_Spawner_2] Item already spawned
+[2019.04.26-14.39.36:055][635]LogBlueprintUserMessages: [BP_Spawner4] Item already spawned
+[2019.04.26-14.39.36:055][635]LogBlueprintUserMessages: [BP_Spawner6] Item already spawned
+[2019.04.26-14.39.36:055][635]LogBlueprintUserMessages: [BP_Spawner2] Item already spawned
+[2019.04.26-14.39.36:055][635]LogBlueprintUserMessages: [BP_Spawner5] Item already spawned
+[2019.04.26-14.39.36:056][635]LogBlueprintUserMessages: [BP_Spawner3] Item already spawned
+[2019.04.26-14.39.36:056][635]LogBlueprintUserMessages: [BP_Spawner7] Item already spawned
+[2019.04.26-14.39.37:056][695]LogBlueprintUserMessages: [BP_Spawner6] Item already spawned
+[2019.04.26-14.39.37:056][695]LogBlueprintUserMessages: [BP_Spawner7] Item already spawned
+[2019.04.26-14.39.37:056][695]LogBlueprintUserMessages: [BP_Spawner2] Item already spawned
+[2019.04.26-14.39.37:056][695]LogBlueprintUserMessages: [BP_Spawner4] Item already spawned
+[2019.04.26-14.39.37:056][695]LogBlueprintUserMessages: [BP_Spawner_2] Item already spawned
+[2019.04.26-14.39.37:056][695]LogBlueprintUserMessages: [BP_Spawner3] Item already spawned
+[2019.04.26-14.39.37:056][695]LogBlueprintUserMessages: [BP_Spawner5] Item already spawned
+[2019.04.26-14.39.39:623][849]LogBlueprintUserMessages: [Pirate_C_1] You Died! (Or You Shoud Have Died)
+[2019.04.26-14.39.39:623][849]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for controller ID 1,
+[2019.04.26-14.39.42:058][995]LogBlueprintUserMessages: [BP_Spawner_2] Item already spawned
+[2019.04.26-14.39.42:058][995]LogBlueprintUserMessages: [BP_Spawner5] Item already spawned
+[2019.04.26-14.39.42:058][995]LogBlueprintUserMessages: [BP_Spawner3] Item already spawned
+[2019.04.26-14.39.42:058][995]LogBlueprintUserMessages: [BP_Spawner6] Item already spawned
+[2019.04.26-14.39.42:058][995]LogBlueprintUserMessages: [BP_Spawner2] Item already spawned
+[2019.04.26-14.39.42:058][995]LogBlueprintUserMessages: [BP_Spawner4] Item already spawned
+[2019.04.26-14.39.42:058][995]LogBlueprintUserMessages: [BP_Spawner7] Item already spawned
+[2019.04.26-14.39.43:041][ 54]LogBlueprintUserMessages: [BP_Spawner_2] Item already spawned
+[2019.04.26-14.39.43:041][ 54]LogBlueprintUserMessages: [BP_Spawner6] Item already spawned
+[2019.04.26-14.39.43:041][ 54]LogBlueprintUserMessages: [BP_Spawner7] Item already spawned
+[2019.04.26-14.39.43:041][ 54]LogBlueprintUserMessages: [BP_Spawner4] Item already spawned
+[2019.04.26-14.39.43:041][ 54]LogBlueprintUserMessages: [BP_Spawner2] Item already spawned
+[2019.04.26-14.39.43:041][ 54]LogBlueprintUserMessages: [BP_Spawner3] Item already spawned
+[2019.04.26-14.39.43:041][ 54]LogBlueprintUserMessages: [BP_Spawner5] Item already spawned
+[2019.04.26-14.39.48:050][351]LogBlueprintUserMessages: [BP_Spawner_2] Item already spawned
+[2019.04.26-14.39.48:051][351]LogBlueprintUserMessages: [BP_Spawner5] Item already spawned
+[2019.04.26-14.39.48:051][351]LogBlueprintUserMessages: [BP_Spawner3] Item already spawned
+[2019.04.26-14.39.48:051][351]LogBlueprintUserMessages: [BP_Spawner7] Item already spawned
+[2019.04.26-14.39.48:051][351]LogBlueprintUserMessages: [BP_Spawner2] Item already spawned
+[2019.04.26-14.39.48:051][351]LogBlueprintUserMessages: [BP_Spawner4] Item already spawned
+[2019.04.26-14.39.48:051][351]LogBlueprintUserMessages: [BP_Spawner6] Item already spawned
+[2019.04.26-14.39.49:051][411]LogBlueprintUserMessages: [BP_Spawner2] Item already spawned
+[2019.04.26-14.39.49:051][411]LogBlueprintUserMessages: [BP_Spawner4] Item already spawned
+[2019.04.26-14.39.49:051][411]LogBlueprintUserMessages: [BP_Spawner3] Item already spawned
+[2019.04.26-14.39.49:051][411]LogBlueprintUserMessages: [BP_Spawner5] Item already spawned
+[2019.04.26-14.39.49:051][411]LogBlueprintUserMessages: [BP_Spawner7] Item already spawned
+[2019.04.26-14.39.49:051][411]LogBlueprintUserMessages: [BP_Spawner_2] Item already spawned
+[2019.04.26-14.39.49:051][411]LogBlueprintUserMessages: [BP_Spawner6] Item already spawned
+[2019.04.26-14.39.50:968][526]LogBlueprintUserMessages: [Pirate_C_2] You Died! (Or You Shoud Have Died)
+[2019.04.26-14.39.50:968][526]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for controller ID 1,
+[2019.04.26-14.39.54:053][711]LogBlueprintUserMessages: [BP_Spawner3] Item already spawned
+[2019.04.26-14.39.54:053][711]LogBlueprintUserMessages: [BP_Spawner6] Item already spawned
+[2019.04.26-14.39.54:053][711]LogBlueprintUserMessages: [BP_Spawner_2] Item already spawned
+[2019.04.26-14.39.54:053][711]LogBlueprintUserMessages: [BP_Spawner2] Item already spawned
+[2019.04.26-14.39.54:053][711]LogBlueprintUserMessages: [BP_Spawner7] Item already spawned
+[2019.04.26-14.39.54:053][711]LogBlueprintUserMessages: [BP_Spawner5] Item already spawned
+[2019.04.26-14.39.54:053][711]LogBlueprintUserMessages: [BP_Spawner4] Item already spawned
+[2019.04.26-14.39.55:035][770]LogBlueprintUserMessages: [BP_Spawner6] Item already spawned
+[2019.04.26-14.39.55:035][770]LogBlueprintUserMessages: [BP_Spawner3] Item already spawned
+[2019.04.26-14.39.55:036][770]LogBlueprintUserMessages: [BP_Spawner7] Item already spawned
+[2019.04.26-14.39.55:036][770]LogBlueprintUserMessages: [BP_Spawner2] Item already spawned
+[2019.04.26-14.39.55:036][770]LogBlueprintUserMessages: [BP_Spawner4] Item already spawned
+[2019.04.26-14.39.55:036][770]LogBlueprintUserMessages: [BP_Spawner_2] Item already spawned
+[2019.04.26-14.39.55:036][770]LogBlueprintUserMessages: [BP_Spawner5] Item already spawned
+[2019.04.26-14.40.00:050][ 70]LogBlueprintUserMessages: [BP_Spawner3] Item already spawned
+[2019.04.26-14.40.00:050][ 70]LogBlueprintUserMessages: [BP_Spawner2] Item already spawned
+[2019.04.26-14.40.00:050][ 70]LogBlueprintUserMessages: [BP_Spawner4] Item already spawned
+[2019.04.26-14.40.00:050][ 70]LogBlueprintUserMessages: [BP_Spawner5] Item already spawned
+[2019.04.26-14.40.00:050][ 70]LogBlueprintUserMessages: [BP_Spawner_2] Item already spawned
+[2019.04.26-14.40.00:050][ 70]LogBlueprintUserMessages: [BP_Spawner7] Item already spawned
+[2019.04.26-14.40.00:050][ 70]LogBlueprintUserMessages: [BP_Spawner6] Item already spawned
+[2019.04.26-14.40.01:036][127]LogBlueprintUserMessages: [BP_Spawner6] Item already spawned
+[2019.04.26-14.40.01:036][127]LogBlueprintUserMessages: [BP_Spawner2] Item already spawned
+[2019.04.26-14.40.01:036][127]LogBlueprintUserMessages: [BP_Spawner7] Item already spawned
+[2019.04.26-14.40.01:037][127]LogBlueprintUserMessages: [BP_Spawner5] Item already spawned
+[2019.04.26-14.40.01:037][127]LogBlueprintUserMessages: [BP_Spawner3] Item already spawned
+[2019.04.26-14.40.01:037][127]LogBlueprintUserMessages: [BP_Spawner4] Item already spawned
+[2019.04.26-14.40.01:037][127]LogBlueprintUserMessages: [BP_Spawner_2] Item already spawned
+[2019.04.26-14.40.05:937][421]LogBlueprintUserMessages: [Pirate_C_3] You Died! (Or You Shoud Have Died)
+[2019.04.26-14.40.05:937][421]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for controller ID 1,
+[2019.04.26-14.40.06:037][427]LogBlueprintUserMessages: [BP_Spawner6] Item already spawned
+[2019.04.26-14.40.06:037][427]LogBlueprintUserMessages: [BP_Spawner4] Item already spawned
+[2019.04.26-14.40.06:037][427]LogBlueprintUserMessages: [BP_Spawner5] Item already spawned
+[2019.04.26-14.40.06:037][427]LogBlueprintUserMessages: [BP_Spawner3] Item already spawned
+[2019.04.26-14.40.06:037][427]LogBlueprintUserMessages: [BP_Spawner2] Item already spawned
+[2019.04.26-14.40.06:037][427]LogBlueprintUserMessages: [BP_Spawner_2] Item already spawned
+[2019.04.26-14.40.06:037][427]LogBlueprintUserMessages: [BP_Spawner7] Item already spawned
+[2019.04.26-14.40.07:037][487]LogBlueprintUserMessages: [BP_Spawner2] Item already spawned
+[2019.04.26-14.40.07:038][487]LogBlueprintUserMessages: [BP_Spawner7] Item already spawned
+[2019.04.26-14.40.07:038][487]LogBlueprintUserMessages: [BP_Spawner3] Item already spawned
+[2019.04.26-14.40.07:038][487]LogBlueprintUserMessages: [BP_Spawner6] Item already spawned
+[2019.04.26-14.40.07:038][487]LogBlueprintUserMessages: [BP_Spawner4] Item already spawned
+[2019.04.26-14.40.07:038][487]LogBlueprintUserMessages: [BP_Spawner5] Item already spawned
+[2019.04.26-14.40.07:038][487]LogBlueprintUserMessages: [BP_Spawner_2] Item already spawned
+[2019.04.26-14.40.12:039][787]LogBlueprintUserMessages: [BP_Spawner7] Item already spawned
+[2019.04.26-14.40.12:039][787]LogBlueprintUserMessages: [BP_Spawner_2] Item already spawned
+[2019.04.26-14.40.12:039][787]LogBlueprintUserMessages: [BP_Spawner2] Item already spawned
+[2019.04.26-14.40.12:039][787]LogBlueprintUserMessages: [BP_Spawner4] Item already spawned
+[2019.04.26-14.40.12:039][787]LogBlueprintUserMessages: [BP_Spawner3] Item already spawned
+[2019.04.26-14.40.12:039][787]LogBlueprintUserMessages: [BP_Spawner6] Item already spawned
+[2019.04.26-14.40.12:039][787]LogBlueprintUserMessages: [BP_Spawner5] Item already spawned
+[2019.04.26-14.40.13:040][847]LogBlueprintUserMessages: [BP_Spawner7] Item already spawned
+[2019.04.26-14.40.13:040][847]LogBlueprintUserMessages: [BP_Spawner5] Item already spawned
+[2019.04.26-14.40.13:040][847]LogBlueprintUserMessages: [BP_Spawner4] Item already spawned
+[2019.04.26-14.40.13:040][847]LogBlueprintUserMessages: [BP_Spawner6] Item already spawned
+[2019.04.26-14.40.13:040][847]LogBlueprintUserMessages: [BP_Spawner3] Item already spawned
+[2019.04.26-14.40.13:040][847]LogBlueprintUserMessages: [BP_Spawner_2] Item already spawned
+[2019.04.26-14.40.13:040][847]LogBlueprintUserMessages: [BP_Spawner2] Item already spawned
+[2019.04.26-14.40.18:041][147]LogBlueprintUserMessages: [BP_Spawner6] Item already spawned
+[2019.04.26-14.40.18:041][147]LogBlueprintUserMessages: [BP_Spawner_2] Item already spawned
+[2019.04.26-14.40.18:041][147]LogBlueprintUserMessages: [BP_Spawner3] Item already spawned
+[2019.04.26-14.40.18:041][147]LogBlueprintUserMessages: [BP_Spawner5] Item already spawned
+[2019.04.26-14.40.18:041][147]LogBlueprintUserMessages: [BP_Spawner4] Item already spawned
+[2019.04.26-14.40.18:041][147]LogBlueprintUserMessages: [BP_Spawner2] Item already spawned
+[2019.04.26-14.40.18:041][147]LogBlueprintUserMessages: [BP_Spawner7] Item already spawned
+[2019.04.26-14.40.19:042][207]LogBlueprintUserMessages: [BP_Spawner5] Item already spawned
+[2019.04.26-14.40.19:042][207]LogBlueprintUserMessages: [BP_Spawner3] Item already spawned
+[2019.04.26-14.40.19:042][207]LogBlueprintUserMessages: [BP_Spawner_2] Item already spawned
+[2019.04.26-14.40.19:042][207]LogBlueprintUserMessages: [BP_Spawner4] Item already spawned
+[2019.04.26-14.40.19:042][207]LogBlueprintUserMessages: [BP_Spawner2] Item already spawned
+[2019.04.26-14.40.19:042][207]LogBlueprintUserMessages: [BP_Spawner6] Item already spawned
+[2019.04.26-14.40.19:042][207]LogBlueprintUserMessages: [BP_Spawner7] Item already spawned
+[2019.04.26-14.40.24:052][507]LogBlueprintUserMessages: [BP_Spawner4] Item already spawned
+[2019.04.26-14.40.24:052][507]LogBlueprintUserMessages: [BP_Spawner5] Item already spawned
+[2019.04.26-14.40.24:053][507]LogBlueprintUserMessages: [BP_Spawner7] Item already spawned
+[2019.04.26-14.40.24:053][507]LogBlueprintUserMessages: [BP_Spawner2] Item already spawned
+[2019.04.26-14.40.24:053][507]LogBlueprintUserMessages: [BP_Spawner3] Item already spawned
+[2019.04.26-14.40.24:053][507]LogBlueprintUserMessages: [BP_Spawner6] Item already spawned
+[2019.04.26-14.40.24:053][507]LogBlueprintUserMessages: [BP_Spawner_2] Item already spawned
+[2019.04.26-14.40.25:052][567]LogBlueprintUserMessages: [BP_Spawner6] Item already spawned
+[2019.04.26-14.40.25:052][567]LogBlueprintUserMessages: [BP_Spawner3] Item already spawned
+[2019.04.26-14.40.25:052][567]LogBlueprintUserMessages: [BP_Spawner5] Item already spawned
+[2019.04.26-14.40.25:052][567]LogBlueprintUserMessages: [BP_Spawner7] Item already spawned
+[2019.04.26-14.40.25:052][567]LogBlueprintUserMessages: [BP_Spawner2] Item already spawned
+[2019.04.26-14.40.25:052][567]LogBlueprintUserMessages: [BP_Spawner4] Item already spawned
+[2019.04.26-14.40.25:052][567]LogBlueprintUserMessages: [BP_Spawner_2] Item already spawned
+[2019.04.26-14.40.30:057][867]LogBlueprintUserMessages: [BP_Spawner6] Item already spawned
+[2019.04.26-14.40.30:057][867]LogBlueprintUserMessages: [BP_Spawner_2] Item already spawned
+[2019.04.26-14.40.30:057][867]LogBlueprintUserMessages: [BP_Spawner7] Item already spawned
+[2019.04.26-14.40.30:057][867]LogBlueprintUserMessages: [BP_Spawner2] Item already spawned
+[2019.04.26-14.40.30:057][867]LogBlueprintUserMessages: [BP_Spawner4] Item already spawned
+[2019.04.26-14.40.30:057][867]LogBlueprintUserMessages: [BP_Spawner5] Item already spawned
+[2019.04.26-14.40.30:057][867]LogBlueprintUserMessages: [BP_Spawner3] Item already spawned
+[2019.04.26-14.40.31:041][926]LogBlueprintUserMessages: [BP_Spawner7] Item already spawned
+[2019.04.26-14.40.31:041][926]LogBlueprintUserMessages: [BP_Spawner4] Item already spawned
+[2019.04.26-14.40.31:041][926]LogBlueprintUserMessages: [BP_Spawner6] Item already spawned
+[2019.04.26-14.40.31:042][926]LogBlueprintUserMessages: [BP_Spawner5] Item already spawned
+[2019.04.26-14.40.31:042][926]LogBlueprintUserMessages: [BP_Spawner2] Item already spawned
+[2019.04.26-14.40.31:042][926]LogBlueprintUserMessages: [BP_Spawner3] Item already spawned
+[2019.04.26-14.40.31:042][926]LogBlueprintUserMessages: [BP_Spawner_2] Item already spawned
+[2019.04.26-14.40.31:807][972]LogBlueprintUserMessages: [Pirate_C_4] You Died! (Or You Shoud Have Died)
+[2019.04.26-14.40.31:807][972]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for controller ID 1,
+[2019.04.26-14.40.36:041][226]LogBlueprintUserMessages: [BP_Spawner7] Item already spawned
+[2019.04.26-14.40.36:041][226]LogBlueprintUserMessages: [BP_Spawner3] Item already spawned
+[2019.04.26-14.40.36:041][226]LogBlueprintUserMessages: [BP_Spawner5] Item already spawned
+[2019.04.26-14.40.36:041][226]LogBlueprintUserMessages: [BP_Spawner2] Item already spawned
+[2019.04.26-14.40.36:041][226]LogBlueprintUserMessages: [BP_Spawner_2] Item already spawned
+[2019.04.26-14.40.36:041][226]LogBlueprintUserMessages: [BP_Spawner6] Item already spawned
+[2019.04.26-14.40.36:041][226]LogBlueprintUserMessages: [BP_Spawner4] Item already spawned
+[2019.04.26-14.40.37:041][286]LogBlueprintUserMessages: [BP_Spawner4] Item already spawned
+[2019.04.26-14.40.37:041][286]LogBlueprintUserMessages: [BP_Spawner6] Item already spawned
+[2019.04.26-14.40.37:041][286]LogBlueprintUserMessages: [BP_Spawner3] Item already spawned
+[2019.04.26-14.40.37:041][286]LogBlueprintUserMessages: [BP_Spawner7] Item already spawned
+[2019.04.26-14.40.37:042][286]LogBlueprintUserMessages: [BP_Spawner2] Item already spawned
+[2019.04.26-14.40.37:042][286]LogBlueprintUserMessages: [BP_Spawner5] Item already spawned
+[2019.04.26-14.40.37:042][286]LogBlueprintUserMessages: [BP_Spawner_2] Item already spawned
+[2019.04.26-14.40.42:049][586]LogBlueprintUserMessages: [BP_Spawner6] Item already spawned
+[2019.04.26-14.40.42:049][586]LogBlueprintUserMessages: [BP_Spawner4] Item already spawned
+[2019.04.26-14.40.42:049][586]LogBlueprintUserMessages: [BP_Spawner5] Item already spawned
+[2019.04.26-14.40.42:049][586]LogBlueprintUserMessages: [BP_Spawner3] Item already spawned
+[2019.04.26-14.40.42:049][586]LogBlueprintUserMessages: [BP_Spawner7] Item already spawned
+[2019.04.26-14.40.42:049][586]LogBlueprintUserMessages: [BP_Spawner_2] Item already spawned
+[2019.04.26-14.40.42:049][586]LogBlueprintUserMessages: [BP_Spawner2] Item already spawned
+[2019.04.26-14.40.43:050][646]LogBlueprintUserMessages: [BP_Spawner7] Item already spawned
+[2019.04.26-14.40.43:050][646]LogBlueprintUserMessages: [BP_Spawner2] Item already spawned
+[2019.04.26-14.40.43:050][646]LogBlueprintUserMessages: [BP_Spawner_2] Item already spawned
+[2019.04.26-14.40.43:050][646]LogBlueprintUserMessages: [BP_Spawner4] Item already spawned
+[2019.04.26-14.40.43:050][646]LogBlueprintUserMessages: [BP_Spawner5] Item already spawned
+[2019.04.26-14.40.43:050][646]LogBlueprintUserMessages: [BP_Spawner6] Item already spawned
+[2019.04.26-14.40.43:050][646]LogBlueprintUserMessages: [BP_Spawner3] Item already spawned
+[2019.04.26-14.40.48:050][946]LogBlueprintUserMessages: [BP_Spawner7] Item already spawned
+[2019.04.26-14.40.48:050][946]LogBlueprintUserMessages: [BP_Spawner_2] Item already spawned
+[2019.04.26-14.40.48:050][946]LogBlueprintUserMessages: [BP_Spawner4] Item already spawned
+[2019.04.26-14.40.48:050][946]LogBlueprintUserMessages: [BP_Spawner6] Item already spawned
+[2019.04.26-14.40.48:050][946]LogBlueprintUserMessages: [BP_Spawner5] Item already spawned
+[2019.04.26-14.40.48:050][946]LogBlueprintUserMessages: [BP_Spawner3] Item already spawned
+[2019.04.26-14.40.48:050][946]LogBlueprintUserMessages: [BP_Spawner2] Item already spawned
+[2019.04.26-14.40.49:050][  6]LogBlueprintUserMessages: [BP_Spawner6] Item already spawned
+[2019.04.26-14.40.49:050][  6]LogBlueprintUserMessages: [BP_Spawner4] Item already spawned
+[2019.04.26-14.40.49:051][  6]LogBlueprintUserMessages: [BP_Spawner2] Item already spawned
+[2019.04.26-14.40.49:051][  6]LogBlueprintUserMessages: [BP_Spawner_2] Item already spawned
+[2019.04.26-14.40.49:051][  6]LogBlueprintUserMessages: [BP_Spawner5] Item already spawned
+[2019.04.26-14.40.49:051][  6]LogBlueprintUserMessages: [BP_Spawner3] Item already spawned
+[2019.04.26-14.40.49:051][  6]LogBlueprintUserMessages: [BP_Spawner7] Item already spawned
+[2019.04.26-14.40.54:052][306]LogBlueprintUserMessages: [BP_Spawner3] Item already spawned
+[2019.04.26-14.40.54:052][306]LogBlueprintUserMessages: [BP_Spawner7] Item already spawned
+[2019.04.26-14.40.54:052][306]LogBlueprintUserMessages: [BP_Spawner5] Item already spawned
+[2019.04.26-14.40.54:052][306]LogBlueprintUserMessages: [BP_Spawner6] Item already spawned
+[2019.04.26-14.40.54:052][306]LogBlueprintUserMessages: [BP_Spawner_2] Item already spawned
+[2019.04.26-14.40.54:052][306]LogBlueprintUserMessages: [BP_Spawner2] Item already spawned
+[2019.04.26-14.40.54:052][306]LogBlueprintUserMessages: [BP_Spawner4] Item already spawned
+[2019.04.26-14.40.55:035][365]LogBlueprintUserMessages: [BP_Spawner4] Item already spawned
+[2019.04.26-14.40.55:035][365]LogBlueprintUserMessages: [BP_Spawner2] Item already spawned
+[2019.04.26-14.40.55:035][365]LogBlueprintUserMessages: [BP_Spawner5] Item already spawned
+[2019.04.26-14.40.55:035][365]LogBlueprintUserMessages: [BP_Spawner_2] Item already spawned
+[2019.04.26-14.40.55:035][365]LogBlueprintUserMessages: [BP_Spawner7] Item already spawned
+[2019.04.26-14.40.55:035][365]LogBlueprintUserMessages: [BP_Spawner3] Item already spawned
+[2019.04.26-14.40.55:035][365]LogBlueprintUserMessages: [BP_Spawner6] Item already spawned
+[2019.04.26-14.41.00:036][665]LogBlueprintUserMessages: [BP_Spawner3] Item already spawned
+[2019.04.26-14.41.00:036][665]LogBlueprintUserMessages: [BP_Spawner4] Item already spawned
+[2019.04.26-14.41.00:036][665]LogBlueprintUserMessages: [BP_Spawner6] Item already spawned
+[2019.04.26-14.41.00:036][665]LogBlueprintUserMessages: [BP_Spawner5] Item already spawned
+[2019.04.26-14.41.00:036][665]LogBlueprintUserMessages: [BP_Spawner7] Item already spawned
+[2019.04.26-14.41.00:036][665]LogBlueprintUserMessages: [BP_Spawner_2] Item already spawned
+[2019.04.26-14.41.00:036][665]LogBlueprintUserMessages: [BP_Spawner2] Item already spawned
+[2019.04.26-14.41.01:036][725]LogBlueprintUserMessages: [BP_Spawner6] Item already spawned
+[2019.04.26-14.41.01:036][725]LogBlueprintUserMessages: [BP_Spawner5] Item already spawned
+[2019.04.26-14.41.01:036][725]LogBlueprintUserMessages: [BP_Spawner_2] Item already spawned
+[2019.04.26-14.41.01:037][725]LogBlueprintUserMessages: [BP_Spawner2] Item already spawned
+[2019.04.26-14.41.01:037][725]LogBlueprintUserMessages: [BP_Spawner3] Item already spawned
+[2019.04.26-14.41.01:037][725]LogBlueprintUserMessages: [BP_Spawner4] Item already spawned
+[2019.04.26-14.41.01:037][725]LogBlueprintUserMessages: [BP_Spawner7] Item already spawned
+[2019.04.26-14.41.05:379][983]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.04.26-14.41.05:381][983]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.26-14.41.05:429][983]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.26-14.41.05:430][983]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.04.26-14.41.05:471][983]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.26-14.41.05:513][984]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2019.04.26-14.41.06:952][ 69]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.26-14.41.07:111][ 78]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ThirdPersonBP/SpellBullets/LightNone/LightningStrike.LightningStrike
+[2019.04.26-14.41.29:093][136]LogSavePackage: Moving '../../../../../../GitHub/WIZARD_WARS_4000/Wizard_Wars/Saved/LightningStrikeC976E5294730E4E6B5BE69B7DF4C12B3.tmp' to '../../../../../../GitHub/WIZARD_WARS_4000/Wizard_Wars/Content/ThirdPersonBP/SpellBullets/LightNone/LightningStrike.uasset'
+[2019.04.26-14.41.29:642][164]LogSlate: Window 'LightningStrike' being destroyed
+[2019.04.26-14.41.29:655][164]LogSlate: Window 'LightningStrike' being destroyed
+[2019.04.26-14.41.30:367][200]LogTemp: Repeating last play command: 选中的视口
+[2019.04.26-14.41.30:396][200]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.04.26-14.41.30:396][200]BlueprintLog: New page: 运行前自动重新编译
+[2019.04.26-14.41.30:409][200]LogPlayLevel: [PlayLevel] Compiling LightningStrike before play...
+[2019.04.26-14.41.30:482][200]LogPlayLevel: PlayLevel: Blueprint regeneration took 85 ms (1 blueprints)
+[2019.04.26-14.41.30:482][200]PIE: New page: PIE会话: ThirdPersonExampleMap (2019年4月26日 上午6:41:30)
+[2019.04.26-14.41.30:482][200]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.04.26-14.41.30:516][200]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033937s)
+[2019.04.26-14.41.30:517][200]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.04.26-14.41.30:517][200]LogPlayLevel: PIE: World Init took: (0.001263s)
+[2019.04.26-14.41.30:518][200]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.035515s)
+[2019.04.26-14.41.30:567][200]LogInit: XAudio2 using '扬声器 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.26-14.41.30:668][200]LogInit: FAudioDevice initialized.
+[2019.04.26-14.41.30:706][200]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.04.26-14.41.30:711][200]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2019.04.26-10.41.30
+[2019.04.26-14.41.30:713][200]LogWorld: Bringing up level for play took: 0.005633
+[2019.04.26-14.41.30:729][200]LogScript: Warning: Script Msg: Attempted to access index 2 from array 'ItemsToSpawn' of length 2 in '/Game/Interactables/Spawner/BP_Spawner.BP_Spawner_C'!
+[2019.04.26-14.41.30:729][200]LogScript: Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2019.04.26-14.41.30:734][200]LogScript: Warning: Script Msg: Attempted to access index 2 from array 'ItemsToSpawn' of length 2 in '/Game/Interactables/Spawner/BP_Spawner.BP_Spawner_C'!
+[2019.04.26-14.41.30:734][200]LogScript: Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2019.04.26-14.41.30:735][200]LogBlueprintUserMessages: [ThirdPersonGameMode_C_0] Begin Player Spawn
+[2019.04.26-14.41.30:735][200]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2019.04.26-14.41.30:741][200]PIE: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap的‘在编辑器中播放’的起始时间-0.384
+[2019.04.26-14.41.30:742][200]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.04.26-14.41.30:762][201]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.083993 > MaxSimulationTimeStep (0.050) for 'Pirate_C_0', movement 'Walking'
+[2019.04.26-14.41.31:129][215]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(710)]!
+[2019.04.26-14.41.31:960][265]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.26-14.41.37:376][590]LogBlueprintUserMessages: [BP_Spawner3] Item already spawned
+[2019.04.26-14.41.37:376][590]LogBlueprintUserMessages: [BP_Spawner_2] Item already spawned
+[2019.04.26-14.41.37:376][590]LogBlueprintUserMessages: [BP_Spawner5] Item already spawned
+[2019.04.26-14.41.37:376][590]LogBlueprintUserMessages: [BP_Spawner4] Item already spawned
+[2019.04.26-14.41.37:376][590]LogScript: Warning: Script Msg: Attempted to access index 2 from array 'ItemsToSpawn' of length 2 in '/Game/Interactables/Spawner/BP_Spawner.BP_Spawner_C'!
+[2019.04.26-14.41.37:376][590]LogScript: Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2019.04.26-14.41.37:376][590]LogScript: Warning: Script Msg: Attempted to access index 2 from array 'ItemsToSpawn' of length 2 in '/Game/Interactables/Spawner/BP_Spawner.BP_Spawner_C'!
+[2019.04.26-14.41.37:376][590]LogScript: Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2019.04.26-14.41.37:376][590]LogBlueprintUserMessages: [BP_Spawner7] Item already spawned
+[2019.04.26-14.41.42:377][890]LogBlueprintUserMessages: [BP_Spawner7] Item already spawned
+[2019.04.26-14.41.42:377][890]LogBlueprintUserMessages: [BP_Spawner5] Item already spawned
+[2019.04.26-14.41.42:377][890]LogBlueprintUserMessages: [BP_Spawner_2] Item already spawned
+[2019.04.26-14.41.42:377][890]LogBlueprintUserMessages: [BP_Spawner3] Item already spawned
+[2019.04.26-14.41.42:377][890]LogBlueprintUserMessages: [BP_Spawner4] Item already spawned
+[2019.04.26-14.41.43:376][950]LogBlueprintUserMessages: [BP_Spawner7] Item already spawned
+[2019.04.26-14.41.43:376][950]LogBlueprintUserMessages: [BP_Spawner4] Item already spawned
+[2019.04.26-14.41.43:376][950]LogBlueprintUserMessages: [BP_Spawner_2] Item already spawned
+[2019.04.26-14.41.43:377][950]LogBlueprintUserMessages: [BP_Spawner5] Item already spawned
+[2019.04.26-14.41.43:377][950]LogBlueprintUserMessages: [BP_Spawner3] Item already spawned
+[2019.04.26-14.41.48:377][250]LogBlueprintUserMessages: [BP_Spawner3] Item already spawned
+[2019.04.26-14.41.48:377][250]LogBlueprintUserMessages: [BP_Spawner7] Item already spawned
+[2019.04.26-14.41.48:378][250]LogBlueprintUserMessages: [BP_Spawner5] Item already spawned
+[2019.04.26-14.41.48:378][250]LogBlueprintUserMessages: [BP_Spawner_2] Item already spawned
+[2019.04.26-14.41.48:378][250]LogBlueprintUserMessages: [BP_Spawner4] Item already spawned
+[2019.04.26-14.41.49:377][310]LogBlueprintUserMessages: [BP_Spawner5] Item already spawned
+[2019.04.26-14.41.49:377][310]LogBlueprintUserMessages: [BP_Spawner2] Item already spawned
+[2019.04.26-14.41.49:377][310]LogBlueprintUserMessages: [BP_Spawner6] Item already spawned
+[2019.04.26-14.41.49:377][310]LogBlueprintUserMessages: [BP_Spawner4] Item already spawned
+[2019.04.26-14.41.49:378][310]LogBlueprintUserMessages: [BP_Spawner7] Item already spawned
+[2019.04.26-14.41.49:378][310]LogBlueprintUserMessages: [BP_Spawner3] Item already spawned
+[2019.04.26-14.41.49:378][310]LogBlueprintUserMessages: [BP_Spawner_2] Item already spawned
+[2019.04.26-14.41.54:391][597]LogBlueprintUserMessages: [BP_Spawner7] Item already spawned
+[2019.04.26-14.41.54:391][597]LogBlueprintUserMessages: [BP_Spawner_2] Item already spawned
+[2019.04.26-14.41.54:391][597]LogBlueprintUserMessages: [BP_Spawner5] Item already spawned
+[2019.04.26-14.41.54:391][597]LogBlueprintUserMessages: [BP_Spawner6] Item already spawned
+[2019.04.26-14.41.54:391][597]LogBlueprintUserMessages: [BP_Spawner3] Item already spawned
+[2019.04.26-14.41.54:391][597]LogBlueprintUserMessages: [BP_Spawner4] Item already spawned
+[2019.04.26-14.41.54:391][597]LogBlueprintUserMessages: [BP_Spawner2] Item already spawned
+[2019.04.26-14.41.55:541][666]LogBlueprintUserMessages: [BP_Spawner3] Item already spawned
+[2019.04.26-14.41.55:541][666]LogBlueprintUserMessages: [BP_Spawner2] Item already spawned
+[2019.04.26-14.41.55:541][666]LogBlueprintUserMessages: [BP_Spawner4] Item already spawned
+[2019.04.26-14.41.55:541][666]LogBlueprintUserMessages: [BP_Spawner_2] Item already spawned
+[2019.04.26-14.41.55:541][666]LogBlueprintUserMessages: [BP_Spawner6] Item already spawned
+[2019.04.26-14.41.55:541][666]LogBlueprintUserMessages: [BP_Spawner5] Item already spawned
+[2019.04.26-14.41.55:541][666]LogBlueprintUserMessages: [BP_Spawner7] Item already spawned
+[2019.04.26-14.41.56:175][704]LogBlueprintUserMessages: [Pirate_C_0] You Died! (Or You Shoud Have Died)
+[2019.04.26-14.41.56:175][704]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for controller ID 1,
+[2019.04.26-14.42.00:542][966]LogBlueprintUserMessages: [BP_Spawner6] Item already spawned
+[2019.04.26-14.42.00:542][966]LogBlueprintUserMessages: [BP_Spawner7] Item already spawned
+[2019.04.26-14.42.00:542][966]LogBlueprintUserMessages: [BP_Spawner5] Item already spawned
+[2019.04.26-14.42.00:542][966]LogBlueprintUserMessages: [BP_Spawner3] Item already spawned
+[2019.04.26-14.42.00:542][966]LogBlueprintUserMessages: [BP_Spawner_2] Item already spawned
+[2019.04.26-14.42.00:542][966]LogBlueprintUserMessages: [BP_Spawner4] Item already spawned
+[2019.04.26-14.42.00:542][966]LogBlueprintUserMessages: [BP_Spawner2] Item already spawned
+[2019.04.26-14.42.01:376][ 16]LogBlueprintUserMessages: [BP_Spawner6] Item already spawned
+[2019.04.26-14.42.01:377][ 16]LogBlueprintUserMessages: [BP_Spawner7] Item already spawned
+[2019.04.26-14.42.01:377][ 16]LogBlueprintUserMessages: [BP_Spawner5] Item already spawned
+[2019.04.26-14.42.01:377][ 16]LogBlueprintUserMessages: [BP_Spawner3] Item already spawned
+[2019.04.26-14.42.01:377][ 16]LogBlueprintUserMessages: [BP_Spawner_2] Item already spawned
+[2019.04.26-14.42.01:377][ 16]LogBlueprintUserMessages: [BP_Spawner4] Item already spawned
+[2019.04.26-14.42.01:377][ 16]LogBlueprintUserMessages: [BP_Spawner2] Item already spawned
+[2019.04.26-14.42.01:858][ 45]LogBlueprintUserMessages: [Pirate_C_1] You Died! (Or You Shoud Have Died)
+[2019.04.26-14.42.01:858][ 45]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for controller ID 1,
+[2019.04.26-14.42.06:380][316]LogBlueprintUserMessages: [BP_Spawner5] Item already spawned
+[2019.04.26-14.42.06:380][316]LogBlueprintUserMessages: [BP_Spawner3] Item already spawned
+[2019.04.26-14.42.06:380][316]LogBlueprintUserMessages: [BP_Spawner_2] Item already spawned
+[2019.04.26-14.42.06:380][316]LogBlueprintUserMessages: [BP_Spawner4] Item already spawned
+[2019.04.26-14.42.06:380][316]LogBlueprintUserMessages: [BP_Spawner6] Item already spawned
+[2019.04.26-14.42.06:380][316]LogBlueprintUserMessages: [BP_Spawner2] Item already spawned
+[2019.04.26-14.42.06:380][316]LogBlueprintUserMessages: [BP_Spawner7] Item already spawned
+[2019.04.26-14.42.06:829][343]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(710)]!
+[2019.04.26-14.42.07:380][376]LogBlueprintUserMessages: [BP_Spawner4] Item already spawned
+[2019.04.26-14.42.07:380][376]LogBlueprintUserMessages: [BP_Spawner5] Item already spawned
+[2019.04.26-14.42.07:380][376]LogBlueprintUserMessages: [BP_Spawner7] Item already spawned
+[2019.04.26-14.42.07:380][376]LogBlueprintUserMessages: [BP_Spawner2] Item already spawned
+[2019.04.26-14.42.07:380][376]LogBlueprintUserMessages: [BP_Spawner3] Item already spawned
+[2019.04.26-14.42.07:380][376]LogBlueprintUserMessages: [BP_Spawner6] Item already spawned
+[2019.04.26-14.42.07:380][376]LogBlueprintUserMessages: [BP_Spawner_2] Item already spawned
+[2019.04.26-14.42.07:746][398]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.26-14.42.12:383][675]LogBlueprintUserMessages: [BP_Spawner5] Item already spawned
+[2019.04.26-14.42.12:383][675]LogBlueprintUserMessages: [BP_Spawner_2] Item already spawned
+[2019.04.26-14.42.12:383][675]LogBlueprintUserMessages: [BP_Spawner4] Item already spawned
+[2019.04.26-14.42.12:383][675]LogBlueprintUserMessages: [BP_Spawner6] Item already spawned
+[2019.04.26-14.42.12:384][675]LogBlueprintUserMessages: [BP_Spawner2] Item already spawned
+[2019.04.26-14.42.12:384][675]LogBlueprintUserMessages: [BP_Spawner3] Item already spawned
+[2019.04.26-14.42.12:384][675]LogBlueprintUserMessages: [BP_Spawner7] Item already spawned
+[2019.04.26-14.42.13:383][735]LogBlueprintUserMessages: [BP_Spawner5] Item already spawned
+[2019.04.26-14.42.13:383][735]LogBlueprintUserMessages: [BP_Spawner7] Item already spawned
+[2019.04.26-14.42.13:383][735]LogBlueprintUserMessages: [BP_Spawner4] Item already spawned
+[2019.04.26-14.42.13:383][735]LogBlueprintUserMessages: [BP_Spawner6] Item already spawned
+[2019.04.26-14.42.13:383][735]LogBlueprintUserMessages: [BP_Spawner_2] Item already spawned
+[2019.04.26-14.42.13:383][735]LogBlueprintUserMessages: [BP_Spawner2] Item already spawned
+[2019.04.26-14.42.13:383][735]LogBlueprintUserMessages: [BP_Spawner3] Item already spawned
+[2019.04.26-14.42.15:933][888]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(710)]!
+[2019.04.26-14.42.16:750][937]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.26-14.42.18:384][ 35]LogBlueprintUserMessages: [BP_Spawner5] Item already spawned
+[2019.04.26-14.42.18:384][ 35]LogBlueprintUserMessages: [BP_Spawner_2] Item already spawned
+[2019.04.26-14.42.18:384][ 35]LogBlueprintUserMessages: [BP_Spawner3] Item already spawned
+[2019.04.26-14.42.18:384][ 35]LogBlueprintUserMessages: [BP_Spawner7] Item already spawned
+[2019.04.26-14.42.18:384][ 35]LogBlueprintUserMessages: [BP_Spawner6] Item already spawned
+[2019.04.26-14.42.18:384][ 35]LogBlueprintUserMessages: [BP_Spawner4] Item already spawned
+[2019.04.26-14.42.18:384][ 35]LogBlueprintUserMessages: [BP_Spawner2] Item already spawned
+[2019.04.26-14.42.19:384][ 95]LogBlueprintUserMessages: [BP_Spawner5] Item already spawned
+[2019.04.26-14.42.19:384][ 95]LogBlueprintUserMessages: [BP_Spawner2] Item already spawned
+[2019.04.26-14.42.19:384][ 95]LogBlueprintUserMessages: [BP_Spawner7] Item already spawned
+[2019.04.26-14.42.19:384][ 95]LogBlueprintUserMessages: [BP_Spawner6] Item already spawned
+[2019.04.26-14.42.19:384][ 95]LogBlueprintUserMessages: [BP_Spawner4] Item already spawned
+[2019.04.26-14.42.19:384][ 95]LogBlueprintUserMessages: [BP_Spawner3] Item already spawned
+[2019.04.26-14.42.19:384][ 95]LogBlueprintUserMessages: [BP_Spawner_2] Item already spawned
+[2019.04.26-14.42.24:389][395]LogBlueprintUserMessages: [BP_Spawner4] Item already spawned
+[2019.04.26-14.42.24:389][395]LogBlueprintUserMessages: [BP_Spawner2] Item already spawned
+[2019.04.26-14.42.24:390][395]LogBlueprintUserMessages: [BP_Spawner3] Item already spawned
+[2019.04.26-14.42.24:390][395]LogBlueprintUserMessages: [BP_Spawner5] Item already spawned
+[2019.04.26-14.42.24:390][395]LogBlueprintUserMessages: [BP_Spawner6] Item already spawned
+[2019.04.26-14.42.24:390][395]LogBlueprintUserMessages: [BP_Spawner7] Item already spawned
+[2019.04.26-14.42.24:390][395]LogBlueprintUserMessages: [BP_Spawner_2] Item already spawned
+[2019.04.26-14.42.25:380][454]LogBlueprintUserMessages: [BP_Spawner_2] Item already spawned
+[2019.04.26-14.42.25:380][454]LogBlueprintUserMessages: [BP_Spawner4] Item already spawned
+[2019.04.26-14.42.25:380][454]LogBlueprintUserMessages: [BP_Spawner5] Item already spawned
+[2019.04.26-14.42.25:380][454]LogBlueprintUserMessages: [BP_Spawner2] Item already spawned
+[2019.04.26-14.42.25:380][454]LogBlueprintUserMessages: [BP_Spawner6] Item already spawned
+[2019.04.26-14.42.25:380][454]LogBlueprintUserMessages: [BP_Spawner3] Item already spawned
+[2019.04.26-14.42.25:380][454]LogBlueprintUserMessages: [BP_Spawner7] Item already spawned
+[2019.04.26-14.42.30:385][749]LogBlueprintUserMessages: [BP_Spawner3] Item already spawned
+[2019.04.26-14.42.30:385][749]LogBlueprintUserMessages: [BP_Spawner7] Item already spawned
+[2019.04.26-14.42.30:385][749]LogBlueprintUserMessages: [BP_Spawner6] Item already spawned
+[2019.04.26-14.42.30:385][749]LogBlueprintUserMessages: [BP_Spawner_2] Item already spawned
+[2019.04.26-14.42.30:385][749]LogBlueprintUserMessages: [BP_Spawner2] Item already spawned
+[2019.04.26-14.42.30:385][749]LogBlueprintUserMessages: [BP_Spawner5] Item already spawned
+[2019.04.26-14.42.30:385][749]LogBlueprintUserMessages: [BP_Spawner4] Item already spawned
+[2019.04.26-14.42.31:384][809]LogBlueprintUserMessages: [BP_Spawner4] Item already spawned
+[2019.04.26-14.42.31:384][809]LogBlueprintUserMessages: [BP_Spawner2] Item already spawned
+[2019.04.26-14.42.31:384][809]LogBlueprintUserMessages: [BP_Spawner_2] Item already spawned
+[2019.04.26-14.42.31:384][809]LogBlueprintUserMessages: [BP_Spawner7] Item already spawned
+[2019.04.26-14.42.31:384][809]LogBlueprintUserMessages: [BP_Spawner5] Item already spawned
+[2019.04.26-14.42.31:384][809]LogBlueprintUserMessages: [BP_Spawner3] Item already spawned
+[2019.04.26-14.42.31:384][809]LogBlueprintUserMessages: [BP_Spawner6] Item already spawned
+[2019.04.26-14.42.34:817][ 15]LogBlueprintUserMessages: [Pirate_C_2] You Died! (Or You Shoud Have Died)
+[2019.04.26-14.42.34:817][ 15]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for controller ID 1,
+[2019.04.26-14.42.36:385][109]LogBlueprintUserMessages: [BP_Spawner2] Item already spawned
+[2019.04.26-14.42.36:385][109]LogBlueprintUserMessages: [BP_Spawner7] Item already spawned
+[2019.04.26-14.42.36:385][109]LogBlueprintUserMessages: [BP_Spawner5] Item already spawned
+[2019.04.26-14.42.36:385][109]LogBlueprintUserMessages: [BP_Spawner6] Item already spawned
+[2019.04.26-14.42.36:385][109]LogBlueprintUserMessages: [BP_Spawner3] Item already spawned
+[2019.04.26-14.42.36:385][109]LogBlueprintUserMessages: [BP_Spawner_2] Item already spawned
+[2019.04.26-14.42.36:385][109]LogBlueprintUserMessages: [BP_Spawner4] Item already spawned
+[2019.04.26-14.42.37:368][168]LogBlueprintUserMessages: [BP_Spawner6] Item already spawned
+[2019.04.26-14.42.37:368][168]LogBlueprintUserMessages: [BP_Spawner_2] Item already spawned
+[2019.04.26-14.42.37:368][168]LogBlueprintUserMessages: [BP_Spawner7] Item already spawned
+[2019.04.26-14.42.37:368][168]LogBlueprintUserMessages: [BP_Spawner3] Item already spawned
+[2019.04.26-14.42.37:368][168]LogBlueprintUserMessages: [BP_Spawner4] Item already spawned
+[2019.04.26-14.42.37:368][168]LogBlueprintUserMessages: [BP_Spawner5] Item already spawned
+[2019.04.26-14.42.37:368][168]LogBlueprintUserMessages: [BP_Spawner2] Item already spawned
+[2019.04.26-14.42.41:680][426]LogBlueprintUserMessages: [Pirate_C_3] You Died! (Or You Shoud Have Died)
+[2019.04.26-14.42.41:680][426]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for controller ID 1,
+[2019.04.26-14.42.42:368][466]LogBlueprintUserMessages: [BP_Spawner_2] Item already spawned
+[2019.04.26-14.42.42:368][466]LogBlueprintUserMessages: [BP_Spawner2] Item already spawned
+[2019.04.26-14.42.42:368][466]LogBlueprintUserMessages: [BP_Spawner6] Item already spawned
+[2019.04.26-14.42.42:368][466]LogBlueprintUserMessages: [BP_Spawner5] Item already spawned
+[2019.04.26-14.42.42:368][466]LogBlueprintUserMessages: [BP_Spawner3] Item already spawned
+[2019.04.26-14.42.42:368][466]LogBlueprintUserMessages: [BP_Spawner4] Item already spawned
+[2019.04.26-14.42.42:368][466]LogBlueprintUserMessages: [BP_Spawner7] Item already spawned
+[2019.04.26-14.42.43:369][526]LogBlueprintUserMessages: [BP_Spawner6] Item already spawned
+[2019.04.26-14.42.43:369][526]LogBlueprintUserMessages: [BP_Spawner5] Item already spawned
+[2019.04.26-14.42.43:369][526]LogBlueprintUserMessages: [BP_Spawner7] Item already spawned
+[2019.04.26-14.42.43:369][526]LogBlueprintUserMessages: [BP_Spawner3] Item already spawned
+[2019.04.26-14.42.43:369][526]LogBlueprintUserMessages: [BP_Spawner_2] Item already spawned
+[2019.04.26-14.42.43:369][526]LogBlueprintUserMessages: [BP_Spawner2] Item already spawned
+[2019.04.26-14.42.43:369][526]LogBlueprintUserMessages: [BP_Spawner4] Item already spawned
+[2019.04.26-14.42.44:471][592]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.04.26-14.42.44:473][592]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.26-14.42.44:523][592]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.26-14.42.44:523][592]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.04.26-14.42.44:568][592]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.26-14.42.44:604][593]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2019.04.26-14.43.28:530][ 58]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.26-14.43.41:057][807]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ThirdPersonBP/SpellBullets/WaterNone/WaterJetShot.WaterJetShot
+[2019.04.26-14.43.57:013][683]LogSlate: Window 'WaterJetShot' being destroyed
+[2019.04.26-14.43.57:019][683]LogSlate: Window 'WaterJetShot' being destroyed
+[2019.04.26-14.44.00:809][901]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ThirdPersonBP/SpellBullets/FireNone/FireBullet.FireBullet
+[2019.04.26-14.44.03:758][ 33]LogSlate: Window 'FireBullet' being destroyed
+[2019.04.26-14.44.03:766][ 33]LogSlate: Window 'FireBullet' being destroyed
+[2019.04.26-14.44.07:096][225]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ThirdPersonBP/SpellBullets/FireFire/FlameThrower.FlameThrower
+[2019.04.26-14.44.13:986][559]BlueprintLog: New page: 编译FlameThrower
+[2019.04.26-14.44.20:274][862]LogMaterial: Display: Missing cached shader map for material M_ky_storm01, compiling. 
+[2019.04.26-14.44.20:554][862]LogMaterial: Display: Missing cached shader map for material M_ky_storm01, compiling. 
+[2019.04.26-14.44.20:590][862]LogShaderCompilers: Display: Shaders left to compile 53
+[2019.04.26-14.44.20:590][862]LogShaderCompilers: Display: Shaders left to compile 43
+[2019.04.26-14.44.20:590][862]LogShaderCompilers: Display: Shaders left to compile 33
+[2019.04.26-14.44.20:590][862]LogShaderCompilers: Display: Shaders left to compile 23
+[2019.04.26-14.44.27:330][ 97]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.26-14.44.32:701][244]LogShaderCompilers: Display: Shaders left to compile 56
+[2019.04.26-14.44.32:834][248]LogShaderCompilers: Display: Shaders left to compile 46
+[2019.04.26-14.44.33:485][269]LogShaderCompilers: Display: Shaders left to compile 36
+[2019.04.26-14.44.34:218][293]LogShaderCompilers: Display: Shaders left to compile 26
+[2019.04.26-14.44.40:386][497]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.04.26-14.44.43:697][604]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.04.26-14.45.00:428][296]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.26-14.45.09:647][705]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ThirdPersonBP/SpellBullets/WaterNone/WaterJetShot.WaterJetShot
+[2019.04.26-14.45.15:459][925]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.26-14.45.27:896][449]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.26-14.45.28:067][455]LogAssetEditorManager: Opening Asset editor for ParticleSystem /Game/FXVarietyPack/Particles/P_ky_fireStorm.P_ky_fireStorm
+[2019.04.26-14.45.29:656][519]LogCascade: Non-seeded module ParticleModuleColor
+[2019.04.26-14.45.32:279][636]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.26-14.45.37:537][905]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.26-14.45.40:948][ 67]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.26-14.45.44:084][235]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.26-14.45.44:678][261]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.26-14.45.47:838][433]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.26-14.45.50:520][573]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.26-14.45.50:713][582]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/FXVarietyPack/Meshes/SM_ky_circleDist06.SM_ky_circleDist06
+[2019.04.26-14.45.56:019][583]LogRenderer: Reallocating scene render targets to support 1192x724 Format 10 NumSamples 1 (Frame:1).
+[2019.04.26-14.46.02:675][924]LogSlate: Window 'SM_ky_circleDist06' being destroyed
+[2019.04.26-14.46.02:684][924]LogSlate: Window 'SM_ky_circleDist06' being destroyed
+[2019.04.26-14.46.02:809][924]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.04.26-14.46.02:898][924]LogCascade: Quitting Cascade. FXSystem=0x000001C251B46B60
+[2019.04.26-14.46.07:607][175]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ThirdPersonBP/SpellBullets/FireFire/FlameThrower.FlameThrower
+[2019.04.26-14.46.12:275][373]LogAssetEditorManager: Opening Asset editor for ParticleSystem /Game/FXVarietyPack/Particles/P_ky_fireStorm.P_ky_fireStorm
+[2019.04.26-14.46.20:360][777]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.26-14.46.20:532][783]LogAssetEditorManager: Opening Asset editor for MaterialInstanceConstant /Game/FXVarietyPack/Materials/MI_ky_storm01_fire_nonD1.MI_ky_storm01_fire_nonD1
+[2019.04.26-14.46.24:547][969]LogAssetEditorManager: Opening Asset editor for Material /Game/FXVarietyPack/Materials/M_ky_storm01.M_ky_storm01
+[2019.04.26-14.46.24:618][969]LogMaterial: Display: Missing cached shader map for material M_ky_storm01, compiling. 
+[2019.04.26-14.46.24:881][969]LogMaterial: Display: Missing cached shader map for material M_ky_storm01, compiling. 
+[2019.04.26-14.46.24:919][969]LogMaterial: Display: Missing cached shader map for material M_ky_storm01, compiling. 
+[2019.04.26-14.46.24:940][969]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.04.26-14.46.24:940][969]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.04.26-14.46.24:940][969]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.04.26-14.46.24:940][969]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.04.26-14.46.25:026][969]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_6, compiling. 
+[2019.04.26-14.46.25:041][969]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2019.04.26-14.46.25:060][969]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.04.26-14.46.25:083][969]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_9, compiling. 
+[2019.04.26-14.46.25:101][969]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_7, compiling. 
+[2019.04.26-14.46.25:123][969]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_5, compiling. 
+[2019.04.26-14.46.25:141][969]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_10, compiling. 
+[2019.04.26-14.46.25:162][969]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureObject_0, compiling. 
+[2019.04.26-14.46.25:182][969]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureObject_3, compiling. 
+[2019.04.26-14.46.25:195][969]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureObject_1, compiling. 
+[2019.04.26-14.46.25:703][970]LogShaderCompilers: Display: Shaders left to compile 36
+[2019.04.26-14.46.25:703][970]LogShaderCompilers: Display: Shaders left to compile 35
+[2019.04.26-14.46.25:776][971]LogShaderCompilers: Display: Shaders left to compile 34
+[2019.04.26-14.46.25:866][974]LogShaderCompilers: Display: Shaders left to compile 33
+[2019.04.26-14.46.25:888][975]LogShaderCompilers: Display: Shaders left to compile 32
+[2019.04.26-14.46.25:970][977]LogShaderCompilers: Display: Shaders left to compile 31
+[2019.04.26-14.46.26:077][981]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.04.26-14.46.26:346][990]LogShaderCompilers: Display: Shaders left to compile 29
+[2019.04.26-14.46.26:463][994]LogShaderCompilers: Display: Shaders left to compile 28
+[2019.04.26-14.46.26:543][997]LogShaderCompilers: Display: Shaders left to compile 27
+[2019.04.26-14.46.26:571][998]LogShaderCompilers: Display: Shaders left to compile 26
+[2019.04.26-14.46.26:881][  9]LogShaderCompilers: Display: Shaders left to compile 25
+[2019.04.26-14.46.26:941][ 11]LogShaderCompilers: Display: Shaders left to compile 24
+[2019.04.26-14.46.26:996][ 13]LogShaderCompilers: Display: Shaders left to compile 23
+[2019.04.26-14.46.27:051][ 15]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.04.26-14.46.27:344][ 26]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.04.26-14.46.28:258][ 54]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.04.26-14.46.28:398][ 59]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.04.26-14.46.28:583][ 66]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.04.26-14.46.29:328][ 92]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.04.26-14.46.29:359][ 93]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.04.26-14.46.29:560][ 97]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.04.26-14.46.29:562][ 97]MaterialEditorStats: Base pass shader without light map: 140 instructions
+[2019.04.26-14.46.29:562][ 97]MaterialEditorStats: Base pass vertex shader: 111 instructions
+[2019.04.26-14.46.29:562][ 97]MaterialEditorStats: Texture samplers: 4/16
+[2019.04.26-14.46.29:562][ 97]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(4)
+[2019.04.26-14.46.29:562][ 97]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.04.26-14.46.29:627][ 99]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.04.26-14.46.29:896][107]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.04.26-14.46.30:144][114]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.04.26-14.46.30:204][116]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.04.26-14.46.30:523][126]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.04.26-14.46.30:523][126]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.04.26-14.46.30:794][134]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.04.26-14.46.30:869][136]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.04.26-14.46.31:076][140]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.04.26-14.46.31:226][145]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.04.26-14.46.31:425][149]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.04.26-14.46.31:501][152]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.04.26-14.46.31:863][163]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.04.26-14.46.31:864][163]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.04.26-14.46.37:156][436]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.26-14.46.37:277][443]LogSlate: Window 'M_ky_storm01' being destroyed
+[2019.04.26-14.46.37:286][443]LogSlate: Window 'M_ky_storm01' being destroyed
+[2019.04.26-14.46.37:410][443]LogCascade: Quitting Cascade. FXSystem=0x000001C22BF8EB60
+[2019.04.26-14.46.38:657][493]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ThirdPersonBP/SpellBullets/FireFire/FlameThrower.FlameThrower
+[2019.04.26-14.46.42:231][629]LogAssetEditorManager: Opening Asset editor for ParticleSystem /Game/FXVarietyPack/Particles/P_ky_fireStorm.P_ky_fireStorm
+[2019.04.26-14.46.58:316][537]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.26-14.47.01:478][724]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ThirdPersonBP/SpellBullets/WaterNone/WaterJetShot.WaterJetShot
+[2019.04.26-14.47.05:813][908]LogAssetEditorManager: Opening Asset editor for ParticleSystem /Game/FXVarietyPack/Particles/P_ky_aquaStorm.P_ky_aquaStorm
+[2019.04.26-14.47.10:634][160]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.26-14.47.13:519][309]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.26-14.47.15:055][395]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.26-14.47.16:425][473]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.26-14.47.24:926][941]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.26-14.47.25:019][946]LogSlate: Window 'P_ky_aquaStorm' being destroyed
+[2019.04.26-14.47.25:025][946]LogSlate: Window 'P_ky_aquaStorm' being destroyed
+[2019.04.26-14.47.25:144][946]LogCascade: Quitting Cascade. FXSystem=0x000001C2272D9F80
+[2019.04.26-14.47.25:298][946]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.04.26-14.47.25:383][946]LogCascade: Quitting Cascade. FXSystem=0x000001C29ED51080
+[2019.04.26-14.47.25:420][946]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloorComponent) Not registered. Aborting.
+[2019.04.26-14.47.32:758][373]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ThirdPersonBP/SpellBullets/FireFire/FlameThrower.FlameThrower
+[2019.04.26-14.47.37:721][597]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.26-14.47.39:029][656]LogAssetEditorManager: Opening Asset editor for ParticleSystem /Game/FXVarietyPack/Particles/P_ky_fireStorm.P_ky_fireStorm
+[2019.04.26-14.47.46:781][ 66]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.26-14.47.51:097][314]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.26-14.47.51:304][314]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FXVarietyPack/Particles/P_ky_fireStorm" FILE="../../../../../../GitHub/WIZARD_WARS_4000/Wizard_Wars/Content/FXVarietyPack/Particles/P_ky_fireStorm.uasset" SILENT=true
+[2019.04.26-14.47.51:405][314]LogSavePackage: Moving '../../../../../../GitHub/WIZARD_WARS_4000/Wizard_Wars/Saved/P_ky_fireStorm0E40D4B94EB77005B16466977CA12550.tmp' to '../../../../../../GitHub/WIZARD_WARS_4000/Wizard_Wars/Content/FXVarietyPack/Particles/P_ky_fireStorm.uasset'
+[2019.04.26-14.47.52:531][377]LogSlate: Window 'P_ky_fireStorm' being destroyed
+[2019.04.26-14.47.52:540][377]LogSlate: Window 'P_ky_fireStorm' being destroyed
+[2019.04.26-14.47.52:643][377]LogCascade: Quitting Cascade. FXSystem=0x000001C20510E5C0
+[2019.04.26-14.47.54:705][487]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ThirdPersonBP/SpellBullets/FireFire/FlameThrower.FlameThrower
+[2019.04.26-14.48.06:819][106]LogSavePackage: Moving '../../../../../../GitHub/WIZARD_WARS_4000/Wizard_Wars/Saved/FlameThrowerBC33CD424FB9E798484454B641D47C3B.tmp' to '../../../../../../GitHub/WIZARD_WARS_4000/Wizard_Wars/Content/ThirdPersonBP/SpellBullets/FireFire/FlameThrower.uasset'
+[2019.04.26-14.48.27:018][ 73]LogSavePackage: Moving '../../../../../../GitHub/WIZARD_WARS_4000/Wizard_Wars/Saved/FlameThrower0C016C63480BE9EA2A916CBEDF7F0570.tmp' to '../../../../../../GitHub/WIZARD_WARS_4000/Wizard_Wars/Content/ThirdPersonBP/SpellBullets/FireFire/FlameThrower.uasset'
+[2019.04.26-14.48.28:244][139]LogTemp: Repeating last play command: 选中的视口
+[2019.04.26-14.48.28:272][139]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.04.26-14.48.28:272][139]BlueprintLog: New page: 运行前自动重新编译
+[2019.04.26-14.48.28:278][139]LogPlayLevel: [PlayLevel] Compiling FlameThrower before play...
+[2019.04.26-14.48.28:579][139]LogPlayLevel: PlayLevel: Blueprint regeneration took 307 ms (1 blueprints)
+[2019.04.26-14.48.28:579][139]PIE: New page: PIE会话: ThirdPersonExampleMap (2019年4月26日 上午6:48:28)
+[2019.04.26-14.48.28:579][139]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.04.26-14.48.28:608][139]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028769s)
+[2019.04.26-14.48.28:609][139]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.04.26-14.48.28:609][139]LogPlayLevel: PIE: World Init took: (0.000938s)
+[2019.04.26-14.48.28:609][139]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.029977s)
+[2019.04.26-14.48.28:657][139]LogInit: XAudio2 using '扬声器 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.26-14.48.28:751][139]LogInit: FAudioDevice initialized.
+[2019.04.26-14.48.28:788][139]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.04.26-14.48.28:794][139]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2019.04.26-10.48.28
+[2019.04.26-14.48.28:796][139]LogWorld: Bringing up level for play took: 0.006647
+[2019.04.26-14.48.28:819][139]LogScript: Warning: Script Msg: Attempted to access index 2 from array 'ItemsToSpawn' of length 2 in '/Game/Interactables/Spawner/BP_Spawner.BP_Spawner_C'!
+[2019.04.26-14.48.28:819][139]LogScript: Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2019.04.26-14.48.28:819][139]LogBlueprintUserMessages: [ThirdPersonGameMode_C_0] Begin Player Spawn
+[2019.04.26-14.48.28:819][139]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2019.04.26-14.48.28:825][139]PIE: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap的‘在编辑器中播放’的起始时间-0.3
+[2019.04.26-14.48.28:825][139]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.04.26-14.48.28:852][140]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.088825 > MaxSimulationTimeStep (0.050) for 'Pirate_C_0', movement 'Walking'
+[2019.04.26-14.48.29:250][157]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(710)]!
+[2019.04.26-14.48.30:014][203]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.26-14.48.35:468][529]LogBlueprintUserMessages: [BP_Spawner3] Item already spawned
+[2019.04.26-14.48.35:468][529]LogBlueprintUserMessages: [BP_Spawner_2] Item already spawned
+[2019.04.26-14.48.35:468][529]LogBlueprintUserMessages: [BP_Spawner5] Item already spawned
+[2019.04.26-14.48.35:468][529]LogBlueprintUserMessages: [BP_Spawner4] Item already spawned
+[2019.04.26-14.48.35:468][529]LogBlueprintUserMessages: [BP_Spawner6] Item already spawned
+[2019.04.26-14.48.35:468][529]LogBlueprintUserMessages: [BP_Spawner2] Item already spawned
+[2019.04.26-14.48.38:268][697]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.04.26-14.48.38:270][697]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.26-14.48.38:314][697]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.26-14.48.38:314][697]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.04.26-14.48.38:366][697]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.26-14.48.38:406][698]LogPlayLevel: Display: Destroying online subsystem :Context_39
+[2019.04.26-14.48.39:134][741]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.26-14.48.54:483][539]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ThirdPersonBP/SpellBullets/WaterNone/WaterJetShot.WaterJetShot
+[2019.04.26-14.49.33:919][410]LogSavePackage: Moving '../../../../../../GitHub/WIZARD_WARS_4000/Wizard_Wars/Saved/WaterJetShot8DEB4A3742862705AA2628BD55773DE3.tmp' to '../../../../../../GitHub/WIZARD_WARS_4000/Wizard_Wars/Content/ThirdPersonBP/SpellBullets/WaterNone/WaterJetShot.uasset'
+[2019.04.26-14.49.44:287][936]LogSavePackage: Moving '../../../../../../GitHub/WIZARD_WARS_4000/Wizard_Wars/Saved/FlameThrower5C24EFEF4A7F4813D1D437A3CA98A2B7.tmp' to '../../../../../../GitHub/WIZARD_WARS_4000/Wizard_Wars/Content/ThirdPersonBP/SpellBullets/FireFire/FlameThrower.uasset'
+[2019.04.26-14.49.48:895][152]LogSavePackage: Moving '../../../../../../GitHub/WIZARD_WARS_4000/Wizard_Wars/Saved/FlameThrower87665434402FE1A2DDD2A1BC75CA30C0.tmp' to '../../../../../../GitHub/WIZARD_WARS_4000/Wizard_Wars/Content/ThirdPersonBP/SpellBullets/FireFire/FlameThrower.uasset'
+[2019.04.26-14.49.54:057][401]LogSavePackage: Moving '../../../../../../GitHub/WIZARD_WARS_4000/Wizard_Wars/Saved/FlameThrower5D25F3D946848573809F8FB6CBCCEAD5.tmp' to '../../../../../../GitHub/WIZARD_WARS_4000/Wizard_Wars/Content/ThirdPersonBP/SpellBullets/FireFire/FlameThrower.uasset'
+[2019.04.26-14.50.03:178][900]LogEditorTransaction: Undo 移动节点
+[2019.04.26-14.50.35:346][544]LogSavePackage: Moving '../../../../../../GitHub/WIZARD_WARS_4000/Wizard_Wars/Saved/FlameThrower329DCFE84F5465BEDB915CB0E037E8A4.tmp' to '../../../../../../GitHub/WIZARD_WARS_4000/Wizard_Wars/Content/ThirdPersonBP/SpellBullets/FireFire/FlameThrower.uasset'
+[2019.04.26-14.50.36:128][586]LogSlate: Window 'WaterJetShot' being destroyed
+[2019.04.26-14.50.36:137][586]LogSlate: Window 'WaterJetShot' being destroyed
+[2019.04.26-14.50.36:248][586]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.04.26-14.50.36:888][613]LogTemp: Repeating last play command: 选中的视口
+[2019.04.26-14.50.36:920][613]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.04.26-14.50.36:920][613]BlueprintLog: New page: 运行前自动重新编译
+[2019.04.26-14.50.36:928][613]LogPlayLevel: [PlayLevel] Compiling FlameThrower before play...
+[2019.04.26-14.50.36:995][613]LogPlayLevel: PlayLevel: Blueprint regeneration took 75 ms (1 blueprints)
+[2019.04.26-14.50.36:995][613]PIE: New page: PIE会话: ThirdPersonExampleMap (2019年4月26日 上午6:50:36)
+[2019.04.26-14.50.36:996][613]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.04.26-14.50.37:033][613]LogPlayLevel: PIE: StaticDuplicateObject took: (0.037523s)
+[2019.04.26-14.50.37:034][613]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.04.26-14.50.37:035][613]LogPlayLevel: PIE: World Init took: (0.001082s)
+[2019.04.26-14.50.37:035][613]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.039062s)
+[2019.04.26-14.50.37:086][613]LogInit: XAudio2 using '扬声器 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.26-14.50.37:210][613]LogInit: FAudioDevice initialized.
+[2019.04.26-14.50.37:248][613]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.04.26-14.50.37:254][613]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2019.04.26-10.50.37
+[2019.04.26-14.50.37:256][613]LogWorld: Bringing up level for play took: 0.007244
+[2019.04.26-14.50.37:270][613]LogScript: Warning: Script Msg: Attempted to access index 2 from array 'ItemsToSpawn' of length 2 in '/Game/Interactables/Spawner/BP_Spawner.BP_Spawner_C'!
+[2019.04.26-14.50.37:270][613]LogScript: Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2019.04.26-14.50.37:281][613]LogBlueprintUserMessages: [ThirdPersonGameMode_C_0] Begin Player Spawn
+[2019.04.26-14.50.37:281][613]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2019.04.26-14.50.37:289][613]PIE: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap的‘在编辑器中播放’的起始时间0.163
+[2019.04.26-14.50.37:289][613]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.04.26-14.50.37:319][614]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.088825 > MaxSimulationTimeStep (0.050) for 'Pirate_C_0', movement 'Walking'
+[2019.04.26-14.50.37:663][630]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(710)]!
+[2019.04.26-14.50.38:145][659]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.26-14.50.41:680][871]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(710)]!
+[2019.04.26-14.50.42:480][919]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.26-14.50.43:929][  6]LogBlueprintUserMessages: [BP_Spawner3] Item already spawned
+[2019.04.26-14.50.43:930][  6]LogBlueprintUserMessages: [BP_Spawner5] Item already spawned
+[2019.04.26-14.50.43:931][  6]LogBlueprintUserMessages: [BP_Spawner4] Item already spawned
+[2019.04.26-14.50.43:931][  6]LogBlueprintUserMessages: [BP_Spawner6] Item already spawned
+[2019.04.26-14.50.43:931][  6]LogBlueprintUserMessages: [BP_Spawner2] Item already spawned
+[2019.04.26-14.50.43:931][  6]LogBlueprintUserMessages: [BP_Spawner7] Item already spawned
+[2019.04.26-14.50.48:932][306]LogBlueprintUserMessages: [BP_Spawner7] Item already spawned
+[2019.04.26-14.50.48:932][306]LogBlueprintUserMessages: [BP_Spawner6] Item already spawned
+[2019.04.26-14.50.48:932][306]LogBlueprintUserMessages: [BP_Spawner4] Item already spawned
+[2019.04.26-14.50.48:932][306]LogBlueprintUserMessages: [BP_Spawner2] Item already spawned
+[2019.04.26-14.50.48:932][306]LogBlueprintUserMessages: [BP_Spawner5] Item already spawned
+[2019.04.26-14.50.48:932][306]LogBlueprintUserMessages: [BP_Spawner3] Item already spawned
+[2019.04.26-14.50.49:932][366]LogBlueprintUserMessages: [BP_Spawner7] Item already spawned
+[2019.04.26-14.50.49:933][366]LogBlueprintUserMessages: [BP_Spawner4] Item already spawned
+[2019.04.26-14.50.49:933][366]LogBlueprintUserMessages: [BP_Spawner_2] Item already spawned
+[2019.04.26-14.50.49:933][366]LogBlueprintUserMessages: [BP_Spawner2] Item already spawned
+[2019.04.26-14.50.49:933][366]LogBlueprintUserMessages: [BP_Spawner3] Item already spawned
+[2019.04.26-14.50.49:933][366]LogBlueprintUserMessages: [BP_Spawner6] Item already spawned
+[2019.04.26-14.50.49:933][366]LogBlueprintUserMessages: [BP_Spawner5] Item already spawned
+[2019.04.26-14.50.54:939][666]LogBlueprintUserMessages: [BP_Spawner5] Item already spawned
+[2019.04.26-14.50.54:940][666]LogBlueprintUserMessages: [BP_Spawner6] Item already spawned
+[2019.04.26-14.50.54:940][666]LogBlueprintUserMessages: [BP_Spawner3] Item already spawned
+[2019.04.26-14.50.54:940][666]LogBlueprintUserMessages: [BP_Spawner7] Item already spawned
+[2019.04.26-14.50.54:940][666]LogBlueprintUserMessages: [BP_Spawner2] Item already spawned
+[2019.04.26-14.50.54:940][666]LogBlueprintUserMessages: [BP_Spawner4] Item already spawned
+[2019.04.26-14.50.54:940][666]LogBlueprintUserMessages: [BP_Spawner_2] Item already spawned
+[2019.04.26-14.50.55:923][725]LogBlueprintUserMessages: [BP_Spawner3] Item already spawned
+[2019.04.26-14.50.55:923][725]LogBlueprintUserMessages: [BP_Spawner2] Item already spawned
+[2019.04.26-14.50.55:923][725]LogBlueprintUserMessages: [BP_Spawner7] Item already spawned
+[2019.04.26-14.50.55:923][725]LogBlueprintUserMessages: [BP_Spawner5] Item already spawned
+[2019.04.26-14.50.55:923][725]LogBlueprintUserMessages: [BP_Spawner_2] Item already spawned
+[2019.04.26-14.50.55:923][725]LogBlueprintUserMessages: [BP_Spawner6] Item already spawned
+[2019.04.26-14.50.55:923][725]LogBlueprintUserMessages: [BP_Spawner4] Item already spawned
+[2019.04.26-14.50.56:887][782]LogBlueprintUserMessages: [Pirate_C_0] You Died! (Or You Shoud Have Died)
+[2019.04.26-14.50.56:887][782]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for controller ID 1,
+[2019.04.26-14.51.00:927][ 24]LogBlueprintUserMessages: [BP_Spawner_2] Item already spawned
+[2019.04.26-14.51.00:927][ 24]LogBlueprintUserMessages: [BP_Spawner3] Item already spawned
+[2019.04.26-14.51.00:928][ 24]LogBlueprintUserMessages: [BP_Spawner4] Item already spawned
+[2019.04.26-14.51.00:928][ 24]LogBlueprintUserMessages: [BP_Spawner6] Item already spawned
+[2019.04.26-14.51.00:928][ 24]LogBlueprintUserMessages: [BP_Spawner2] Item already spawned
+[2019.04.26-14.51.00:928][ 24]LogBlueprintUserMessages: [BP_Spawner5] Item already spawned
+[2019.04.26-14.51.00:928][ 24]LogBlueprintUserMessages: [BP_Spawner7] Item already spawned
+[2019.04.26-14.51.01:928][ 84]LogBlueprintUserMessages: [BP_Spawner_2] Item already spawned
+[2019.04.26-14.51.01:928][ 84]LogBlueprintUserMessages: [BP_Spawner6] Item already spawned
+[2019.04.26-14.51.01:928][ 84]LogBlueprintUserMessages: [BP_Spawner4] Item already spawned
+[2019.04.26-14.51.01:928][ 84]LogBlueprintUserMessages: [BP_Spawner3] Item already spawned
+[2019.04.26-14.51.01:928][ 84]LogBlueprintUserMessages: [BP_Spawner5] Item already spawned
+[2019.04.26-14.51.01:928][ 84]LogBlueprintUserMessages: [BP_Spawner2] Item already spawned
+[2019.04.26-14.51.01:928][ 84]LogBlueprintUserMessages: [BP_Spawner7] Item already spawned
+[2019.04.26-14.51.03:722][191]LogBlueprintUserMessages: [Pirate_C_1] You Died! (Or You Shoud Have Died)
+[2019.04.26-14.51.03:722][191]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for controller ID 1,
+[2019.04.26-14.51.06:930][383]LogBlueprintUserMessages: [BP_Spawner7] Item already spawned
+[2019.04.26-14.51.06:930][383]LogBlueprintUserMessages: [BP_Spawner_2] Item already spawned
+[2019.04.26-14.51.06:930][383]LogBlueprintUserMessages: [BP_Spawner2] Item already spawned
+[2019.04.26-14.51.06:930][383]LogBlueprintUserMessages: [BP_Spawner4] Item already spawned
+[2019.04.26-14.51.06:930][383]LogBlueprintUserMessages: [BP_Spawner5] Item already spawned
+[2019.04.26-14.51.06:930][383]LogBlueprintUserMessages: [BP_Spawner3] Item already spawned
+[2019.04.26-14.51.06:930][383]LogBlueprintUserMessages: [BP_Spawner6] Item already spawned
+[2019.04.26-14.51.07:948][444]LogBlueprintUserMessages: [BP_Spawner5] Item already spawned
+[2019.04.26-14.51.07:948][444]LogBlueprintUserMessages: [BP_Spawner2] Item already spawned
+[2019.04.26-14.51.07:948][444]LogBlueprintUserMessages: [BP_Spawner6] Item already spawned
+[2019.04.26-14.51.07:948][444]LogBlueprintUserMessages: [BP_Spawner3] Item already spawned
+[2019.04.26-14.51.07:948][444]LogBlueprintUserMessages: [BP_Spawner7] Item already spawned
+[2019.04.26-14.51.07:948][444]LogBlueprintUserMessages: [BP_Spawner_2] Item already spawned
+[2019.04.26-14.51.07:948][444]LogBlueprintUserMessages: [BP_Spawner4] Item already spawned
+[2019.04.26-14.51.09:149][516]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.04.26-14.51.09:150][516]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.26-14.51.09:195][516]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.26-14.51.09:195][516]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.04.26-14.51.09:239][516]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.26-14.51.09:279][517]LogPlayLevel: Display: Destroying online subsystem :Context_41
+[2019.04.26-14.51.09:882][552]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.26-14.51.10:059][552]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.26-14.51.10:952][552]LogSavePackage: Moving '../../../../../../GitHub/WIZARD_WARS_4000/Wizard_Wars/Saved/ThirdPersonExampleMap1E5F8ABA4D179A712D69EB8DDB16EB81.tmp' to '../../../../../../GitHub/WIZARD_WARS_4000/Wizard_Wars/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2019.04.26-14.51.11:958][552]LogSavePackage: Moving '../../../../../../GitHub/WIZARD_WARS_4000/Wizard_Wars/Saved/ThirdPersonExampleMap_BuiltData3504C25C4F261EBBC87E1E9785F5D21C.tmp' to '../../../../../../GitHub/WIZARD_WARS_4000/Wizard_Wars/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2019.04.26-14.52.23:716][836]LogSlate: Window 'Wizard_Wars - 虚幻编辑器' being destroyed
+[2019.04.26-14.52.23:717][836]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.04.26-14.52.23:980][837]Cmd: QUIT_EDITOR
+[2019.04.26-14.52.24:715][837]LogExit: Preparing to exit.
+[2019.04.26-14.52.26:150][837]LogExit: Editor shut down
+[2019.04.26-14.52.26:152][837]LogExit: Transaction tracking system shut down
+[2019.04.26-14.52.27:283][837]LogExit: Object subsystem successfully closed.
+[2019.04.26-14.52.27:375][837]LogShaderCompilers: Display: Shaders left to compile 0
+[2019.04.26-14.52.27:381][837]LogD3D11RHI: Shutdown
+[2019.04.26-14.52.27:381][837]LogD3D11RHI: CleanupD3DDevice
+[2019.04.26-14.52.27:381][837]LogNiagara: FNiagaraGlobalReadBuffer::ReleaseRHI
+[2019.04.26-14.52.27:381][837]LogNiagara: FNiagaraGlobalReadBuffer::Cleanup()
+[2019.04.26-14.52.27:403][837]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.04.26-14.52.27:432][837]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (646)
+[2019.04.26-14.52.27:432][837]LogModuleManager: Shutting down and abandoning module DistCurveEditor (644)
+[2019.04.26-14.52.27:432][837]LogModuleManager: Shutting down and abandoning module Cascade (642)
+[2019.04.26-14.52.27:432][837]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (640)
+[2019.04.26-14.52.27:432][837]LogModuleManager: Shutting down and abandoning module Voice (638)
+[2019.04.26-14.52.27:458][837]LogModuleManager: Shutting down and abandoning module BlueprintGraph (636)
+[2019.04.26-14.52.27:459][837]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (634)
+[2019.04.26-14.52.27:459][837]LogModuleManager: Shutting down and abandoning module SceneOutliner (632)
+[2019.04.26-14.52.27:459][837]LogModuleManager: Shutting down and abandoning module AddContentDialog (630)
+[2019.04.26-14.52.27:462][837]LogModuleManager: Shutting down and abandoning module WidgetCarousel (629)
+[2019.04.26-14.52.27:462][837]LogModuleManager: Shutting down and abandoning module EditorWidgets (626)
+[2019.04.26-14.52.27:462][837]LogModuleManager: Shutting down and abandoning module CollectionManager (624)
+[2019.04.26-14.52.27:479][837]LogModuleManager: Shutting down and abandoning module StatsViewer (622)
+[2019.04.26-14.52.27:479][837]LogModuleManager: Shutting down and abandoning module FoliageEdit (620)
+[2019.04.26-14.52.27:479][837]LogModuleManager: Shutting down and abandoning module LandscapeEditor (618)
+[2019.04.26-14.52.27:479][837]LogModuleManager: Shutting down and abandoning module MeshPaintMode (616)
+[2019.04.26-14.52.27:479][837]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (614)
+[2019.04.26-14.52.27:479][837]LogModuleManager: Shutting down and abandoning module ActorPickerMode (612)
+[2019.04.26-14.52.27:479][837]LogModuleManager: Shutting down and abandoning module GeometryMode (610)
+[2019.04.26-14.52.27:479][837]LogModuleManager: Shutting down and abandoning module TextureAlignMode (608)
+[2019.04.26-14.52.27:479][837]LogModuleManager: Shutting down and abandoning module BspMode (606)
+[2019.04.26-14.52.27:479][837]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (604)
+[2019.04.26-14.52.27:480][837]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (602)
+[2019.04.26-14.52.27:480][837]LogModuleManager: Shutting down and abandoning module AutomationWorker (600)
+[2019.04.26-14.52.27:480][837]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (598)
+[2019.04.26-14.52.27:480][837]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (596)
+[2019.04.26-14.52.27:480][837]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (594)
+[2019.04.26-14.52.27:480][837]LogModuleManager: Shutting down and abandoning module PlacementMode (593)
+[2019.04.26-14.52.27:480][837]LogModuleManager: Shutting down and abandoning module MaterialEditor (592)
+[2019.04.26-14.52.27:480][837]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (588)
+[2019.04.26-14.52.27:480][837]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (586)
+[2019.04.26-14.52.27:480][837]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (584)
+[2019.04.26-14.52.27:480][837]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (582)
+[2019.04.26-14.52.27:480][837]LogModuleManager: Shutting down and abandoning module WebMMedia (580)
+[2019.04.26-14.52.27:480][837]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (578)
+[2019.04.26-14.52.27:480][837]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (576)
+[2019.04.26-14.52.27:480][837]LogModuleManager: Shutting down and abandoning module SequenceRecorder (575)
+[2019.04.26-14.52.27:480][837]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (572)
+[2019.04.26-14.52.27:480][837]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (570)
+[2019.04.26-14.52.27:480][837]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (568)
+[2019.04.26-14.52.27:480][837]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (566)
+[2019.04.26-14.52.27:480][837]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (564)
+[2019.04.26-14.52.27:480][837]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (562)
+[2019.04.26-14.52.27:480][837]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (560)
+[2019.04.26-14.52.27:480][837]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (558)
+[2019.04.26-14.52.27:480][837]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (556)
+[2019.04.26-14.52.27:480][837]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (554)
+[2019.04.26-14.52.27:480][837]LogModuleManager: Shutting down and abandoning module CharacterAI (552)
+[2019.04.26-14.52.27:481][837]LogModuleManager: Shutting down and abandoning module SmartSnapping (550)
+[2019.04.26-14.52.27:481][837]LogModuleManager: Shutting down and abandoning module SessionServices (548)
+[2019.04.26-14.52.27:481][837]LogModuleManager: Shutting down and abandoning module ViewportSnapping (546)
+[2019.04.26-14.52.27:481][837]LogModuleManager: Shutting down and abandoning module ViewportInteraction (544)
+[2019.04.26-14.52.27:481][837]LogModuleManager: Shutting down and abandoning module ClothPainter (542)
+[2019.04.26-14.52.27:481][837]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (541)
+[2019.04.26-14.52.27:481][837]LogModuleManager: Shutting down and abandoning module LogVisualizer (538)
+[2019.04.26-14.52.27:481][837]LogModuleManager: Shutting down and abandoning module IntroTutorials (536)
+[2019.04.26-14.52.27:481][837]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (535)
+[2019.04.26-14.52.27:481][837]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (532)
+[2019.04.26-14.52.27:481][837]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (530)
+[2019.04.26-14.52.27:481][837]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (528)
+[2019.04.26-14.52.27:481][837]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (526)
+[2019.04.26-14.52.27:481][837]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (525)
+[2019.04.26-14.52.28:676][837]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (522)
+[2019.04.26-14.52.28:676][837]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (520)
+[2019.04.26-14.52.28:676][837]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (518)
+[2019.04.26-14.52.28:676][837]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (516)
+[2019.04.26-14.52.28:676][837]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (514)
+[2019.04.26-14.52.28:676][837]LogModuleManager: Shutting down and abandoning module InputBindingEditor (512)
+[2019.04.26-14.52.28:676][837]LogModuleManager: Shutting down and abandoning module MergeActors (510)
+[2019.04.26-14.52.28:676][837]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (508)
+[2019.04.26-14.52.28:676][837]LogModuleManager: Shutting down and abandoning module LocalizationService (507)
+[2019.04.26-14.52.28:676][837]LogModuleManager: Shutting down and abandoning module HardwareTargeting (504)
+[2019.04.26-14.52.28:676][837]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (502)
+[2019.04.26-14.52.28:676][837]LogModuleManager: Shutting down and abandoning module UndoHistory (500)
+[2019.04.26-14.52.28:676][837]LogModuleManager: Shutting down and abandoning module XmlParser (498)
+[2019.04.26-14.52.28:676][837]LogModuleManager: Shutting down and abandoning module Blutility (496)
+[2019.04.26-14.52.28:676][837]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (494)
+[2019.04.26-14.52.28:676][837]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (493)
+[2019.04.26-14.52.28:677][837]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (490)
+[2019.04.26-14.52.28:677][837]LogModuleManager: Shutting down and abandoning module SettingsEditor (488)
+[2019.04.26-14.52.28:677][837]LogModuleManager: Shutting down and abandoning module ProjectLauncher (486)
+[2019.04.26-14.52.28:677][837]LogModuleManager: Shutting down and abandoning module SessionFrontend (484)
+[2019.04.26-14.52.28:677][837]LogModuleManager: Shutting down and abandoning module ProfilerClient (482)
+[2019.04.26-14.52.28:677][837]LogModuleManager: Shutting down and abandoning module DeviceManager (480)
+[2019.04.26-14.52.28:677][837]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (479)
+[2019.04.26-14.52.28:740][837]LogModuleManager: Shutting down and abandoning module AutomationController (476)
+[2019.04.26-14.52.28:740][837]LogModuleManager: Shutting down and abandoning module AutomationWindow (474)
+[2019.04.26-14.52.28:740][837]LogModuleManager: Shutting down and abandoning module Layers (472)
+[2019.04.26-14.52.28:740][837]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (470)
+[2019.04.26-14.52.28:740][837]LogModuleManager: Shutting down and abandoning module DetailCustomizations (468)
+[2019.04.26-14.52.28:740][837]LogModuleManager: Shutting down and abandoning module PackagesDialog (466)
+[2019.04.26-14.52.28:740][837]LogModuleManager: Shutting down and abandoning module Persona (464)
+[2019.04.26-14.52.28:740][837]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (463)
+[2019.04.26-14.52.28:740][837]LogModuleManager: Shutting down and abandoning module AnimGraph (461)
+[2019.04.26-14.52.28:740][837]LogModuleManager: Shutting down and abandoning module Kismet (458)
+[2019.04.26-14.52.28:755][837]LogModuleManager: Shutting down and abandoning module GraphEditor (456)
+[2019.04.26-14.52.28:755][837]LogModuleManager: Shutting down and abandoning module ClassViewer (454)
+[2019.04.26-14.52.28:755][837]LogModuleManager: Shutting down and abandoning module Toolbox (452)
+[2019.04.26-14.52.28:755][837]LogModuleManager: Shutting down and abandoning module ModuleUI (450)
+[2019.04.26-14.52.28:755][837]LogModuleManager: Shutting down and abandoning module MovieSceneTools (448)
+[2019.04.26-14.52.28:755][837]LogModuleManager: Shutting down and abandoning module OutputLog (446)
+[2019.04.26-14.52.28:755][837]LogModuleManager: Shutting down and abandoning module GammaUI (444)
+[2019.04.26-14.52.28:755][837]LogModuleManager: Shutting down and abandoning module Documentation (442)
+[2019.04.26-14.52.28:758][837]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (440)
+[2019.04.26-14.52.28:758][837]LogModuleManager: Shutting down and abandoning module MovieScene (438)
+[2019.04.26-14.52.28:758][837]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (436)
+[2019.04.26-14.52.28:758][837]LogModuleManager: Shutting down and abandoning module LauncherPlatform (434)
+[2019.04.26-14.52.28:758][837]LogModuleManager: Shutting down and abandoning module AnalyticsET (432)
+[2019.04.26-14.52.28:758][837]LogModuleManager: Shutting down and abandoning module PortalServices (430)
+[2019.04.26-14.52.28:758][837]LogModuleManager: Shutting down and abandoning module PortalRpc (428)
+[2019.04.26-14.52.28:758][837]LogModuleManager: Shutting down and abandoning module MessagingRpc (426)
+[2019.04.26-14.52.28:758][837]LogModuleManager: Shutting down and abandoning module AIModule (424)
+[2019.04.26-14.52.28:758][837]LogModuleManager: Shutting down and abandoning module GameplayDebugger (423)
+[2019.04.26-14.52.28:758][837]LogModuleManager: Shutting down and abandoning module AITestSuite (421)
+[2019.04.26-14.52.28:758][837]LogModuleManager: Shutting down and abandoning module NavigationSystem (419)
+[2019.04.26-14.52.28:758][837]LogModuleManager: Shutting down and abandoning module DesktopPlatform (416)
+[2019.04.26-14.52.28:758][837]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (414)
+[2019.04.26-14.52.28:765][837]LogModuleManager: Shutting down and abandoning module ProfilerService (412)
+[2019.04.26-14.52.28:811][837]LogModuleManager: Shutting down and abandoning module TaskGraph (410)
+[2019.04.26-14.52.28:811][837]LogModuleManager: Shutting down and abandoning module SteamVRController (408)
+[2019.04.26-14.52.28:811][837]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (406)
+[2019.04.26-14.52.28:811][837]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (404)
+[2019.04.26-14.52.28:811][837]LogModuleManager: Shutting down and abandoning module OculusInput (402)
+[2019.04.26-14.52.28:811][837]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (400)
+[2019.04.26-14.52.28:811][837]LogModuleManager: Shutting down and abandoning module EditableMesh (398)
+[2019.04.26-14.52.28:811][837]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (396)
+[2019.04.26-14.52.28:811][837]LogModuleManager: Shutting down and abandoning module CableComponent (394)
+[2019.04.26-14.52.28:811][837]LogModuleManager: Shutting down and abandoning module AudioCapture (392)
+[2019.04.26-14.52.28:811][837]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (390)
+[2019.04.26-14.52.28:811][837]LogModuleManager: Shutting down and abandoning module AndroidPermission (388)
+[2019.04.26-14.52.28:811][837]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (386)
+[2019.04.26-14.52.28:811][837]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (384)
+[2019.04.26-14.52.28:811][837]LogModuleManager: Shutting down and abandoning module MediaCompositing (382)
+[2019.04.26-14.52.28:811][837]LogModuleManager: Shutting down and abandoning module LinearTimecode (380)
+[2019.04.26-14.52.28:811][837]LogModuleManager: Shutting down and abandoning module ImgMedia (378)
+[2019.04.26-14.52.28:818][837]LogModuleManager: Shutting down and abandoning module NiagaraEditorWidgets (376)
+[2019.04.26-14.52.28:818][837]LogModuleManager: Shutting down and abandoning module HTML5Networking (374)
+[2019.04.26-14.52.28:818][837]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (372)
+[2019.04.26-14.52.28:818][837]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (370)
+[2019.04.26-14.52.28:819][837]LogModuleManager: Shutting down and abandoning module BackChannel (368)
+[2019.04.26-14.52.28:819][837]LogModuleManager: Shutting down and abandoning module AppleVision (366)
+[2019.04.26-14.52.28:819][837]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (364)
+[2019.04.26-14.52.28:819][837]LogModuleManager: Shutting down and abandoning module AppleImageUtils (362)
+[2019.04.26-14.52.28:819][837]LogModuleManager: Shutting down and abandoning module AlembicImporter (360)
+[2019.04.26-14.52.28:819][837]LogModuleManager: Shutting down and abandoning module AlembicLibrary (359)
+[2019.04.26-14.52.28:819][837]LogModuleManager: Shutting down and abandoning module GeometryCache (358)
+[2019.04.26-14.52.28:819][837]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (357)
+[2019.04.26-14.52.28:819][837]LogModuleManager: Shutting down and abandoning module VariantManagerContent (352)
+[2019.04.26-14.52.28:819][837]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (350)
+[2019.04.26-14.52.28:819][837]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (348)
+[2019.04.26-14.52.28:819][837]LogModuleManager: Shutting down and abandoning module PluginBrowser (346)
+[2019.04.26-14.52.28:819][837]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (344)
+[2019.04.26-14.52.28:819][837]LogModuleManager: Shutting down and abandoning module PolygonModeling (342)
+[2019.04.26-14.52.28:819][837]LogModuleManager: Shutting down and abandoning module MeshEditor (340)
+[2019.04.26-14.52.28:819][837]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (338)
+[2019.04.26-14.52.28:819][837]LogModuleManager: Shutting down and abandoning module CryptoKeys (336)
+[2019.04.26-14.52.28:819][837]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (334)
+[2019.04.26-14.52.28:819][837]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (332)
+[2019.04.26-14.52.28:819][837]LogModuleManager: Shutting down and abandoning module UObjectPlugin (330)
+[2019.04.26-14.52.28:819][837]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (328)
+[2019.04.26-14.52.28:819][837]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (326)
+[2019.04.26-14.52.28:819][837]LogModuleManager: Shutting down and abandoning module GitSourceControl (324)
+[2019.04.26-14.52.28:819][837]LogModuleManager: Shutting down and abandoning module SourceControl (323)
+[2019.04.26-14.52.28:819][837]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (320)
+[2019.04.26-14.52.28:819][837]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (318)
+[2019.04.26-14.52.28:819][837]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (316)
+[2019.04.26-14.52.28:819][837]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (314)
+[2019.04.26-14.52.28:819][837]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (312)
+[2019.04.26-14.52.28:819][837]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (310)
+[2019.04.26-14.52.28:819][837]LogModuleManager: Shutting down and abandoning module Paper2DEditor (308)
+[2019.04.26-14.52.28:820][837]LogModuleManager: Shutting down and abandoning module MeshPaint (307)
+[2019.04.26-14.52.28:820][837]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (304)
+[2019.04.26-14.52.28:820][837]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (302)
+[2019.04.26-14.52.28:820][837]LogModuleManager: Shutting down and abandoning module PhysXVehicles (300)
+[2019.04.26-14.52.28:820][837]LogModuleManager: Shutting down and abandoning module OculusEditor (298)
+[2019.04.26-14.52.28:820][837]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (296)
+[2019.04.26-14.52.28:820][837]LogModuleManager: Shutting down and abandoning module ActorSequence (294)
+[2019.04.26-14.52.28:820][837]LogModuleManager: Shutting down and abandoning module UdpMessaging (292)
+[2019.04.26-14.52.28:921][837]LogModuleManager: Shutting down and abandoning module TcpMessaging (290)
+[2019.04.26-14.52.29:022][837]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (288)
+[2019.04.26-14.52.29:022][837]LogModuleManager: Shutting down and abandoning module Niagara (286)
+[2019.04.26-14.52.29:022][837]LogModuleManager: Shutting down and abandoning module NiagaraEditor (285)
+[2019.04.26-14.52.29:022][837]LogModuleManager: Shutting down and abandoning module NiagaraCore (282)
+[2019.04.26-14.52.29:022][837]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (280)
+[2019.04.26-14.52.29:022][837]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (278)
+[2019.04.26-14.52.29:022][837]LogModuleManager: Shutting down and abandoning module FacialAnimation (276)
+[2019.04.26-14.52.29:022][837]LogModuleManager: Shutting down and abandoning module DataValidation (274)
+[2019.04.26-14.52.29:022][837]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (272)
+[2019.04.26-14.52.29:022][837]LogModuleManager: Shutting down and abandoning module LevelEditor (271)
+[2019.04.26-14.52.29:023][837]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (270)
+[2019.04.26-14.52.29:024][837]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (268)
+[2019.04.26-14.52.29:024][837]LogModuleManager: Shutting down and abandoning module MainFrame (266)
+[2019.04.26-14.52.29:024][837]LogModuleManager: Shutting down and abandoning module HotReload (265)
+[2019.04.26-14.52.29:024][837]LogModuleManager: Shutting down and abandoning module ContentBrowser (261)
+[2019.04.26-14.52.29:027][837]LogModuleManager: Shutting down and abandoning module TreeMap (259)
+[2019.04.26-14.52.29:027][837]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (256)
+[2019.04.26-14.52.29:027][837]LogModuleManager: Shutting down and abandoning module AISupportModule (254)
+[2019.04.26-14.52.29:027][837]LogModuleManager: Shutting down and abandoning module Paper2D (252)
+[2019.04.26-14.52.29:027][837]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (250)
+[2019.04.26-14.52.29:027][837]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (248)
+[2019.04.26-14.52.29:027][837]LogModuleManager: Shutting down and abandoning module WmfMedia (246)
+[2019.04.26-14.52.29:031][837]LogModuleManager: Shutting down and abandoning module Media (245)
+[2019.04.26-14.52.29:038][837]LogModuleManager: Shutting down and abandoning module PacketHandler (242)
+[2019.04.26-14.52.29:038][837]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (240)
+[2019.04.26-14.52.29:038][837]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (238)
+[2019.04.26-14.52.29:038][837]LogModuleManager: Shutting down and abandoning module MediaAssets (236)
+[2019.04.26-14.52.29:038][837]LogModuleManager: Shutting down and abandoning module Overlay (234)
+[2019.04.26-14.52.29:038][837]LogModuleManager: Shutting down and abandoning module OverlayEditor (233)
+[2019.04.26-14.52.29:038][837]LogModuleManager: Shutting down and abandoning module VREditor (230)
+[2019.04.26-14.52.29:038][837]LogModuleManager: Shutting down and abandoning module StringTableEditor (228)
+[2019.04.26-14.52.29:038][837]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (226)
+[2019.04.26-14.52.29:038][837]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (224)
+[2019.04.26-14.52.29:038][837]LogModuleManager: Shutting down and abandoning module FunctionalTesting (222)
+[2019.04.26-14.52.29:038][837]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (220)
+[2019.04.26-14.52.29:057][837]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (219)
+[2019.04.26-14.52.29:057][837]LogModuleManager: Shutting down and abandoning module UMG (216)
+[2019.04.26-14.52.29:057][837]LogModuleManager: Shutting down and abandoning module UMGEditor (215)
+[2019.04.26-14.52.29:057][837]LogModuleManager: Shutting down and abandoning module Sequencer (214)
+[2019.04.26-14.52.29:057][837]LogModuleManager: Shutting down and abandoning module MessageLog (211)
+[2019.04.26-14.52.29:057][837]LogModuleManager: Shutting down and abandoning module SlateReflector (206)
+[2019.04.26-14.52.29:057][837]LogModuleManager: Shutting down and abandoning module Slate (204)
+[2019.04.26-14.52.29:058][837]LogModuleManager: Shutting down and abandoning module EditorStyle (202)
+[2019.04.26-14.52.29:060][837]LogModuleManager: Shutting down and abandoning module MRMesh (200)
+[2019.04.26-14.52.29:060][837]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (198)
+[2019.04.26-14.52.29:060][837]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (196)
+[2019.04.26-14.52.29:060][837]LogModuleManager: Shutting down and abandoning module XAudio2 (194)
+[2019.04.26-14.52.29:060][837]LogModuleManager: Shutting down and abandoning module Networking (192)
+[2019.04.26-14.52.29:060][837]LogModuleManager: Shutting down and abandoning module Core (190)
+[2019.04.26-14.52.29:060][837]LogModuleManager: Shutting down and abandoning module LevelSequence (188)
+[2019.04.26-14.52.29:060][837]LogModuleManager: Shutting down and abandoning module KismetCompiler (186)
+[2019.04.26-14.52.29:060][837]LogModuleManager: Shutting down and abandoning module MeshUtilities (184)
+[2019.04.26-14.52.29:061][837]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (183)
+[2019.04.26-14.52.29:061][837]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (182)
+[2019.04.26-14.52.29:061][837]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (181)
+[2019.04.26-14.52.29:061][837]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (179)
+[2019.04.26-14.52.29:061][837]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (177)
+[2019.04.26-14.52.29:061][837]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (175)
+[2019.04.26-14.52.29:061][837]LogModuleManager: Shutting down and abandoning module MaterialBaking (171)
+[2019.04.26-14.52.29:061][837]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (167)
+[2019.04.26-14.52.29:091][837]LogModuleManager: Shutting down and abandoning module DerivedDataCache (164)
+[2019.04.26-14.52.29:122][837]LogDerivedDataCache: Shutdown
+[2019.04.26-14.52.29:122][837]LogModuleManager: Shutting down and abandoning module XGEController (162)
+[2019.04.26-14.52.29:122][837]LogXGEController: Cleaning working directory: E:/Temp/UnrealXGEWorkingDir/
+[2019.04.26-14.52.29:127][837]LogModuleManager: Shutting down and abandoning module TargetPlatform (160)
+[2019.04.26-14.52.29:136][837]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (159)
+[2019.04.26-14.52.29:136][837]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (157)
+[2019.04.26-14.52.29:136][837]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (155)
+[2019.04.26-14.52.29:136][837]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (153)
+[2019.04.26-14.52.29:136][837]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (151)
+[2019.04.26-14.52.29:136][837]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (149)
+[2019.04.26-14.52.29:136][837]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (147)
+[2019.04.26-14.52.29:136][837]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (145)
+[2019.04.26-14.52.29:136][837]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (143)
+[2019.04.26-14.52.29:136][837]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (141)
+[2019.04.26-14.52.29:136][837]LogModuleManager: Shutting down and abandoning module ImageWrapper (140)
+[2019.04.26-14.52.29:136][837]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (137)
+[2019.04.26-14.52.29:136][837]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (135)
+[2019.04.26-14.52.29:136][837]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (133)
+[2019.04.26-14.52.29:136][837]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (131)
+[2019.04.26-14.52.29:136][837]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (129)
+[2019.04.26-14.52.29:281][837]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (127)
+[2019.04.26-14.52.29:281][837]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (125)
+[2019.04.26-14.52.29:282][837]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (123)
+[2019.04.26-14.52.29:282][837]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (121)
+[2019.04.26-14.52.29:282][837]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (119)
+[2019.04.26-14.52.29:295][837]LogModuleManager: Shutting down and abandoning module Messaging (117)
+[2019.04.26-14.52.29:295][837]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (115)
+[2019.04.26-14.52.29:308][837]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (113)
+[2019.04.26-14.52.29:308][837]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (111)
+[2019.04.26-14.52.29:399][837]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (109)
+[2019.04.26-14.52.29:399][837]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (107)
+[2019.04.26-14.52.29:400][837]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (105)
+[2019.04.26-14.52.29:400][837]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (103)
+[2019.04.26-14.52.29:400][837]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (101)
+[2019.04.26-14.52.29:400][837]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (99)
+[2019.04.26-14.52.29:400][837]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (97)
+[2019.04.26-14.52.29:400][837]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (95)
+[2019.04.26-14.52.29:400][837]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (93)
+[2019.04.26-14.52.29:400][837]LogModuleManager: Shutting down and abandoning module InputCore (90)
+[2019.04.26-14.52.29:400][837]LogModuleManager: Shutting down and abandoning module Settings (88)
+[2019.04.26-14.52.29:400][837]LogModuleManager: Shutting down and abandoning module PhysXCooking (86)
+[2019.04.26-14.52.29:400][837]LogModuleManager: Shutting down and abandoning module SteamVR (84)
+[2019.04.26-14.52.29:400][837]LogHMD: Freeing OpenVRDLLHandle.
+[2019.04.26-14.52.29:400][837]LogModuleManager: Shutting down and abandoning module OculusHMD (82)
+[2019.04.26-14.52.29:400][837]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (80)
+[2019.04.26-14.52.29:400][837]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (78)
+[2019.04.26-14.52.29:400][837]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (76)
+[2019.04.26-14.52.29:400][837]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (72)
+[2019.04.26-14.52.29:401][837]LogModuleManager: Shutting down and abandoning module XMPP (67)
+[2019.04.26-14.52.29:402][837]LogModuleManager: Shutting down and abandoning module WebSockets (66)
+[2019.04.26-14.52.29:408][837]LogModuleManager: Shutting down and abandoning module HTTP (63)
+[2019.04.26-14.52.29:408][837]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2019.04.26-14.52.29:408][837]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B82DB05D8-487F-A5BF-9684-79B4D51429A8%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.21.2-4753647%2B%2B%2BUE4%2BRelease-4.21&UserID=8c53539346e276bd12a2c9a9e56cdb1a%7Cc8f3c6b667d2487d99287e9b44301c82%7C12a20741-ba68-4e8f-84c7-ede96bc39eb7&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2019.04.26-14.52.29:427][837]LogModuleManager: Shutting down and abandoning module SSL (62)
+[2019.04.26-14.52.29:429][837]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (58)
+[2019.04.26-14.52.29:429][837]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (56)
+[2019.04.26-14.52.29:429][837]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (54)
+[2019.04.26-14.52.29:429][837]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (52)
+[2019.04.26-14.52.29:429][837]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (50)
+[2019.04.26-14.52.29:429][837]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (48)
+[2019.04.26-14.52.29:429][837]LogModuleManager: Shutting down and abandoning module MagicLeapController (46)
+[2019.04.26-14.52.29:429][837]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2019.04.26-14.52.29:429][837]LogSlate: Slate User Destroyed.  User Index 1, Is Virtual User: 0
+[2019.04.26-14.52.29:440][837]LogModuleManager: Shutting down and abandoning module MagicLeap (44)
+[2019.04.26-14.52.29:441][837]LogModuleManager: Shutting down and abandoning module NiagaraVertexFactories (42)
+[2019.04.26-14.52.29:441][837]LogModuleManager: Shutting down and abandoning module NiagaraShader (40)
+[2019.04.26-14.52.29:441][837]LogModuleManager: Shutting down and abandoning module DatasmithContent (38)
+[2019.04.26-14.52.29:441][837]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2019.04.26-14.52.29:441][837]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2019.04.26-14.52.29:441][837]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2019.04.26-14.52.29:441][837]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2019.04.26-14.52.29:441][837]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2019.04.26-14.52.29:441][837]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2019.04.26-14.52.29:441][837]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2019.04.26-14.52.29:455][837]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2019.04.26-14.52.29:455][837]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2019.04.26-14.52.29:455][837]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2019.04.26-14.52.29:455][837]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2019.04.26-14.52.29:455][837]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2019.04.26-14.52.29:455][837]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2019.04.26-14.52.29:455][837]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2019.04.26-14.52.29:455][837]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2019.04.26-14.52.29:455][837]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2019.04.26-14.52.29:455][837]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2019.04.26-14.52.29:455][837]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2019.04.26-14.52.29:476][837]LogExit: Exiting.
+[2019.04.26-14.52.29:517][837]Log file closed, 04/26/19 10:52:29
